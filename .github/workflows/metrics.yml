@@ -24,3 +24,5 @@ jobs:
           filename: github-metrics.svg
           committer_message: "update metrics"
           committer_branch: main
+
+# schedule-version: 2
