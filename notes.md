@@ -3,3 +3,4 @@
 - Real-time threat monitoring
 - SIEM integration panel
 - Network topology viewer
+## Resources
