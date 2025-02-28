@@ -11,3 +11,4 @@ dist/
 *.tmp
 .cache/
 build/
+*.bak
