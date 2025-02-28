@@ -4,3 +4,4 @@
 - SIEM integration panel
 - Network topology viewer
 ## Resources
+- MITRE ATT&CK framework
