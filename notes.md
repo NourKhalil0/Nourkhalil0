@@ -6,3 +6,4 @@
 ## Resources
 - MITRE ATT&CK framework
 - Splunk documentation
+- ELK stack setup guide
