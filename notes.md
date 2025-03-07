@@ -8,3 +8,4 @@
 - Splunk documentation
 - ELK stack setup guide
 ## Todo
+- [ ] Add more SOC tools
