@@ -9,3 +9,4 @@
 - ELK stack setup guide
 ## Todo
 - [ ] Add more SOC tools
+- [ ] Update certifications
