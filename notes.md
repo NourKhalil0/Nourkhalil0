@@ -10,3 +10,4 @@
 ## Todo
 - [ ] Add more SOC tools
 - [ ] Update certifications
+- [ ] Improve header animation
