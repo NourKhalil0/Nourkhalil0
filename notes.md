@@ -11,3 +11,4 @@
 - [ ] Add more SOC tools
 - [ ] Update certifications
 - [ ] Improve header animation
+- [x] Setup GitHub profile
