@@ -12,3 +12,4 @@
 - [ ] Update certifications
 - [ ] Improve header animation
 - [x] Setup GitHub profile
+- [x] Add project portfolio
