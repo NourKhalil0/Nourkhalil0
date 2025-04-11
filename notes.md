@@ -15,3 +15,4 @@
 - [x] Add project portfolio
 - Updated: check 69
 - Updated: check 69
+- Updated: check 70
