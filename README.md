@@ -1,37 +1,48 @@
-HEHEIHEI! 
+<h1 align="center">🧬 Digital DNA</h1>
 
-Jeg er en 24 år gammel fyr som brenner for programmering! 🚀
-Reisen min startet tidlig i 2024, da jeg begynte å lære programmering som hobby...og siden da har jeg blitt helt hekta!
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NourKhalil0&theme=github_dark" />
+</p>
 
-# Hva kan jeg?
-Jeg er veldig komfortabel med:
+---
 
--OOP i Java
+## ⚒️ Tech Arsenal
 
--Spring Boot
+### 🧩 Core Stack & Beyond
 
--PostgreSQL
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
--Datastrukturer og algortimer
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
--Rest API
+![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
--Kryptering
 
-Jeg har brukt mye tid på å lære disse teknologiene og kan nå lage enkle prosjekter uten hjelp, eller med litt Googling!
-I tillegg er jeg veldig interessert i algoritmer og datastrukturer, og har en god forståelse for Big O notasjon og hvordan det påvirker kodeytelse.
+---
 
-# Hva lærer jeg nå?💻 
 
-Akkurat nå dykker jeg dypt ned i Spring Boot og JPA. Elsker rammeverket og prøver å lære meg så mye som mulig!
-Jeg kan også en del om datasikkerhet, og har lært en del om etisk hacking, men holder på å lære enda mer og mer. Det er et fagfelt man aldri blir ferdig med, og det digger jeg.
+## 📡 Connect Matrix
 
-Snart skal jeg også begynne å lære meg Git og Azure ☁️
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nour-khalil-rash-7a0222317/)  
 
-# Litt om meg ellers🙋‍♂️
-Jeg jobber i et fast team i barnevernet, tar en ekstra bachelor innen cybersikkerhet, og trener jevnlig.
-Fritiden min går til venner, trening – og selvfølgelig, koding 💻💪
 
-🔧 Prosjekter kommer!
-Flere prosjekter kommer snart, så det er bare å følge med 😆
+---
+
+## 🧪 Just for Fun: Code Mode
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name = "Nour Khalil";
+    string currentFocus = "Bygger opp kule greier gjennom flere språk";
+    cout << "*************************************************************\n";
+    cout << "*************** Welcome to my digital domain! ***************\n";
+    cout << "*************************************************************\n";
+    cout << "Hei, jeg er " << name << ". og jeg driver med å: " << currentFocus << ".\n";
+    return 0;
+}
 
