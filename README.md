@@ -40,11 +40,6 @@
 ## 📡 Connect Matrix
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/nour-khalil-rash-7a0222317/)
-Code Flow Navigator – [JetBrains Plugin](https://plugins.jetbrains.com/plugin/27461-code-flow-navigator)
-
-<p>
-  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/JetBrains/jb_beam.svg" alt="JetBrains Logo" width="100"/>
-</p>
 
 ---
 
