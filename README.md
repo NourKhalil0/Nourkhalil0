@@ -28,6 +28,13 @@
 ![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+![Algorithms](https://img.shields.io/badge/Algorithms-%2300BFFF?style=for-the-badge)
+![Data Structures](https://img.shields.io/badge/Data%20Structures-%23FF69B4?style=for-the-badge)
+![Sorting](https://img.shields.io/badge/Sorting%20Algorithms-%2300BFFF?style=for-the-badge)
+![Graphs](https://img.shields.io/badge/Graphs-%234CAF50?style=for-the-badge)
+![Trees](https://img.shields.io/badge/Trees-%23FFA500?style=for-the-badge)
+![Stacks & Queues](https://img.shields.io/badge/Stacks_&_Queues-%23FF69B4?style=for-the-badge)
+
 ---
 
 ## 📡 Connect Matrix
@@ -46,7 +53,7 @@ int main() {
     string name = "Nour Khalil";
     string currentFocus = "Bygge opp kule greier gjennom flere språk";
     cout << "*************************************************************\n";
-    cout << "*************** Welcome to my digital domain! ***************\n";
+    cout << "*************** Velkommen til min digital domene! ***************\n";
     cout << "*************************************************************\n";
     cout << "Hei, jeg er " << name << ". og jeg driver med å: " << currentFocus << ".\n";
     return 0;
