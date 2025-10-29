@@ -1,4 +1,4 @@
-<!-- profile-version:218 -->
+<!-- profile-version:219 -->
 <p align="center">
   <img src="./header.svg" alt="Nour Khalil Rash — SOC Analyst Terminal" width="900"/>
 </p>
