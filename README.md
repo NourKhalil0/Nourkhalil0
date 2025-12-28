@@ -1,9 +1,9 @@
-##  Heiiii! Jeg er Nour.
+##  Hei! Jeg er Nour.
 
 Informatikkstudent med lidenskap for koding, problemløsing og kontinuerlig læring  
-Fokuserer for tiden på Java, Python, Spring Boot og systemdesign  
+Fokuserer for tiden på C programmering og SOC 
 Elsker å bygge prosjekter som er både nyttige og litt nerdete  
-Mål: Bli en fullstack-utvikler som også mestrer DevOps og cloud-teknologier
+Mål: Bli en sikkerhetsanalytiker
 
 ---
 
