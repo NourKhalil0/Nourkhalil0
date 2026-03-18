@@ -79,7 +79,7 @@ Ett nytt prosjekt hver hverdag.
 ## Trofeer
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NourKhalil0&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NourKhalil0&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" />
 </p>
 
 ---
@@ -109,13 +109,6 @@ Ett nytt prosjekt hver hverdag.
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NourKhalil0&theme=github_dark&utcOffset=1" />
 </p>
 
----
-
-## 3D bidragsgraf
-
-<p align="center">
-  <img src="./3d-contributions.gif" alt="3D rotating contribution graph" />
-</p>
 
 <p align="center">
   <a href="https://nourkhalil0.github.io/3d-graph/">
