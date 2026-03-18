@@ -111,6 +111,14 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
+## 3D bidragsgraf
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="Isometric contribution calendar" />
+</p>
+
+---
+
 ## Bidragsormen
 
 <p align="center">
