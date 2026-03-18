@@ -111,7 +111,19 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## 3D bidragsgraf
+## Interaktiv 3D bidragsgraf
+
+<p align="center">
+  <a href="https://nourkhalil0.github.io/3d-graph/">
+    <img src="https://img.shields.io/badge/Åpne%203D%20graf-nourkhalil0.github.io%2F3d--graph-22c55e?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://nourkhalil0.github.io/3d-graph/">
+    <img src="./github-metrics.svg" alt="Klikk for interaktiv 3D versjon" />
+  </a>
+</p>
 
 <p align="center">
   <img src="./github-metrics.svg" alt="Isometric contribution calendar" />
