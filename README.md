@@ -102,15 +102,6 @@ Ett nytt prosjekt hver hverdag.
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NourKhalil0&theme=github_dark&utcOffset=1" />
 </p>
 
-
-<p align="center">
-  <a href="https://nourkhalil0.github.io/3d-graph/">
-    <img src="https://img.shields.io/badge/Interaktiv%20versjon%20(roter%20med%20musa)-nourkhalil0.github.io%2F3d--graph-22c55e?style=flat-square&logo=threedotjs&logoColor=white" />
-  </a>
-</p>
-
-
-
 ---
 
 ## Bidragsormen
