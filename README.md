@@ -1,26 +1,28 @@
-<h1 align="center">Nour Khalil Rash</h1>
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f3a5f,100:22c55e&height=160&section=header&text=Nour%20Khalil%20Rash&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Cybersecurity%20Student%20%C2%B7%20Oslo&descSize=18&descAlignY=78&descAlign=50&animation=fadeIn)](https://github.com/NourKhalil0)
 
 <p align="center">
-  Cybersecurity student &nbsp;·&nbsp; Oslo &nbsp;·&nbsp; 2nd year at Høyskolen Kristiania
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=4493F8&center=true&vCenter=true&width=520&lines=Cybersecurity+student+%40+Kristiania;SOC+Analyst+%40+NSM+from+fall+2026;Building+one+SOC+tool+every+weekday;Splunk+%7C+Python+%7C+Linux+%7C+Wireshark;Fluent+in+Norwegian%2C+English+%26+Arabic" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nour-khalil-rash-7a0222317/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/NourKhalil0/soc-projects">
-    <img src="https://img.shields.io/badge/SOC%20Projects-Portfolio-22c55e?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/SOC%20Projects-Portfolio-22c55e?style=flat-square&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=NourKhalil0&style=flat&color=4493f8&label=profile+views" />
+  <img src="https://komarev.com/ghpvc/?username=NourKhalil0&style=flat-square&color=4493f8&label=profile+views" />
 </p>
 
 ---
 
 Jeg startet med en bachelor i sosiologi, der jeg lærte å analysere mønstre, strukturere informasjon og forstå menneskelig atferd. Så byttet jeg til cybersikkerhet, og det viste seg å være en veldig god kombinasjon. Mye av det vi gjør i sikkerhet handler om å forstå menneskene bak angrepene, ikke bare de tekniske mekanismene.
 
-I tillegg til studiene jobber jeg som miljøterapeut i barnevernet. Det høres kanskje rart ut, men det trener presisjon under press, klar kommunikasjon og evnen til å dokumentere hendelser nøyaktig. Det er de samme tingene man trenger i en SOC.
+I tillegg til studiene jobber jeg som miljøterapeut i barnevernet. Det trener presisjon under press, klar kommunikasjon og evnen til å dokumentere hendelser nøyaktig. Nøyaktig det samme man trenger i en SOC.
 
 Fra høst 2026 begynner jeg i en deltidsstilling som sikkerhetsanalytiker ved NSM (Nasjonal sikkerhetsmyndighet). Sikkerhetsklarering er under behandling.
 
@@ -53,16 +55,16 @@ Holder på med SC-200 (Microsoft Security Operations Analyst Associate) og planl
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/SC--200-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&label=Ongoing" />
-  <img src="https://img.shields.io/badge/Cisco%20Networking-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco%20Ethical%20Hacker-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/SC--200-in%20progress-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cisco%20Networking-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cisco%20Ethical%20Hacker-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
 </p>
 
 ---
 
 ## SOC Projects Portfolio
 
-Jeg pusher ett nytt prosjekt hver hverdag. Python-verktøy som dekker reelle SOC-oppgaver.
+Ett nytt prosjekt hver hverdag.
 
 | # | Prosjekt | Kategori |
 |---|----------|----------|
@@ -83,9 +85,9 @@ Jeg pusher ett nytt prosjekt hver hverdag. Python-verktøy som dekker reelle SOC
 ## GitHub statistikk
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NourKhalil0&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NourKhalil0&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="170" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourKhalil0&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourKhalil0&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="170" />
 </p>
 
 <p align="center">
@@ -94,6 +96,26 @@ Jeg pusher ett nytt prosjekt hver hverdag. Python-verktøy som dekker reelle SOC
 
 ---
 
+## Bidragsormen
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
+
+---
+
+## Aktivitetsgraf
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NourKhalil0&theme=github-compact&hide_border=true&area=true&color=4493f8&line=22c55e&point=ffffff)](https://github.com/NourKhalil0)
+
+---
+
 <p align="center">
   Snakker norsk, engelsk og arabisk &nbsp;·&nbsp; Oslo, Norge
 </p>
+
+[![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,50:1f3a5f,100:0d1117&height=100&section=footer)](https://github.com/NourKhalil0)
