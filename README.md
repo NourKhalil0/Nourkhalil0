@@ -109,9 +109,7 @@ Ett nytt prosjekt hver hverdag.
   </a>
 </p>
 
-<p align="center">
-  <img src="./github-metrics.svg" alt="Isometric contribution calendar" />
-</p>
+
 
 ---
 
