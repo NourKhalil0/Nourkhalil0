@@ -74,6 +74,16 @@ Ett nytt prosjekt hver hverdag.
 
 👉 [Se hele portfolioen](https://github.com/NourKhalil0/soc-projects)
 
+---
+
+## ⚡ SOC Quiz
+
+<p align="center">
+  <a href="https://nourkhalil0.github.io/soc-quiz/">
+    <img src="https://img.shields.io/badge/Ta%20quizen%20%E2%80%94%2015%20sp%C3%B8rsm%C3%A5l%20om%20cybersikkerhet-22c55e?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 
 ---
 
