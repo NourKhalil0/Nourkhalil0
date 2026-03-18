@@ -38,23 +38,17 @@ Holder på med SC-200 (Microsoft Security Operations Analyst Associate) og planl
 
 ## Verktøy jeg bruker
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,js,bash,postgres,linux,git,docker,vscode&theme=dark&perline=9" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/SC--200-in%20progress-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/Cisco%20Networking-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
   <img src="https://img.shields.io/badge/Cisco%20Ethical%20Hacker-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
@@ -82,6 +76,14 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
+## Trofeer
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=NourKhalil0&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" />
+</p>
+
+---
+
 ## GitHub statistikk
 
 <p align="center">
@@ -92,6 +94,19 @@ Ett nytt prosjekt hver hverdag.
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=NourKhalil0&theme=github-dark-blue&hide_border=true" />
+</p>
+
+---
+
+## Detaljert oversikt
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NourKhalil0&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NourKhalil0&theme=github_dark" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NourKhalil0&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NourKhalil0&theme=github_dark&utcOffset=1" />
 </p>
 
 ---
