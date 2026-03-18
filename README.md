@@ -74,13 +74,6 @@ Ett nytt prosjekt hver hverdag.
 
 👉 [Se hele portfolioen](https://github.com/NourKhalil0/soc-projects)
 
----
-
-## Trofeer
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NourKhalil0&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" />
-</p>
 
 ---
 
