@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+    </style>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0e17"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="320" fill="url(#bg)" rx="0"/>
+
+  <!-- Scan lines overlay -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="900" y2="0" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="4" x2="900" y2="4" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="8" x2="900" y2="8" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="12" x2="900" y2="12" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="16" x2="900" y2="16" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="20" x2="900" y2="20" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="24" x2="900" y2="24" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="28" x2="900" y2="28" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="32" x2="900" y2="32" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Terminal window frame -->
+  <rect x="30" y="15" width="840" height="290" rx="8" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="15" width="840" height="32" rx="8" fill="#161b22"/>
+  <rect x="30" y="39" width="840" height="8" fill="#161b22"/>
+  <circle cx="52" cy="31" r="6" fill="#ff5f57"/>
+  <circle cx="72" cy="31" r="6" fill="#febc2e"/>
+  <circle cx="92" cy="31" r="6" fill="#28c840"/>
+  <text x="450" y="35" font-family="'Fira Code', monospace" font-size="12" fill="#8b949e" text-anchor="middle">nour@soc-analyst:~/threat-monitor</text>
+
+  <!-- Terminal content -->
+  <g font-family="'Fira Code', monospace" font-size="12.5">
+
+    <!-- Line 1: Prompt + command -->
+    <text x="50" y="72" fill="#22c55e" filter="url(#glow)">┌──(nour㉿soc-ops)─[~/siem]</text>
+    <text x="50" y="90" fill="#22c55e" filter="url(#glow)">└─$ </text>
+    <text x="90" y="90" fill="#e6edf3">python3 threat_detector.py --live --src=all</text>
+
+    <!-- Line 2: Initializing -->
+    <text x="50" y="114" fill="#8b949e">[*] Initializing SIEM Threat Detection Engine v4.2 ...</text>
+
+    <!-- Line 3: Sources connected -->
+    <text x="50" y="132" fill="#4493f8">[✓] Connected: Splunk | Wazuh | Suricata | Zeek</text>
+
+    <!-- Line 4: Scanning -->
+    <text x="50" y="150" fill="#8b949e">[*] Scanning 2,847 events/sec across 12 endpoints ...</text>
+
+    <!-- Separator -->
+    <text x="50" y="170" fill="#1e3a5f">─────────────────────────────────────────────────────────────</text>
+
+    <!-- Alert 1: Critical -->
+    <text x="50" y="192" fill="#f85149" filter="url(#glow-strong)">▲ CRITICAL</text>
+    <text x="165" y="192" fill="#e6edf3">Brute-force SSH detected → 10.0.0.47 → 1,243 attempts/5min</text>
+
+    <!-- Alert 2: Warning -->
+    <text x="50" y="212" fill="#d29922" filter="url(#glow)">▲ WARNING </text>
+    <text x="165" y="212" fill="#e6edf3">Suspicious DNS exfil → query len &gt; 180 chars → ns3.evil.xyz</text>
+
+    <!-- Alert 3: Info -->
+    <text x="50" y="232" fill="#4493f8">● INFO    </text>
+    <text x="165" y="232" fill="#8b949e">Port scan detected → SYN flood from 185.220.101.x (TOR exit)</text>
+
+    <!-- Alert 4: Blocked -->
+    <text x="50" y="252" fill="#22c55e" filter="url(#glow)">✓ BLOCKED </text>
+    <text x="165" y="252" fill="#8b949e">Firewall rule applied → DROP 185.220.101.x → all ports</text>
+
+    <!-- Separator -->
+    <text x="50" y="272" fill="#1e3a5f">─────────────────────────────────────────────────────────────</text>
+
+    <!-- Name display -->
+    <text x="450" y="296" font-size="16" font-weight="700" fill="#22c55e" text-anchor="middle" filter="url(#glow-strong)">NOUR KHALIL RASH</text>
+    <text x="450" y="312" font-size="11" fill="#4493f8" text-anchor="middle">Security Analyst · SOC Engineer · Oslo</text>
+  </g>
+
+  <!-- Subtle grid overlay -->
+  <g opacity="0.015">
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#22c55e" stroke-width="0.5"/>
+    </pattern>
+    <rect width="900" height="320" fill="url(#grid)"/>
+  </g>
+</svg>

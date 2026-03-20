@@ -1,4 +1,6 @@
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f3a5f,100:22c55e&height=160&section=header&text=Nour%20Khalil%20Rash&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Cybersecurity%20Student%20%C2%B7%20Oslo&descSize=18&descAlignY=78&descAlign=50&animation=fadeIn)](https://github.com/NourKhalil0)
+<p align="center">
+  <img src="./header.svg" alt="Nour Khalil Rash — SOC Analyst Terminal" width="900"/>
+</p>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
