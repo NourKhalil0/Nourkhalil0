@@ -79,65 +79,146 @@ for batch_start in range(0, len(c2_ips), batch_size):
 print(f"  Geolocated {len(geolocated)} C2 servers")
 
 # ============ BUILD ATTACK PAIRS ============
-# Group by country, then create attack flows between countries
+# Use real geopolitical cyber conflict patterns (based on MITRE ATT&CK + public reporting)
 from collections import defaultdict
+import random
+random.seed(int(datetime.now(timezone.utc).timestamp()) // 3600)  # Changes hourly
+
 by_country = defaultdict(list)
 for g in geolocated:
     by_country[g["cc"]].append(g)
 
-# Known target countries (major cyber attack targets)
-TARGET_CITIES = [
-    (38.89, -77.04, "Washington", "US"),
-    (51.51, -0.13, "London", "GB"),
-    (52.52, 13.40, "Berlin", "DE"),
-    (48.86, 2.35, "Paris", "FR"),
-    (35.69, 139.69, "Tokyo", "JP"),
-    (37.57, 126.98, "Seoul", "KR"),
-    (-33.87, 151.21, "Sydney", "AU"),
-    (45.50, -73.57, "Montreal", "CA"),
-    (59.91, 10.75, "Oslo", "NO"),
-    (52.37, 4.90, "Amsterdam", "NL"),
-    (50.45, 30.52, "Kyiv", "UA"),
-    (32.07, 34.78, "Tel Aviv", "IL"),
-    (1.35, 103.82, "Singapore", "SG"),
-    (55.68, 12.57, "Copenhagen", "DK"),
-    (60.17, 24.94, "Helsinki", "FI"),
-]
-
-# Create attack pairs: each C2 server attacks a random target
-import random
-random.seed(int(datetime.now(timezone.utc).timestamp()) // 3600)  # Changes hourly
+# Real geopolitical cyber attack routes based on known APT activity
+# Format: source_cc -> [(target_lat, target_lon, target_city, target_cc, apt_group, attack_type, color)]
+GEOPOLITICAL_ROUTES = {
+    # Iran targets Israel, Saudi Arabia, USA, UAE
+    "IR": [
+        (32.07, 34.78, "Tel Aviv", "IL", "MuddyWater", "Espionage C2", "#ff3399"),
+        (38.89, -77.04, "Washington", "US", "APT33", "Credential Theft", "#ff3399"),
+        (24.71, 46.68, "Riyadh", "SA", "APT34 OilRig", "Backdoor Active", "#ff3399"),
+        (25.20, 55.27, "Dubai", "AE", "Charming Kitten", "Phishing C2", "#ff3399"),
+    ],
+    # Russia targets Ukraine, USA, UK, Germany, NATO countries
+    "RU": [
+        (50.45, 30.52, "Kyiv", "UA", "Sandworm", "Wiper Attack", "#ff2d55"),
+        (38.89, -77.04, "Washington", "US", "APT29 Cozy Bear", "Espionage", "#ff2d55"),
+        (51.51, -0.13, "London", "GB", "APT28 Fancy Bear", "Data Exfil", "#ff2d55"),
+        (52.52, 13.40, "Berlin", "DE", "Turla", "Lateral Move", "#ff2d55"),
+        (48.86, 2.35, "Paris", "FR", "Gamaredon", "Phishing C2", "#ff2d55"),
+        (59.91, 10.75, "Oslo", "NO", "APT29", "Supply Chain", "#ff2d55"),
+    ],
+    # China targets USA, Japan, Taiwan, South Korea, Australia
+    "CN": [
+        (38.89, -77.04, "Washington", "US", "APT41", "Supply Chain", "#ff6b35"),
+        (35.69, 139.69, "Tokyo", "JP", "APT10", "Data Exfil", "#ff6b35"),
+        (25.03, 121.57, "Taipei", "TW", "APT27", "Espionage C2", "#ff6b35"),
+        (37.57, 126.98, "Seoul", "KR", "Winnti", "Backdoor Active", "#ff6b35"),
+        (-33.87, 151.21, "Sydney", "AU", "Mustang Panda", "Credential Theft", "#ff6b35"),
+        (1.35, 103.82, "Singapore", "SG", "APT40", "Lateral Move", "#ff6b35"),
+    ],
+    # North Korea targets South Korea, USA, Japan, crypto exchanges
+    "KP": [
+        (37.57, 126.98, "Seoul", "KR", "Lazarus", "Wiper Attack", "#ffcc00"),
+        (38.89, -77.04, "Washington", "US", "Kimsuky", "Credential Theft", "#ffcc00"),
+        (35.69, 139.69, "Tokyo", "JP", "APT38", "Financial Theft", "#ffcc00"),
+        (51.51, -0.13, "London", "GB", "BlueNoroff", "Crypto Heist", "#ffcc00"),
+    ],
+    # USA/Five Eyes targets Russia, China, Iran (counter-operations)
+    "US": [
+        (55.75, 37.62, "Moscow", "RU", "Equation Group", "Counter-Intel", "#00ccff"),
+        (39.90, 116.41, "Beijing", "CN", "NSA TAO", "SIGINT Op", "#00ccff"),
+        (35.69, 51.39, "Tehran", "IR", "Stuxnet Legacy", "Sabotage", "#00ccff"),
+    ],
+    # Israel targets Iran, Lebanon, Syria
+    "IL": [
+        (35.69, 51.39, "Tehran", "IR", "Unit 8200", "Sabotage Op", "#00ff88"),
+        (33.89, 35.50, "Beirut", "LB", "Duqu", "Espionage C2", "#00ff88"),
+        (33.51, 36.29, "Damascus", "SY", "Candiru", "Spyware Deploy", "#00ff88"),
+    ],
+    # Default: criminal botnet targets financial centers
+    "_DEFAULT": [
+        (38.89, -77.04, "Washington", "US", "Botnet", "C2 Beacon", "#bf5af2"),
+        (51.51, -0.13, "London", "GB", "Botnet", "C2 Beacon", "#bf5af2"),
+        (52.52, 13.40, "Berlin", "DE", "Botnet", "Ransomware C2", "#bf5af2"),
+        (48.86, 2.35, "Paris", "FR", "Botnet", "Data Exfil", "#bf5af2"),
+        (35.69, 139.69, "Tokyo", "JP", "Botnet", "Credential Theft", "#bf5af2"),
+        (52.37, 4.90, "Amsterdam", "NL", "Botnet", "DDoS Command", "#bf5af2"),
+        (45.50, -73.57, "Montreal", "CA", "Botnet", "Phishing C2", "#bf5af2"),
+        (37.57, 126.98, "Seoul", "KR", "Botnet", "Backdoor Active", "#ff453a"),
+        (-33.87, 151.21, "Sydney", "AU", "Botnet", "Ransomware C2", "#ff453a"),
+        (59.91, 10.75, "Oslo", "NO", "Botnet", "C2 Beacon", "#ff453a"),
+        (32.07, 34.78, "Tel Aviv", "IL", "Botnet", "Data Exfil", "#ff453a"),
+        (1.35, 103.82, "Singapore", "SG", "Botnet", "Lateral Move", "#ff453a"),
+    ],
+}
 
 attacks = []
-colors = ["#ff2d55", "#ff6b35", "#ffcc00", "#ff3399", "#00ccff", "#bf5af2", "#ff453a", "#00ff88"]
-attack_types = ["C2 Beacon", "Data Exfil", "Lateral Move", "Credential Theft",
-                "Ransomware C2", "DDoS Command", "Backdoor Active", "Phishing C2"]
-
 used_pairs = set()
-for g in geolocated:
-    # Pick a target that isn't the same country
-    targets = [t for t in TARGET_CITIES if t[3] != g["cc"]]
-    if not targets:
-        targets = TARGET_CITIES
-    target = random.choice(targets)
 
-    pair_key = f"{g['cc']}-{target[3]}"
-    if pair_key in used_pairs and len(attacks) > 10:
-        continue  # Avoid too many duplicate routes
+# --- GUARANTEED geopolitical conflict flows (always shown) ---
+# These represent the most active real-world cyber conflicts
+GUARANTEED_CONFLICTS = [
+    # (src_lat, src_lon, src_city, src_cc, route_index)
+    # Iran → Israel
+    (35.69, 51.39, "Tehran", "IR", 0),
+    # Israel → Iran
+    (32.07, 34.78, "Tel Aviv", "IL", 0),
+    # Russia → Ukraine
+    (55.75, 37.62, "Moscow", "RU", 0),
+    # China → Taiwan
+    (39.90, 116.41, "Beijing", "CN", 2),
+    # North Korea → South Korea
+    (39.04, 125.76, "Pyongyang", "KP", 0),
+    # Russia → USA
+    (59.93, 30.32, "St Petersburg", "RU", 1),
+]
+
+for src_lat, src_lon, src_city, src_cc, ridx in GUARANTEED_CONFLICTS:
+    routes = GEOPOLITICAL_ROUTES.get(src_cc, GEOPOLITICAL_ROUTES["_DEFAULT"])
+    target = routes[min(ridx, len(routes)-1)]
+    pair_key = f"{src_cc}-{target[3]}"
+    used_pairs.add(pair_key)
+    attacks.append({
+        "src_lat": src_lat, "src_lon": src_lon,
+        "src_city": src_city, "src_cc": src_cc,
+        "dst_lat": target[0], "dst_lon": target[1],
+        "dst_city": target[2], "dst_cc": target[3],
+        "ip": "—",
+        "apt": target[4],
+        "atype": target[5],
+        "color": target[6],
+        "malware": "State-Sponsored",
+    })
+
+# --- Data-driven flows from live C2 feed ---
+for g in geolocated:
+    cc = g["cc"]
+    routes = GEOPOLITICAL_ROUTES.get(cc, GEOPOLITICAL_ROUTES["_DEFAULT"])
+    routes = [r for r in routes if r[3] != cc]
+    if not routes:
+        routes = GEOPOLITICAL_ROUTES["_DEFAULT"]
+
+    target = random.choice(routes)
+    pair_key = f"{cc}-{target[3]}"
+    if pair_key in used_pairs and len(attacks) > 18:
+        continue
     used_pairs.add(pair_key)
 
+    malware = ip_malware.get(g["ip"], "Unknown")
     attacks.append({
         "src_lat": g["lat"], "src_lon": g["lon"],
         "src_city": g["city"], "src_cc": g["cc"],
         "dst_lat": target[0], "dst_lon": target[1],
         "dst_city": target[2], "dst_cc": target[3],
         "ip": g["ip"],
-        "atype": random.choice(attack_types),
-        "color": random.choice(colors),
+        "apt": target[4],
+        "atype": target[5],
+        "color": target[6],
+        "malware": malware,
     })
 
-# Limit to ~25 for SVG performance
-attacks = attacks[:25]
+# Limit to ~28 for SVG performance (slightly more room for guaranteed + live)
+attacks = attacks[:28]
 print(f"  Created {len(attacks)} attack flows")
 
 # ============ WORLD MAP DOTS ============
@@ -286,7 +367,7 @@ for i, a in enumerate(attacks):
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
   <text x="{ex:.1f}" y="{ey-8:.1f}" fill="{c}" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">{a["dst_city"]}<animate attributeName="opacity" dur="{td}s" repeatCount="indefinite" values="{dst}" calcMode="discrete"/></text>
-  <text x="{cpx:.1f}" y="{cpy-6:.1f}" fill="{c}" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">{a["atype"]}<animate attributeName="opacity" dur="{td}s" repeatCount="indefinite" values="{lbl}" calcMode="discrete"/></text>''')
+  <text x="{cpx:.1f}" y="{cpy-6:.1f}" fill="{c}" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">{a["apt"]} — {a["atype"]}<animate attributeName="opacity" dur="{td}s" repeatCount="indefinite" values="{lbl}" calcMode="discrete"/></text>''')
 
 # Bottom
 py = MY+MH+10
