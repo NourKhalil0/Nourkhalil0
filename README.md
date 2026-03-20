@@ -72,7 +72,7 @@ Ett nytt prosjekt hver hverdag.
 ## Live Threat Intelligence
 
 <p align="center">
-  <img src="./threatmap-live.svg" alt="Live Threat Map — Feodo Tracker C2 Botnet Feed" width="900"/>
+  <img src="./threatmap-v2.svg" alt="Live Threat Map — Feodo Tracker C2 Botnet Feed" width="900"/>
 </p>
 
 ---
