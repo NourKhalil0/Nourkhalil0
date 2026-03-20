@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350">
   <defs>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow-red">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-
-    <!-- Command typewriter clip — 45 discrete steps (1 per char), slower -->
+    <!-- Command typewriter clip — discrete steps, ~80ms/char -->
     <clipPath id="cmd-clip">
       <rect x="65" y="60" height="25" width="0">
-        <animate attributeName="width"
-                 calcMode="discrete"
+        <animate attributeName="width" calcMode="discrete"
                  values="0;8;16;24;32;40;48;56;64;72;80;88;96;104;112;120;128;136;144;152;160;168;176;184;192;200;208;216;224;232;240;248;256;264;272;280;288;296;304;312;320;328;336;344;352"
                  dur="3.5s" begin="0.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Name typewriter clip — type 5s → pause 2s → delete 2s → pause 1s = 10s loop -->
+    <clipPath id="name-clip">
+      <rect x="315" y="172" height="35" width="0">
+        <animate attributeName="width" calcMode="discrete"
+                 values="0;17;34;51;68;85;102;119;136;153;170;187;204;221;238;255;272;272;255;238;221;204;187;170;153;136;119;102;85;68;51;34;17;0;0"
+                 keyTimes="0;0.031;0.063;0.094;0.125;0.156;0.188;0.219;0.250;0.281;0.313;0.344;0.375;0.406;0.438;0.469;0.500;0.600;0.700;0.713;0.727;0.740;0.753;0.767;0.780;0.793;0.807;0.820;0.833;0.847;0.860;0.873;0.887;0.900;1"
+                 dur="10s" repeatCount="indefinite" begin="10.5s"/>
       </rect>
     </clipPath>
 
@@ -26,8 +26,8 @@
   </defs>
 
   <!-- ======== BACKGROUND ======== -->
-  <rect width="900" height="220" fill="#0a0e17"/>
-  <rect width="900" height="220" fill="url(#scanlines)"/>
+  <rect width="900" height="350" fill="#0a0e17"/>
+  <rect width="900" height="350" fill="url(#scanlines)"/>
 
   <!-- ======== TITLE BAR ======== -->
   <rect width="900" height="30" fill="#111922"/>
@@ -37,66 +37,82 @@
   <text x="450" y="19" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58" text-anchor="middle">nour@soc-analyst:~/threat-monitor</text>
   <line x1="0" y1="30" x2="900" y2="30" stroke="#1e3a5f" stroke-width="0.5"/>
 
-  <!-- ======== INTRO SEQUENCE (plays once, fades at 9s) ======== -->
+  <!-- ======== INTRO SEQUENCE (plays once, fades at 9.5s) ======== -->
   <g font-family="'Courier New', Courier, monospace" font-size="13">
-    <animate attributeName="opacity" from="1" to="0" begin="9s" dur="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" begin="9.5s" dur="0.4s" fill="freeze"/>
 
     <!-- Kali prompt -->
-    <text x="25" y="58" fill="#22c55e" filter="url(#glow)">┌──(nour㉿soc-ops)─[~/siem]</text>
-    <text x="25" y="78" fill="#22c55e" filter="url(#glow)">└─$</text>
+    <text x="25" y="58" fill="#22c55e">┌──(nour㉿soc-ops)─[~/siem]</text>
+    <text x="25" y="78" fill="#22c55e">└─$</text>
 
-    <!-- Command typed char-by-char (slower: 3.5s for 44 chars ≈ 80ms/char) -->
+    <!-- Command typed char-by-char -->
     <g clip-path="url(#cmd-clip)">
       <text x="65" y="78" fill="#e6edf3">python3 threat_detector.py --live --src=all</text>
     </g>
 
-    <!-- Blinking cursor steps with each character -->
+    <!-- Typing cursor for command -->
     <g>
       <animate attributeName="opacity" from="1" to="0" begin="4.5s" dur="0.1s" fill="freeze"/>
       <rect x="65" y="65" width="2" height="16" fill="#22c55e">
         <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite"/>
-        <animate attributeName="x"
-                 calcMode="discrete"
+        <animate attributeName="x" calcMode="discrete"
                  values="65;73;81;89;97;105;113;121;129;137;145;153;161;169;177;185;193;201;209;217;225;233;241;249;257;265;273;281;289;297;305;313;321;329;337;345;353;361;369;377;385;393;401;409;417"
                  dur="3.5s" begin="0.8s" fill="freeze"/>
       </rect>
     </g>
 
     <!-- [*] Initializing (4.8s) -->
-    <text x="25" y="110" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.4s" fill="freeze"/>
-      <animate attributeName="fill" from="#0a0e17" to="#8b949e" begin="4.8s" dur="0.6s" fill="freeze"/>
-      [*] Initializing SIEM Threat Detection Engine v4.2 ...
-    </text>
+    <text x="25" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.3s" fill="freeze"/>[*] Initializing SIEM Threat Detection Engine v4.2</text>
 
-    <!-- [✓] Connected (5.5s) -->
-    <text x="25" y="132" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.4s" fill="freeze"/>
-      <animate attributeName="fill" from="#0a0e17" to="#4493f8" begin="5.5s" dur="0.6s" fill="freeze"/>
-      [✓] Connected: Splunk | Wazuh | Suricata | Zeek
-    </text>
+    <!-- Loading spinner (4.8s → 5.6s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.1s" fill="freeze"/>
+      <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.2s" fill="freeze"/>
+      <circle cx="440" cy="106" r="5" fill="none" stroke="#4493f8" stroke-width="2" stroke-dasharray="22 10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 440 106" to="360 440 106" dur="0.8s" repeatCount="indefinite" begin="4.8s"/>
+      </circle>
+    </g>
 
-    <!-- [*] Scanning (6.2s) -->
-    <text x="25" y="154" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="6.2s" dur="0.4s" fill="freeze"/>
-      <animate attributeName="fill" from="#0a0e17" to="#8b949e" begin="6.2s" dur="0.6s" fill="freeze"/>
-      [*] Scanning 2,847 events/sec across 12 endpoints ...
-    </text>
+    <!-- [✓] Connected (5.8s) -->
+    <text x="25" y="132" fill="#4493f8" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.3s" fill="freeze"/>[✓] Connected: Splunk | Wazuh | Suricata | Zeek</text>
 
-    <!-- Separator (6.8s) -->
+    <!-- [*] Scanning (6.5s) -->
+    <text x="25" y="154" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.3s" fill="freeze"/>[*] Scanning 2,847 events/sec across 12 endpoints ...</text>
+
+    <!-- Separator (7.0s) -->
     <line x1="25" y1="170" x2="620" y2="170" stroke="#1e3a5f" stroke-width="0.5" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.6" begin="6.8s" dur="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.6" begin="7.0s" dur="0.2s" fill="freeze"/>
     </line>
 
-    <!-- ▲ CRITICAL — blinking red (7.2s) -->
-    <text x="25" y="195" fill="#f85149" font-weight="bold" font-size="15" filter="url(#glow-red)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="7.2s" dur="0.15s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0.08;1" dur="0.5s" repeatCount="4" begin="7.4s"/>
-      ▲ CRITICAL
-    </text>
-    <text x="165" y="195" fill="#e6edf3" font-size="13" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.9" begin="7.2s" dur="0.3s" fill="freeze"/>
-      Brute-force SSH detected → 10.0.0.47 → 1,243 attempts/5min
-    </text>
+    <!-- ▲ CRITICAL — blinking red (7.4s) — NO glow -->
+    <text x="25" y="195" fill="#f85149" font-weight="bold" font-size="15" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.4s" dur="0.15s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0.08;1" dur="0.5s" repeatCount="4" begin="7.6s"/>
+      ▲ CRITICAL</text>
+    <text x="165" y="195" fill="#e6edf3" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="0.9" begin="7.4s" dur="0.3s" fill="freeze"/>Brute-force SSH detected → 10.0.0.47 → 1,243 attempts/5min</text>
+  </g>
+
+  <!-- ======== NAME SECTION (appears ONLY after intro clears) ======== -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="10.2s" dur="0.3s" fill="freeze"/>
+
+    <!-- Name typed char-by-char, deleted, looping — NO glow -->
+    <g clip-path="url(#name-clip)">
+      <text x="315" y="195" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="#22c55e">NOUR KHALIL RASH</text>
+    </g>
+
+    <!-- Blinking cursor — appears 0.5s before typing starts -->
+    <rect x="315" y="176" width="2" height="26" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite" begin="10.2s"/>
+      <animate attributeName="x" calcMode="discrete"
+               values="315;332;349;366;383;400;417;434;451;468;485;502;519;536;553;570;587;587;570;553;536;519;502;485;468;451;434;417;400;383;366;349;332;315;315"
+               keyTimes="0;0.031;0.063;0.094;0.125;0.156;0.188;0.219;0.250;0.281;0.313;0.344;0.375;0.406;0.438;0.469;0.500;0.600;0.700;0.713;0.727;0.740;0.753;0.767;0.780;0.793;0.807;0.820;0.833;0.847;0.860;0.873;0.887;0.900;1"
+               dur="10s" repeatCount="indefinite" begin="10.5s"/>
+    </rect>
+
+    <!-- Subtitle (appears after first name type finishes) -->
+    <text x="450" y="228" font-family="'Courier New', Courier, monospace" font-size="13" fill="#4493f8" text-anchor="middle" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.8" begin="16s" dur="0.5s" fill="freeze"/>
+      Security Analyst · SOC Engineer · Oslo</text>
   </g>
 </svg>

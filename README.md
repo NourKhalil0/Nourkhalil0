@@ -3,14 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NourKhalil0">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=5000&pause=2000&color=22C55E&center=true&vCenter=true&width=500&height=60&lines=NOUR+KHALIL+RASH" alt="Nour Khalil Rash" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4493F8&center=true&vCenter=true&width=520&lines=Cybersecurity+student+%40+Kristiania;SOC+Analyst+%40+NSM+from+fall+2026;Building+one+SOC+tool+every+weekday;Splunk+%7C+Python+%7C+Linux+%7C+Wireshark;Fluent+in+Norwegian%2C+English+%26+Arabic" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=4493F8&center=true&vCenter=true&width=520&lines=Cybersecurity+student+%40+Kristiania;SOC+Analyst+%40+NSM+from+fall+2026;Building+one+SOC+tool+every+weekday;Splunk+%7C+Python+%7C+Linux+%7C+Wireshark;Fluent+in+Norwegian%2C+English+%26+Arabic" alt="Typing SVG" />
   </a>
 </p>
 
