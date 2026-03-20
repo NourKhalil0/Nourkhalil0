@@ -64,13 +64,13 @@ Ett nytt prosjekt hver hverdag.
 ## GitHub statistikk
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NourKhalil0&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NourKhalil0&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800&v=2" height="170" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourKhalil0&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourKhalil0&layout=compact&theme=github_dark&hide_border=true&langs_count=6&cache_seconds=1800&v=2" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NourKhalil0&theme=github-dark-blue&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NourKhalil0&theme=github-dark-blue&hide_border=true&v=2" />
 </p>
 
 ---
@@ -78,12 +78,12 @@ Ett nytt prosjekt hver hverdag.
 ## Detaljert oversikt
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NourKhalil0&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NourKhalil0&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NourKhalil0&theme=github_dark&v=2" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NourKhalil0&theme=github_dark&v=2" />
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NourKhalil0&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NourKhalil0&theme=github_dark&utcOffset=1" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NourKhalil0&theme=github_dark&v=2" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NourKhalil0&theme=github_dark&utcOffset=1&v=2" />
 </p>
 
 ---
