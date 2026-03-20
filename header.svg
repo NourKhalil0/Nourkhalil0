@@ -9,12 +9,12 @@
       </rect>
     </clipPath>
 
-    <!-- Name typewriter clip — no keyTimes, evenly spaced: type(17) + pause(8) + delete(16) + pause(5) = 46 values -->
+    <!-- Name typewriter clip — type(17) + pause(10) + delete(16) + pause(7) = 50 values -->
     <clipPath id="name-clip">
       <rect x="315" y="170" height="40" width="0">
         <animate attributeName="width" calcMode="discrete"
-                 values="0;17;34;51;68;85;102;119;136;153;170;187;204;221;238;255;272;272;272;272;272;272;272;272;272;255;238;221;204;187;170;153;136;119;102;85;68;51;34;17;0;0;0;0;0;0"
-                 dur="10s" repeatCount="indefinite" begin="10.5s"/>
+                 values="0;17;34;51;68;85;102;119;136;153;170;187;204;221;238;255;272;272;272;272;272;272;272;272;272;272;272;255;238;221;204;187;170;153;136;119;102;85;68;51;34;17;0;0;0;0;0;0;0;0;0"
+                 dur="12s" repeatCount="indefinite" begin="14s"/>
       </rect>
     </clipPath>
 
@@ -36,13 +36,19 @@
   <text x="450" y="19" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58" text-anchor="middle">nour@soc-analyst:~/threat-monitor</text>
   <line x1="0" y1="30" x2="900" y2="30" stroke="#1e3a5f" stroke-width="0.5"/>
 
-  <!-- ======== INTRO SEQUENCE (fades at 9.5s) ======== -->
+  <!-- ======== INTRO SEQUENCE (fades at 12.5s) ======== -->
   <g font-family="'Courier New', Courier, monospace" font-size="13">
-    <animate attributeName="opacity" from="1" to="0" begin="9.5s" dur="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" begin="12.5s" dur="0.5s" fill="freeze"/>
 
-    <!-- Kali prompt -->
-    <text x="25" y="58" fill="#22c55e">┌──(nour㉿soc-ops)─[~/siem]</text>
-    <text x="25" y="78" fill="#22c55e">└─$</text>
+    <!-- Kali prompt — green parens, blue text (real Kali colors) -->
+    <text x="25" y="58" fill="#22c55e">┌──(</text>
+    <text x="62" y="58" fill="#5cb6f8">nour㉿soc-ops</text>
+    <text x="175" y="58" fill="#22c55e">)─[</text>
+    <text x="200" y="58" fill="#ffffff">~/siem</text>
+    <text x="250" y="58" fill="#22c55e">]</text>
+
+    <text x="25" y="78" fill="#22c55e">└─</text>
+    <text x="43" y="78" fill="#5cb6f8" font-weight="bold">$</text>
 
     <!-- Command typed char-by-char -->
     <g clip-path="url(#cmd-clip)">
@@ -52,7 +58,7 @@
     <!-- Typing cursor -->
     <g>
       <animate attributeName="opacity" from="1" to="0" begin="4.5s" dur="0.1s" fill="freeze"/>
-      <rect x="65" y="65" width="2" height="16" fill="#22c55e">
+      <rect x="65" y="65" width="2" height="16" fill="#5cb6f8">
         <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite"/>
         <animate attributeName="x" calcMode="discrete"
                  values="65;73;81;89;97;105;113;121;129;137;145;153;161;169;177;185;193;201;209;217;225;233;241;249;257;265;273;281;289;297;305;313;321;329;337;345;353;361;369;377;385;393;401;409;417"
@@ -60,54 +66,54 @@
       </rect>
     </g>
 
-    <!-- [*] Initializing (4.8s) -->
-    <text x="25" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.3s" fill="freeze"/>[*] Initializing SIEM Threat Detection Engine v4.2</text>
+    <!-- [*] Initializing (5.0s) — longer wait after command -->
+    <text x="25" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>[*] Initializing SIEM Threat Detection Engine v4.2</text>
 
-    <!-- Loading spinner using stroke-dashoffset (no animateTransform) -->
-    <circle cx="440" cy="106" r="5" fill="none" stroke="#4493f8" stroke-width="2" stroke-dasharray="20 12" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" dur="1s" begin="4.8s" fill="freeze"/>
-      <animate attributeName="stroke-dashoffset" from="0" to="32" dur="0.8s" repeatCount="indefinite" begin="4.8s"/>
+    <!-- Loading spinner at prompt area (next to $) — visible 5.0s to 6.5s (1.5s spin) -->
+    <circle cx="52" cy="96" r="6" fill="none" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="24 14" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="5.0s" fill="freeze"/>
+      <animate attributeName="stroke-dashoffset" from="0" to="38" dur="0.8s" repeatCount="indefinite" begin="5.0s"/>
     </circle>
 
-    <!-- [✓] Connected (5.8s) -->
-    <text x="25" y="132" fill="#4493f8" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.3s" fill="freeze"/>[✓] Connected: Splunk | Wazuh | Suricata | Zeek</text>
+    <!-- [✓] Connected (6.8s) — longer wait after spinner -->
+    <text x="25" y="132" fill="#4493f8" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6.8s" dur="0.3s" fill="freeze"/>[✓] Connected: Splunk | Wazuh | Suricata | Zeek</text>
 
-    <!-- [*] Scanning (6.5s) -->
-    <text x="25" y="154" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.3s" fill="freeze"/>[*] Scanning 2,847 events/sec across 12 endpoints ...</text>
+    <!-- [*] Scanning (7.8s) — more breathing room -->
+    <text x="25" y="154" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="7.8s" dur="0.3s" fill="freeze"/>[*] Scanning 2,847 events/sec across 12 endpoints ...</text>
 
-    <!-- Separator (7.0s) -->
+    <!-- Separator (8.5s) -->
     <line x1="25" y1="170" x2="620" y2="170" stroke="#1e3a5f" stroke-width="0.5" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.6" begin="7.0s" dur="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.6" begin="8.5s" dur="0.2s" fill="freeze"/>
     </line>
 
-    <!-- ▲ CRITICAL blinking (7.4s) -->
+    <!-- ▲ CRITICAL — slower blink (0.8s per cycle, 5 reps = 4s of blinking) -->
     <text x="25" y="195" fill="#f85149" font-weight="bold" font-size="15" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="7.4s" dur="0.15s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0.08;1" dur="0.5s" repeatCount="4" begin="7.6s"/>
+      <animate attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.15s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0.08;1" dur="0.8s" repeatCount="5" begin="9.2s"/>
       ▲ CRITICAL</text>
-    <text x="165" y="195" fill="#e6edf3" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="0.9" begin="7.4s" dur="0.3s" fill="freeze"/>Brute-force SSH detected → 10.0.0.47 → 1,243 attempts/5min</text>
+    <text x="165" y="195" fill="#e6edf3" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="0.9" begin="9.0s" dur="0.3s" fill="freeze"/>Brute-force SSH detected → 10.0.0.47 → 1,243 attempts/5min</text>
   </g>
 
-  <!-- ======== NAME (appears ONLY after intro is gone) ======== -->
+  <!-- ======== NAME (appears after long pause, ~13.5s) ======== -->
   <g opacity="0">
-    <set attributeName="opacity" to="1" begin="10.2s" fill="freeze"/>
+    <set attributeName="opacity" to="1" begin="13.5s" fill="freeze"/>
 
-    <!-- Name with typewriter clip -->
+    <!-- Name — WHITE, typed char-by-char -->
     <g clip-path="url(#name-clip)">
-      <text x="315" y="200" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="#22c55e">NOUR KHALIL RASH</text>
+      <text x="315" y="200" font-family="'Courier New', Courier, monospace" font-size="28" font-weight="bold" fill="#ffffff">NOUR KHALIL RASH</text>
     </g>
 
-    <!-- Cursor -->
-    <rect x="315" y="180" width="2" height="26" fill="#22c55e">
-      <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite" begin="10.2s"/>
+    <!-- Cursor — white to match name -->
+    <rect x="315" y="180" width="2" height="26" fill="#ffffff">
+      <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite" begin="13.5s"/>
       <animate attributeName="x" calcMode="discrete"
-               values="315;332;349;366;383;400;417;434;451;468;485;502;519;536;553;570;587;587;587;587;587;587;587;587;587;570;553;536;519;502;485;468;451;434;417;400;383;366;349;332;315;315;315;315;315;315"
-               dur="10s" repeatCount="indefinite" begin="10.5s"/>
+               values="315;332;349;366;383;400;417;434;451;468;485;502;519;536;553;570;587;587;587;587;587;587;587;587;587;587;587;570;553;536;519;502;485;468;451;434;417;400;383;366;349;332;315;315;315;315;315;315;315;315;315"
+               dur="12s" repeatCount="indefinite" begin="14s"/>
     </rect>
 
-    <!-- Subtitle -->
-    <text x="450" y="235" font-family="'Courier New', Courier, monospace" font-size="13" fill="#4493f8" text-anchor="middle" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.8" begin="16s" dur="0.5s" fill="freeze"/>
-      Security Analyst · SOC Engineer · Oslo</text>
+    <!-- Subtitle — only Security Analyst -->
+    <text x="450" y="232" font-family="'Courier New', Courier, monospace" font-size="13" fill="#4493f8" text-anchor="middle" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.8" begin="19s" dur="0.5s" fill="freeze"/>
+      Security Analyst</text>
   </g>
 </svg>
