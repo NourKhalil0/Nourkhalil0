@@ -66,13 +66,13 @@
       </rect>
     </g>
 
-    <!-- Spinner replaces [*] — positioned at x=32, y=106 -->
-    <circle cx="32" cy="106" r="5" fill="none" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="20 12" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="5.0s" fill="freeze"/>
-      <animate attributeName="stroke-dashoffset" from="0" to="32" dur="0.8s" repeatCount="indefinite" begin="5.0s"/>
+    <!-- Pulsing spinner dot replaces [*] -->
+    <circle cx="32" cy="106" r="4" fill="#5cb6f8" opacity="0">
+      <animate attributeName="opacity" values="0;0.3;1;0.3" dur="0.6s" repeatCount="3" begin="5.0s"/>
+      <animate attributeName="r" values="3;5;3" dur="0.6s" repeatCount="3" begin="5.0s"/>
     </circle>
 
-    <!-- Initializing text (no [*], starts after spinner) -->
+    <!-- Initializing text -->
     <text x="45" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>Initializing SIEM Threat Detection Engine v4.2</text>
 
     <!-- [✓] Connected (6.8s) — longer wait after spinner -->
@@ -96,7 +96,7 @@
 
   <!-- ======== NAME (appears after long pause, ~13.5s) ======== -->
   <g opacity="0">
-    <set attributeName="opacity" to="1" begin="13.5s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="13.5s" dur="0.3s" fill="freeze"/>
 
     <!-- Name — WHITE, typed char-by-char -->
     <g clip-path="url(#name-clip)">
