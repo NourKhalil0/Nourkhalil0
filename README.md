@@ -105,3 +105,7 @@ Ett nytt prosjekt hver hverdag.
   <img src="./hunting.svg" alt="SOC Threat Hunter — Live Dashboard" width="900"/>
 </p>
 
+<p align="center">
+  <img src="./topology.svg" alt="Network Topology — Live Monitored" width="900"/>
+</p>
+

@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <!-- Background -->
+  <rect width="900" height="280" rx="10" fill="#0d1117"/>
+
+  <!-- Subtle grid -->
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="280" rx="10" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Title -->
+  <text x="450" y="22" font-family="'Courier New',monospace" font-size="10" fill="#8b949e" text-anchor="middle" letter-spacing="3">NETWORK TOPOLOGY — LIVE MONITORED</text>
+
+  <!-- ==================== CONNECTION LINES ==================== -->
+  <!-- INTERNET → FIREWALL -->
+  <line x1="90" y1="140" x2="240" y2="70" stroke="#30363d" stroke-width="1.5"/>
+  <!-- INTERNET → IDS -->
+  <line x1="90" y1="140" x2="240" y2="210" stroke="#30363d" stroke-width="1.5"/>
+  <!-- FIREWALL → CORE -->
+  <line x1="240" y1="70" x2="420" y2="140" stroke="#30363d" stroke-width="1.5"/>
+  <!-- IDS → CORE -->
+  <line x1="240" y1="210" x2="420" y2="140" stroke="#30363d" stroke-width="1.5"/>
+  <!-- CORE → ENDPOINTS -->
+  <line x1="420" y1="140" x2="600" y2="70" stroke="#30363d" stroke-width="1.5"/>
+  <!-- CORE → DATABASE -->
+  <line x1="420" y1="140" x2="600" y2="210" stroke="#30363d" stroke-width="1.5"/>
+  <!-- ENDPOINTS → SOC -->
+  <line x1="600" y1="70" x2="780" y2="140" stroke="#30363d" stroke-width="1.5"/>
+  <!-- DATABASE → SOC -->
+  <line x1="600" y1="210" x2="780" y2="140" stroke="#30363d" stroke-width="1.5"/>
+  <!-- CORE → SOC (direct) -->
+  <line x1="420" y1="140" x2="780" y2="140" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ==================== FLOWING PACKETS ==================== -->
+  <!-- Packet: INTERNET → FIREWALL (red - incoming threat) -->
+  <circle r="3" fill="#f85149">
+    <animate attributeName="cx" from="90" to="240" dur="2.5s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="cy" from="140" to="70" dur="2.5s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <!-- Packet 2: INTERNET → FIREWALL (staggered) -->
+  <circle r="2" fill="#f85149" opacity="0.6">
+    <animate attributeName="cx" from="90" to="240" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="cy" from="140" to="70" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+
+  <!-- Packet: INTERNET → IDS -->
+  <circle r="2.5" fill="#f85149">
+    <animate attributeName="cx" from="90" to="240" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="cy" from="140" to="210" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+
+  <!-- Packet: FIREWALL → CORE (filtered traffic - orange) -->
+  <circle r="2.5" fill="#f0883e">
+    <animate attributeName="cx" from="240" to="420" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="cy" from="70" to="140" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+
+  <!-- Packet: IDS → CORE (inspected) -->
+  <circle r="2.5" fill="#f0883e">
+    <animate attributeName="cx" from="240" to="420" dur="2.2s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="cy" from="210" to="140" dur="2.2s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.2s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+
+  <!-- Packet: CORE → ENDPOINTS (blue - internal) -->
+  <circle r="2.5" fill="#5cb6f8">
+    <animate attributeName="cx" from="420" to="600" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" from="140" to="70" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+
+  <!-- Packet: CORE → DATABASE -->
+  <circle r="2.5" fill="#5cb6f8">
+    <animate attributeName="cx" from="420" to="600" dur="2.3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" from="140" to="210" dur="2.3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+
+  <!-- Packet: ENDPOINTS → SOC (green - telemetry) -->
+  <circle r="2.5" fill="#22c55e">
+    <animate attributeName="cx" from="600" to="780" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="cy" from="70" to="140" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+
+  <!-- Packet: DATABASE → SOC (green - logs) -->
+  <circle r="2.5" fill="#22c55e">
+    <animate attributeName="cx" from="600" to="780" dur="2.5s" repeatCount="indefinite" begin="1.8s"/>
+    <animate attributeName="cy" from="210" to="140" dur="2.5s" repeatCount="indefinite" begin="1.8s"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite" begin="1.8s"/>
+  </circle>
+
+  <!-- Packet: CORE → SOC (direct feed) -->
+  <circle r="2" fill="#22c55e" opacity="0.5">
+    <animate attributeName="cx" from="420" to="780" dur="3.5s" repeatCount="indefinite" begin="0.7s"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="3.5s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+
+  <!-- Reverse packets (responses going back) -->
+  <!-- SOC → ENDPOINTS (response) -->
+  <circle r="2" fill="#22c55e" opacity="0.4">
+    <animate attributeName="cx" from="780" to="600" dur="2.5s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="cy" from="140" to="70" dur="2.5s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="2.5s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <!-- FIREWALL → INTERNET (blocked response) -->
+  <circle r="2" fill="#f85149" opacity="0.4">
+    <animate attributeName="cx" from="240" to="90" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="cy" from="70" to="140" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+
+  <!-- ==================== NODES ==================== -->
+
+  <!-- INTERNET node (red - external) -->
+  <circle cx="90" cy="140" r="26" fill="none" stroke="#f85149" opacity="0.15">
+    <animate attributeName="r" values="26;32;26" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="140" r="22" fill="#161b22" stroke="#f85149" stroke-width="2"/>
+  <text x="90" y="137" font-family="'Courier New',monospace" font-size="8" fill="#f85149" text-anchor="middle">⚠</text>
+  <text x="90" y="147" font-family="'Courier New',monospace" font-size="7" fill="#f85149" text-anchor="middle">WAN</text>
+  <text x="90" y="174" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle">INTERNET</text>
+
+  <!-- FIREWALL node (orange - DMZ) -->
+  <circle cx="240" cy="70" r="26" fill="none" stroke="#f0883e" opacity="0.15">
+    <animate attributeName="r" values="26;32;26" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="240" cy="70" r="22" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <text x="240" y="67" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">🛡</text>
+  <text x="240" y="77" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle">FW</text>
+  <text x="240" y="104" font-family="'Courier New',monospace" font-size="9" fill="#f0883e" text-anchor="middle">FIREWALL</text>
+
+  <!-- IDS/IPS node (orange) -->
+  <circle cx="240" cy="210" r="26" fill="none" stroke="#f0883e" opacity="0.15">
+    <animate attributeName="r" values="26;32;26" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="240" cy="210" r="22" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <text x="240" y="207" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">◈</text>
+  <text x="240" y="217" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle">IDS</text>
+  <text x="240" y="244" font-family="'Courier New',monospace" font-size="9" fill="#f0883e" text-anchor="middle">IDS/IPS</text>
+
+  <!-- CORE SWITCH node (blue - center hub) -->
+  <circle cx="420" cy="140" r="30" fill="none" stroke="#5cb6f8" opacity="0.15">
+    <animate attributeName="r" values="30;38;30" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="140" r="26" fill="#161b22" stroke="#5cb6f8" stroke-width="2.5"/>
+  <text x="420" y="137" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">◉</text>
+  <text x="420" y="148" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">CORE</text>
+  <text x="420" y="178" font-family="'Courier New',monospace" font-size="9" fill="#5cb6f8" text-anchor="middle">SWITCH</text>
+
+  <!-- ENDPOINTS node (blue) -->
+  <circle cx="600" cy="70" r="26" fill="none" stroke="#5cb6f8" opacity="0.15">
+    <animate attributeName="r" values="26;32;26" dur="3.3s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="3.3s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="600" cy="70" r="22" fill="#161b22" stroke="#5cb6f8" stroke-width="2"/>
+  <text x="600" y="67" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">▣</text>
+  <text x="600" y="77" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">x48</text>
+  <text x="600" y="104" font-family="'Courier New',monospace" font-size="9" fill="#5cb6f8" text-anchor="middle">ENDPOINTS</text>
+
+  <!-- DATABASE node (blue) -->
+  <circle cx="600" cy="210" r="26" fill="none" stroke="#5cb6f8" opacity="0.15">
+    <animate attributeName="r" values="26;32;26" dur="3.6s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="3.6s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <circle cx="600" cy="210" r="22" fill="#161b22" stroke="#5cb6f8" stroke-width="2"/>
+  <text x="600" y="207" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">⬡</text>
+  <text x="600" y="217" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">SQL</text>
+  <text x="600" y="244" font-family="'Courier New',monospace" font-size="9" fill="#5cb6f8" text-anchor="middle">DATABASE</text>
+
+  <!-- SOC/SIEM node (green - main) -->
+  <circle cx="780" cy="140" r="30" fill="none" stroke="#22c55e" opacity="0.2">
+    <animate attributeName="r" values="30;40;30" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.05;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="140" r="26" fill="#161b22" stroke="#22c55e" stroke-width="2.5"/>
+  <text x="780" y="137" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="middle">◉</text>
+  <text x="780" y="148" font-family="'Courier New',monospace" font-size="7" fill="#22c55e" text-anchor="middle">SIEM</text>
+  <text x="780" y="178" font-family="'Courier New',monospace" font-size="9" fill="#22c55e" text-anchor="middle">SOC/SIEM</text>
+
+  <!-- ==================== ZONE LABELS ==================== -->
+  <text x="90" y="268" font-family="'Courier New',monospace" font-size="8" fill="#f85149" text-anchor="middle" opacity="0.5">EXTERNAL</text>
+  <text x="240" y="268" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle" opacity="0.5">DMZ</text>
+  <text x="510" y="268" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle" opacity="0.5">INTERNAL NETWORK</text>
+  <text x="780" y="268" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="middle" opacity="0.5">SOC</text>
+
+  <!-- Zone separator lines (subtle) -->
+  <line x1="165" y1="35" x2="165" y2="258" stroke="#30363d" stroke-width="0.5" stroke-dasharray="3,6" opacity="0.4"/>
+  <line x1="330" y1="35" x2="330" y2="258" stroke="#30363d" stroke-width="0.5" stroke-dasharray="3,6" opacity="0.4"/>
+  <line x1="690" y1="35" x2="690" y2="258" stroke="#30363d" stroke-width="0.5" stroke-dasharray="3,6" opacity="0.4"/>
+</svg>
