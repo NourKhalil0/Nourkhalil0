@@ -106,6 +106,6 @@ Ett nytt prosjekt hver hverdag.
 </p>
 
 <p align="center">
-  <img src="./siem-flow.svg" alt="SIEM Detection Engine — Attack Flow" width="900"/>
+  <img src="./siem-flow.gif" alt="SIEM Architecture — Attack Detection & Response Flow" width="900"/>
 </p>
 
