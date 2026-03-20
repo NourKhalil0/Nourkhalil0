@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+  <defs>
+    <clipPath id="hcmd">
+      <rect x="45" y="60" height="20" width="0">
+        <animate attributeName="width" calcMode="discrete"
+                 values="0;8;16;24;32;40;48;56;64;72;80;88;96;104;112;120;128;136;144;152;160;168;176;184;192;200;208;216;224;232;240;248;256;264;272;280;288;296;304;312;320;328;336"
+                 dur="3s" begin="0.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="900" height="340" rx="10" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="900" height="32" rx="10" fill="#161b22"/>
+  <rect y="22" width="900" height="10" fill="#161b22"/>
+  <circle cx="20" cy="16" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="16" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="16" r="6" fill="#28c840"/>
+  <text x="450" y="20" font-family="'Courier New',monospace" font-size="11" fill="#8b949e" text-anchor="middle">soc-hunter — live monitoring</text>
+
+  <!-- Kali prompt line 1 (static) -->
+  <text x="15" y="56" font-family="'Courier New',monospace" font-size="12">
+    <tspan fill="#22c55e">┌──(</tspan><tspan fill="#5cb6f8">hunter㉿soc</tspan><tspan fill="#22c55e">)-[</tspan><tspan fill="#ffffff">~/threat-intel</tspan><tspan fill="#22c55e">]</tspan>
+  </text>
+
+  <!-- Kali prompt line 2 (static part) -->
+  <text x="15" y="74" font-family="'Courier New',monospace" font-size="12">
+    <tspan fill="#22c55e">└─</tspan><tspan fill="#5cb6f8">$ </tspan>
+  </text>
+
+  <!-- Typed command -->
+  <text x="45" y="74" clip-path="url(#hcmd)" font-family="'Courier New',monospace" font-size="12" fill="#ffffff">./soc-hunter.sh --mode=live --feeds=all</text>
+
+  <!-- [*] Initializing (3.5s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.3s" fill="freeze"/>
+    <circle cx="25" cy="94" r="3" fill="#5cb6f8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="0.5s" repeatCount="4" begin="3.5s"/>
+    </circle>
+    <text x="35" y="98" font-family="'Courier New',monospace" font-size="12" fill="#8b949e">Initializing threat intelligence feeds...</text>
+  </g>
+
+  <!-- [+] Connected (5s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="114" font-family="'Courier New',monospace" font-size="12">
+      <tspan fill="#22c55e">[+]</tspan>
+      <tspan fill="#c9d1d9"> Connected to 12 OSINT sources</tspan>
+    </text>
+    <text x="370" y="114" font-family="'Courier New',monospace" font-size="12" fill="#22c55e">✓</text>
+  </g>
+
+  <!-- [+] IOCs (5.8s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="130" font-family="'Courier New',monospace" font-size="12">
+      <tspan fill="#22c55e">[+]</tspan>
+      <tspan fill="#c9d1d9"> Loading 3,291 active IOCs</tspan>
+    </text>
+    <text x="370" y="130" font-family="'Courier New',monospace" font-size="12" fill="#22c55e">✓</text>
+  </g>
+
+  <!-- [+] Dark web (6.6s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="6.6s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="146" font-family="'Courier New',monospace" font-size="12">
+      <tspan fill="#22c55e">[+]</tspan>
+      <tspan fill="#c9d1d9"> Dark web crawler active</tspan>
+    </text>
+    <text x="370" y="146" font-family="'Courier New',monospace" font-size="12" fill="#22c55e">✓</text>
+  </g>
+
+  <!-- ═══ LIVE THREAT DASHBOARD ═══ separator (7.5s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.4s" fill="freeze"/>
+    <line x1="15" y1="160" x2="885" y2="160" stroke="#30363d" stroke-width="1"/>
+    <text x="450" y="178" font-family="'Courier New',monospace" font-size="11" fill="#5cb6f8" text-anchor="middle">═══════ LIVE THREAT DASHBOARD ═══════</text>
+  </g>
+
+  <!-- Dashboard metrics (8.5s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.5s" fill="freeze"/>
+
+    <!-- Left column -->
+    <!-- FEEDS -->
+    <text x="25" y="200" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">FEEDS</text>
+    <text x="110" y="200" font-family="'Courier New',monospace" font-size="11" fill="#22c55e">12 active</text>
+    <circle cx="210" cy="196" r="3" fill="#22c55e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="8.5s"/></circle>
+    <circle cx="222" cy="196" r="3" fill="#22c55e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="8.8s"/></circle>
+    <circle cx="234" cy="196" r="3" fill="#22c55e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="9.1s"/></circle>
+    <circle cx="246" cy="196" r="3" fill="#22c55e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="9.4s"/></circle>
+    <circle cx="258" cy="196" r="3" fill="#22c55e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="9.7s"/></circle>
+
+    <!-- IOCs -->
+    <text x="25" y="218" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">IOCs</text>
+    <text x="110" y="218" font-family="'Courier New',monospace" font-size="11" fill="#ffffff">3,291</text>
+    <text x="175" y="218" font-family="'Courier New',monospace" font-size="11" fill="#22c55e">▲ 47 new today</text>
+
+    <!-- ALERTS -->
+    <text x="25" y="236" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">ALERTS</text>
+    <text x="110" y="236" font-family="'Courier New',monospace" font-size="11" fill="#f0883e">7 pending</text>
+    <rect x="220" y="228" width="80" height="8" rx="2" fill="#21262d"/>
+    <rect x="220" y="228" width="56" height="8" rx="2" fill="#f0883e"/>
+    <text x="308" y="236" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">70%</text>
+
+    <!-- THREAT LEVEL -->
+    <text x="25" y="254" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">THREAT</text>
+    <text x="110" y="254" font-family="'Courier New',monospace" font-size="11" fill="#f85149">
+      ELEVATED
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" begin="8.5s"/>
+    </text>
+    <rect x="220" y="246" width="80" height="8" rx="2" fill="#21262d"/>
+    <rect x="220" y="246" width="64" height="8" rx="2" fill="#f85149"/>
+
+    <!-- Right column -->
+    <line x1="450" y1="188" x2="450" y2="258" stroke="#30363d" stroke-width="1"/>
+    <text x="470" y="200" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">PACKETS</text>
+    <text x="570" y="200" font-family="'Courier New',monospace" font-size="11" fill="#5cb6f8">1.2M/s</text>
+    <text x="470" y="218" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">BLOCKED</text>
+    <text x="570" y="218" font-family="'Courier New',monospace" font-size="11" fill="#f0883e">847</text>
+    <text x="470" y="236" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">RULES</text>
+    <text x="570" y="236" font-family="'Courier New',monospace" font-size="11" fill="#ffffff">2,104</text>
+    <text x="470" y="254" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">UPTIME</text>
+    <text x="570" y="254" font-family="'Courier New',monospace" font-size="11" fill="#22c55e">23d 7h</text>
+  </g>
+
+  <!-- Alert separator + alerts (10s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="10s" dur="0.3s" fill="freeze"/>
+    <line x1="15" y1="268" x2="885" y2="268" stroke="#30363d" stroke-width="1"/>
+    <text x="15" y="286" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#f85149">[!]</tspan>
+      <tspan fill="#c9d1d9"> 185.xxx.xxx.42</tspan>
+      <tspan fill="#8b949e"> → </tspan>
+      <tspan fill="#f0883e">C2 beacon detected</tspan>
+      <tspan fill="#8b949e"> (COBALT STRIKE)</tspan>
+    </text>
+  </g>
+
+  <!-- Alert 2 (10.8s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="10.8s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="302" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#f85149">[!]</tspan>
+      <tspan fill="#c9d1d9"> CVE-2025-31337</tspan>
+      <tspan fill="#8b949e"> → </tspan>
+      <tspan fill="#f0883e">exploit attempt blocked</tspan>
+      <tspan fill="#22c55e"> [MITIGATED]</tspan>
+    </text>
+  </g>
+
+  <!-- [HUNTING] Status (11.5s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="11.5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="326" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#5cb6f8">[HUNTING]</tspan>
+      <tspan fill="#c9d1d9"> Status: </tspan>
+      <tspan fill="#22c55e">ACTIVE</tspan>
+      <tspan fill="#8b949e"> │ Threats neutralized: </tspan>
+      <tspan fill="#22c55e">47</tspan>
+    </text>
+    <!-- Live pulsing dot -->
+    <circle cx="875" cy="322" r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" begin="11.5s"/>
+    </circle>
+  </g>
+</svg>

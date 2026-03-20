@@ -99,7 +99,9 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## Aktivitetsgraf
+## Currently Hunting
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NourKhalil0&theme=github-compact&hide_border=true&area=true&color=4493f8&line=22c55e&point=ffffff)](https://github.com/NourKhalil0)
+<p align="center">
+  <img src="./hunting.svg" alt="SOC Threat Hunter — Live Dashboard" width="900"/>
+</p>
 
