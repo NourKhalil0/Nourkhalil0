@@ -3,12 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=4493F8&center=true&vCenter=true&width=520&lines=Cybersecurity+student+%40+Kristiania;SOC+Analyst+%40+NSM+from+fall+2026;Building+one+SOC+tool+every+weekday;Splunk+%7C+Python+%7C+Linux+%7C+Wireshark;Fluent+in+Norwegian%2C+English+%26+Arabic" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/nour-khalil-rash-7a0222317/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
