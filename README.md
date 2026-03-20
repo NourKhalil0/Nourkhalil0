@@ -99,13 +99,3 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## Currently Hunting
-
-<p align="center">
-  <img src="./hunting.svg" alt="SOC Threat Hunter — Live Dashboard" width="900"/>
-</p>
-
-<p align="center">
-  <img src="./siem-flow.gif" alt="SIEM Architecture — Attack Detection & Response Flow" width="900"/>
-</p>
-
