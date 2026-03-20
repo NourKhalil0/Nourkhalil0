@@ -1,321 +1,358 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
   <defs>
-    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
-      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#21262d" stroke-width="0.4"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#151b23" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hex" width="60" height="34" patternUnits="userSpaceOnUse">
+      <text x="5" y="12" font-family="'Courier New',monospace" font-size="8" fill="#151b23" opacity="0.6">0xA3F</text>
+      <text x="35" y="28" font-family="'Courier New',monospace" font-size="8" fill="#151b23" opacity="0.4">E7B2</text>
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="400" rx="10" fill="#0d1117"/>
-  <rect width="900" height="400" rx="10" fill="url(#grid)" opacity="0.6"/>
+  <!-- ===== BACKGROUND LAYERS ===== -->
+  <rect width="900" height="420" rx="10" fill="#0a0e14"/>
+  <rect width="900" height="420" rx="10" fill="url(#grid)"/>
+  <rect width="900" height="420" rx="10" fill="url(#hex)" opacity="0.3"/>
 
-  <!-- Title -->
-  <text x="450" y="20" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="4">⟨ NETWORK TOPOLOGY — LIVE MONITORED ⟩</text>
+  <!-- Horizontal scan line sweeping down -->
+  <rect x="0" y="0" width="900" height="2" fill="#22c55e" opacity="0.06">
+    <animate attributeName="y" from="0" to="420" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.08;0.08;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- ==================== RADAR PULSE FROM SOC ==================== -->
-  <circle cx="770" cy="190" fill="none" stroke="#22c55e" stroke-width="1">
-    <animate attributeName="r" from="30" to="200" dur="4s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" from="0.25" to="0" dur="4s" repeatCount="indefinite" begin="0s"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="28" fill="#0f1318" opacity="0.9"/>
+  <rect x="0" y="27" width="900" height="1" fill="#22c55e" opacity="0.15"/>
+  <circle cx="15" cy="14" r="4" fill="#f85149" opacity="0.7"/>
+  <circle cx="30" cy="14" r="4" fill="#e3b341" opacity="0.7"/>
+  <circle cx="45" cy="14" r="4" fill="#22c55e" opacity="0.7"/>
+  <text x="450" y="17" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="5">NETWORK OPERATIONS CENTER</text>
+  <text x="870" y="17" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="end">
+    LIVE
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ===== RADAR PULSE FROM SOC (massive) ===== -->
+  <circle cx="780" cy="200" fill="none" stroke="#22c55e" stroke-width="1.2">
+    <animate attributeName="r" from="28" to="350" dur="5s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" from="0.2" to="0" dur="5s" repeatCount="indefinite" begin="0s"/>
   </circle>
-  <circle cx="770" cy="190" fill="none" stroke="#22c55e" stroke-width="0.8">
-    <animate attributeName="r" from="30" to="200" dur="4s" repeatCount="indefinite" begin="1.3s"/>
-    <animate attributeName="opacity" from="0.2" to="0" dur="4s" repeatCount="indefinite" begin="1.3s"/>
+  <circle cx="780" cy="200" fill="none" stroke="#22c55e" stroke-width="1">
+    <animate attributeName="r" from="28" to="350" dur="5s" repeatCount="indefinite" begin="1.25s"/>
+    <animate attributeName="opacity" from="0.15" to="0" dur="5s" repeatCount="indefinite" begin="1.25s"/>
   </circle>
-  <circle cx="770" cy="190" fill="none" stroke="#22c55e" stroke-width="0.6">
-    <animate attributeName="r" from="30" to="200" dur="4s" repeatCount="indefinite" begin="2.6s"/>
-    <animate attributeName="opacity" from="0.15" to="0" dur="4s" repeatCount="indefinite" begin="2.6s"/>
+  <circle cx="780" cy="200" fill="none" stroke="#22c55e" stroke-width="0.8">
+    <animate attributeName="r" from="28" to="350" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="opacity" from="0.12" to="0" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+  <circle cx="780" cy="200" fill="none" stroke="#22c55e" stroke-width="0.6">
+    <animate attributeName="r" from="28" to="350" dur="5s" repeatCount="indefinite" begin="3.75s"/>
+    <animate attributeName="opacity" from="0.1" to="0" dur="5s" repeatCount="indefinite" begin="3.75s"/>
   </circle>
 
-  <!-- ==================== CONNECTION LINES (animated dashes) ==================== -->
-  <!-- INTERNET → FIREWALL -->
-  <line x1="60" y1="190" x2="190" y2="140" stroke="#f85149" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+  <!-- ===== GLOWING CONNECTIONS (wide glow + animated dashes) ===== -->
+
+  <!-- INTERNET → FIREWALL (glow) -->
+  <line x1="65" y1="200" x2="195" y2="150" stroke="#f85149" stroke-width="6" opacity="0.06"/>
+  <line x1="65" y1="200" x2="195" y2="150" stroke="#f85149" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
   </line>
-  <!-- INTERNET → IDS -->
-  <line x1="60" y1="190" x2="190" y2="270" stroke="#f85149" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+  <!-- INTERNET → IDS (glow) -->
+  <line x1="65" y1="200" x2="195" y2="275" stroke="#f85149" stroke-width="6" opacity="0.06"/>
+  <line x1="65" y1="200" x2="195" y2="275" stroke="#f85149" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
   </line>
-  <!-- FIREWALL → HONEYPOT -->
-  <line x1="190" y1="140" x2="190" y2="62" stroke="#e3b341" stroke-width="1" stroke-dasharray="3,5" opacity="0.4">
+  <!-- FW → HONEYPOT -->
+  <line x1="195" y1="150" x2="195" y2="68" stroke="#e3b341" stroke-width="4" opacity="0.04"/>
+  <line x1="195" y1="150" x2="195" y2="68" stroke="#e3b341" stroke-width="1" stroke-dasharray="3,5" opacity="0.5">
     <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
   </line>
   <!-- FIREWALL → CORE -->
-  <line x1="190" y1="140" x2="380" y2="190" stroke="#f0883e" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.2s" repeatCount="indefinite"/>
+  <line x1="195" y1="150" x2="390" y2="200" stroke="#f0883e" stroke-width="8" opacity="0.05"/>
+  <line x1="195" y1="150" x2="390" y2="200" stroke="#f0883e" stroke-width="2" stroke-dasharray="8,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/>
   </line>
   <!-- IDS → CORE -->
-  <line x1="190" y1="270" x2="380" y2="190" stroke="#f0883e" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.2s" repeatCount="indefinite"/>
+  <line x1="195" y1="275" x2="390" y2="200" stroke="#f0883e" stroke-width="8" opacity="0.05"/>
+  <line x1="195" y1="275" x2="390" y2="200" stroke="#f0883e" stroke-width="2" stroke-dasharray="8,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/>
   </line>
   <!-- CORE → DNS -->
-  <line x1="380" y1="190" x2="380" y2="62" stroke="#5cb6f8" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.3s" repeatCount="indefinite"/>
+  <line x1="390" y1="200" x2="390" y2="68" stroke="#5cb6f8" stroke-width="6" opacity="0.04"/>
+  <line x1="390" y1="200" x2="390" y2="68" stroke="#5cb6f8" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="1.2s" repeatCount="indefinite"/>
   </line>
   <!-- CORE → ENDPOINTS -->
-  <line x1="380" y1="190" x2="560" y2="100" stroke="#5cb6f8" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+  <line x1="390" y1="200" x2="570" y2="110" stroke="#5cb6f8" stroke-width="8" opacity="0.04"/>
+  <line x1="390" y1="200" x2="570" y2="110" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="6,4" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.8s" repeatCount="indefinite"/>
   </line>
   <!-- CORE → SERVER -->
-  <line x1="380" y1="190" x2="560" y2="280" stroke="#5cb6f8" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+  <line x1="390" y1="200" x2="570" y2="290" stroke="#5cb6f8" stroke-width="8" opacity="0.04"/>
+  <line x1="390" y1="200" x2="570" y2="290" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="6,4" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.8s" repeatCount="indefinite"/>
   </line>
   <!-- CORE → DB -->
-  <line x1="380" y1="190" x2="380" y2="320" stroke="#5cb6f8" stroke-width="1" stroke-dasharray="4,4" opacity="0.4">
-    <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.5s" repeatCount="indefinite"/>
+  <line x1="390" y1="200" x2="390" y2="335" stroke="#5cb6f8" stroke-width="6" opacity="0.04"/>
+  <line x1="390" y1="200" x2="390" y2="335" stroke="#5cb6f8" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="1.2s" repeatCount="indefinite"/>
   </line>
   <!-- ENDPOINTS → SOC -->
-  <line x1="560" y1="100" x2="770" y2="190" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+  <line x1="570" y1="110" x2="780" y2="200" stroke="#22c55e" stroke-width="8" opacity="0.05"/>
+  <line x1="570" y1="110" x2="780" y2="200" stroke="#22c55e" stroke-width="2" stroke-dasharray="8,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.8s" repeatCount="indefinite"/>
   </line>
   <!-- SERVER → SOC -->
-  <line x1="560" y1="280" x2="770" y2="190" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+  <line x1="570" y1="290" x2="780" y2="200" stroke="#22c55e" stroke-width="8" opacity="0.05"/>
+  <line x1="570" y1="290" x2="780" y2="200" stroke="#22c55e" stroke-width="2" stroke-dasharray="8,4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="0.8s" repeatCount="indefinite"/>
   </line>
   <!-- DNS → SOC -->
-  <line x1="380" y1="62" x2="770" y2="190" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,6" opacity="0.3">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2s" repeatCount="indefinite"/>
+  <line x1="390" y1="68" x2="780" y2="200" stroke="#22c55e" stroke-width="4" opacity="0.03"/>
+  <line x1="390" y1="68" x2="780" y2="200" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,6" opacity="0.35">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
   </line>
-  <!-- HONEYPOT → SOC (alert feed) -->
-  <line x1="190" y1="62" x2="770" y2="190" stroke="#e3b341" stroke-width="1" stroke-dasharray="3,6" opacity="0.25">
-    <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2.5s" repeatCount="indefinite"/>
+  <!-- HONEYPOT → SOC (alert) -->
+  <line x1="195" y1="68" x2="780" y2="200" stroke="#e3b341" stroke-width="4" opacity="0.03"/>
+  <line x1="195" y1="68" x2="780" y2="200" stroke="#e3b341" stroke-width="1" stroke-dasharray="3,7" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2s" repeatCount="indefinite"/>
   </line>
   <!-- DB → SOC -->
-  <line x1="380" y1="320" x2="770" y2="190" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,6" opacity="0.3">
-    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2s" repeatCount="indefinite"/>
+  <line x1="390" y1="335" x2="780" y2="200" stroke="#22c55e" stroke-width="4" opacity="0.03"/>
+  <line x1="390" y1="335" x2="780" y2="200" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,6" opacity="0.35">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  <!-- CORE → SOC (direct backbone) -->
+  <line x1="390" y1="200" x2="780" y2="200" stroke="#22c55e" stroke-width="10" opacity="0.03"/>
+  <line x1="390" y1="200" x2="780" y2="200" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="10,5" opacity="0.4">
+    <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1s" repeatCount="indefinite"/>
   </line>
 
-  <!-- ==================== FLOWING PACKETS ==================== -->
-  <!-- INTERNET → FIREWALL (red threats) -->
-  <circle r="3" fill="#f85149">
-    <animate attributeName="cx" from="60" to="190" dur="2s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="cy" from="190" to="140" dur="2s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite" begin="0s"/>
-  </circle>
-  <circle r="2" fill="#f85149">
-    <animate attributeName="cx" from="60" to="190" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-    <animate attributeName="cy" from="190" to="140" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-  </circle>
-  <circle r="2.5" fill="#f85149">
-    <animate attributeName="cx" from="60" to="190" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
-    <animate attributeName="cy" from="190" to="270" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
-    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
-  </circle>
+  <!-- ===== PACKET STREAMS (dense, multi-size) ===== -->
 
-  <!-- FIREWALL → CORE (filtered orange) -->
-  <circle r="2.5" fill="#f0883e">
-    <animate attributeName="cx" from="190" to="380" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="cy" from="140" to="190" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
-  </circle>
-  <circle r="2" fill="#f0883e">
-    <animate attributeName="cx" from="190" to="380" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animate attributeName="cy" from="270" to="190" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-  </circle>
+  <!-- INTERNET → FW stream -->
+  <circle r="3.5" fill="#f85149"><animate attributeName="cx" from="65" to="195" dur="1.8s" repeatCount="indefinite" begin="0s"/><animate attributeName="cy" from="200" to="150" dur="1.8s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite" begin="0s"/></circle>
+  <circle r="2" fill="#f85149"><animate attributeName="cx" from="65" to="195" dur="1.8s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="cy" from="200" to="150" dur="1.8s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.8s" repeatCount="indefinite" begin="0.6s"/></circle>
+  <circle r="1.5" fill="#f85149"><animate attributeName="cx" from="65" to="195" dur="1.8s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="cy" from="200" to="150" dur="1.8s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="1.8s" repeatCount="indefinite" begin="1.2s"/></circle>
 
-  <!-- CORE → ENDPOINTS (blue internal) -->
-  <circle r="2.5" fill="#5cb6f8">
-    <animate attributeName="cx" from="380" to="560" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
-    <animate attributeName="cy" from="190" to="100" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
-    <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
-  </circle>
-  <circle r="2" fill="#5cb6f8">
-    <animate attributeName="cx" from="380" to="560" dur="1.8s" repeatCount="indefinite" begin="1.2s"/>
-    <animate attributeName="cy" from="190" to="280" dur="1.8s" repeatCount="indefinite" begin="1.2s"/>
-    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="1.8s" repeatCount="indefinite" begin="1.2s"/>
-  </circle>
-  <circle r="2" fill="#5cb6f8">
-    <animate attributeName="cx" from="380" to="380" dur="1.5s" repeatCount="indefinite" begin="0.7s"/>
-    <animate attributeName="cy" from="190" to="62" dur="1.5s" repeatCount="indefinite" begin="0.7s"/>
-    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.5s" repeatCount="indefinite" begin="0.7s"/>
-  </circle>
-  <circle r="1.5" fill="#5cb6f8">
-    <animate attributeName="cx" from="380" to="380" dur="2s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="cy" from="190" to="320" dur="2s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="2s" repeatCount="indefinite" begin="1.5s"/>
-  </circle>
+  <!-- INTERNET → IDS stream -->
+  <circle r="3" fill="#f85149"><animate attributeName="cx" from="65" to="195" dur="2s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="cy" from="200" to="275" dur="2s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="2s" repeatCount="indefinite" begin="0.3s"/></circle>
+  <circle r="1.5" fill="#f85149"><animate attributeName="cx" from="65" to="195" dur="2s" repeatCount="indefinite" begin="1.3s"/><animate attributeName="cy" from="200" to="275" dur="2s" repeatCount="indefinite" begin="1.3s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2s" repeatCount="indefinite" begin="1.3s"/></circle>
 
-  <!-- ENDPOINTS → SOC (green telemetry) -->
-  <circle r="3" fill="#22c55e">
-    <animate attributeName="cx" from="560" to="770" dur="1.8s" repeatCount="indefinite" begin="0.4s"/>
-    <animate attributeName="cy" from="100" to="190" dur="1.8s" repeatCount="indefinite" begin="0.4s"/>
-    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite" begin="0.4s"/>
-  </circle>
-  <circle r="2.5" fill="#22c55e">
-    <animate attributeName="cx" from="560" to="770" dur="2s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="cy" from="280" to="190" dur="2s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2s" repeatCount="indefinite" begin="1s"/>
-  </circle>
-  <circle r="2" fill="#22c55e">
-    <animate attributeName="cx" from="380" to="770" dur="3s" repeatCount="indefinite" begin="0.6s"/>
-    <animate attributeName="cy" from="62" to="190" dur="3s" repeatCount="indefinite" begin="0.6s"/>
-    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="3s" repeatCount="indefinite" begin="0.6s"/>
-  </circle>
-  <circle r="2" fill="#22c55e">
-    <animate attributeName="cx" from="380" to="770" dur="3.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="cy" from="320" to="190" dur="3.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="3.5s" repeatCount="indefinite" begin="2s"/>
-  </circle>
+  <!-- FW → CORE stream -->
+  <circle r="3" fill="#f0883e"><animate attributeName="cx" from="195" to="390" dur="1.6s" repeatCount="indefinite" begin="0.2s"/><animate attributeName="cy" from="150" to="200" dur="1.6s" repeatCount="indefinite" begin="0.2s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" repeatCount="indefinite" begin="0.2s"/></circle>
+  <circle r="2" fill="#f0883e"><animate attributeName="cx" from="195" to="390" dur="1.6s" repeatCount="indefinite" begin="1s"/><animate attributeName="cy" from="150" to="200" dur="1.6s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.6s" repeatCount="indefinite" begin="1s"/></circle>
+
+  <!-- IDS → CORE stream -->
+  <circle r="2.5" fill="#f0883e"><animate attributeName="cx" from="195" to="390" dur="1.8s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="cy" from="275" to="200" dur="1.8s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="opacity" values="0;0.8;0.8;0" dur="1.8s" repeatCount="indefinite" begin="0.8s"/></circle>
+
+  <!-- CORE → ENDPOINTS stream -->
+  <circle r="3" fill="#5cb6f8"><animate attributeName="cx" from="390" to="570" dur="1.5s" repeatCount="indefinite" begin="0.1s"/><animate attributeName="cy" from="200" to="110" dur="1.5s" repeatCount="indefinite" begin="0.1s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite" begin="0.1s"/></circle>
+  <circle r="2" fill="#5cb6f8"><animate attributeName="cx" from="390" to="570" dur="1.5s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="cy" from="200" to="110" dur="1.5s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.5s" repeatCount="indefinite" begin="0.8s"/></circle>
+
+  <!-- CORE → SERVER stream -->
+  <circle r="3" fill="#5cb6f8"><animate attributeName="cx" from="390" to="570" dur="1.6s" repeatCount="indefinite" begin="0.4s"/><animate attributeName="cy" from="200" to="290" dur="1.6s" repeatCount="indefinite" begin="0.4s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" repeatCount="indefinite" begin="0.4s"/></circle>
+  <circle r="1.5" fill="#5cb6f8"><animate attributeName="cx" from="390" to="570" dur="1.6s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="cy" from="200" to="290" dur="1.6s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="1.6s" repeatCount="indefinite" begin="1.2s"/></circle>
+
+  <!-- CORE → DNS -->
+  <circle r="2" fill="#5cb6f8"><animate attributeName="cx" from="390" to="390" dur="1.4s" repeatCount="indefinite" begin="0.5s"/><animate attributeName="cy" from="200" to="68" dur="1.4s" repeatCount="indefinite" begin="0.5s"/><animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.4s" repeatCount="indefinite" begin="0.5s"/></circle>
+
+  <!-- CORE → DB -->
+  <circle r="2" fill="#5cb6f8"><animate attributeName="cx" from="390" to="390" dur="1.6s" repeatCount="indefinite" begin="0.9s"/><animate attributeName="cy" from="200" to="335" dur="1.6s" repeatCount="indefinite" begin="0.9s"/><animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.6s" repeatCount="indefinite" begin="0.9s"/></circle>
+
+  <!-- ENDPOINTS → SOC stream -->
+  <circle r="3.5" fill="#22c55e"><animate attributeName="cx" from="570" to="780" dur="1.5s" repeatCount="indefinite" begin="0s"/><animate attributeName="cy" from="110" to="200" dur="1.5s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite" begin="0s"/></circle>
+  <circle r="2" fill="#22c55e"><animate attributeName="cx" from="570" to="780" dur="1.5s" repeatCount="indefinite" begin="0.5s"/><animate attributeName="cy" from="110" to="200" dur="1.5s" repeatCount="indefinite" begin="0.5s"/><animate attributeName="opacity" values="0;0.7;0.7;0" dur="1.5s" repeatCount="indefinite" begin="0.5s"/></circle>
+  <circle r="1.5" fill="#22c55e"><animate attributeName="cx" from="570" to="780" dur="1.5s" repeatCount="indefinite" begin="1s"/><animate attributeName="cy" from="110" to="200" dur="1.5s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="1.5s" repeatCount="indefinite" begin="1s"/></circle>
+
+  <!-- SERVER → SOC stream -->
+  <circle r="3" fill="#22c55e"><animate attributeName="cx" from="570" to="780" dur="1.6s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="cy" from="290" to="200" dur="1.6s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" repeatCount="indefinite" begin="0.3s"/></circle>
+  <circle r="2" fill="#22c55e"><animate attributeName="cx" from="570" to="780" dur="1.6s" repeatCount="indefinite" begin="1.1s"/><animate attributeName="cy" from="290" to="200" dur="1.6s" repeatCount="indefinite" begin="1.1s"/><animate attributeName="opacity" values="0;0.6;0.6;0" dur="1.6s" repeatCount="indefinite" begin="1.1s"/></circle>
+
+  <!-- DNS → SOC -->
+  <circle r="2" fill="#22c55e"><animate attributeName="cx" from="390" to="780" dur="2.5s" repeatCount="indefinite" begin="0.7s"/><animate attributeName="cy" from="68" to="200" dur="2.5s" repeatCount="indefinite" begin="0.7s"/><animate attributeName="opacity" values="0;0.6;0.6;0" dur="2.5s" repeatCount="indefinite" begin="0.7s"/></circle>
+
+  <!-- DB → SOC -->
+  <circle r="2" fill="#22c55e"><animate attributeName="cx" from="390" to="780" dur="2.5s" repeatCount="indefinite" begin="1.5s"/><animate attributeName="cy" from="335" to="200" dur="2.5s" repeatCount="indefinite" begin="1.5s"/><animate attributeName="opacity" values="0;0.6;0.6;0" dur="2.5s" repeatCount="indefinite" begin="1.5s"/></circle>
 
   <!-- HONEYPOT → SOC (yellow alert) -->
-  <circle r="2.5" fill="#e3b341">
-    <animate attributeName="cx" from="190" to="770" dur="4s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="cy" from="62" to="190" dur="4s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+  <circle r="3" fill="#e3b341"><animate attributeName="cx" from="195" to="780" dur="3.5s" repeatCount="indefinite" begin="1s"/><animate attributeName="cy" from="68" to="200" dur="3.5s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.5s" repeatCount="indefinite" begin="1s"/></circle>
+
+  <!-- CORE → SOC backbone stream -->
+  <circle r="2.5" fill="#22c55e"><animate attributeName="cx" from="390" to="780" dur="2s" repeatCount="indefinite" begin="0.2s"/><animate attributeName="cy" from="200" to="200" dur="2s" repeatCount="indefinite" begin="0.2s"/><animate attributeName="opacity" values="0;0.8;0.8;0" dur="2s" repeatCount="indefinite" begin="0.2s"/></circle>
+  <circle r="1.5" fill="#22c55e"><animate attributeName="cx" from="390" to="780" dur="2s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2s" repeatCount="indefinite" begin="1.2s"/></circle>
+
+  <!-- Reverse responses -->
+  <circle r="1.5" fill="#22c55e"><animate attributeName="cx" from="780" to="570" dur="1.8s" repeatCount="indefinite" begin="2s"/><animate attributeName="cy" from="200" to="110" dur="1.8s" repeatCount="indefinite" begin="2s"/><animate attributeName="opacity" values="0;0.3;0.3;0" dur="1.8s" repeatCount="indefinite" begin="2s"/></circle>
+  <circle r="1.5" fill="#f85149"><animate attributeName="cx" from="195" to="65" dur="1.5s" repeatCount="indefinite" begin="1.8s"/><animate attributeName="cy" from="150" to="200" dur="1.5s" repeatCount="indefinite" begin="1.8s"/><animate attributeName="opacity" values="0;0.3;0.3;0" dur="1.5s" repeatCount="indefinite" begin="1.8s"/></circle>
+
+  <!-- ===== NODES (double ring design) ===== -->
+
+  <!-- INTERNET -->
+  <circle cx="65" cy="200" r="30" fill="none" stroke="#f85149" opacity="0.08">
+    <animate attributeName="r" values="30;40;30" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="65" cy="200" r="24" fill="#0f1318" stroke="#f85149" stroke-width="2"/>
+  <circle cx="65" cy="200" r="20" fill="none" stroke="#f85149" stroke-width="0.5" opacity="0.4"/>
+  <text x="65" y="198" font-family="'Courier New',monospace" font-size="7" fill="#f85149" text-anchor="middle">WAN</text>
+  <text x="65" y="207" font-family="'Courier New',monospace" font-size="5" fill="#f85149" text-anchor="middle" opacity="0.6">0.0.0.0</text>
+  <text x="65" y="237" font-family="'Courier New',monospace" font-size="8" fill="#f85149" text-anchor="middle">INTERNET</text>
+  <text x="65" y="248" font-family="'Courier New',monospace" font-size="7" fill="#f85149" text-anchor="middle" opacity="0.5">2.4 Gbps</text>
+
+  <!-- HONEYPOT -->
+  <circle cx="195" cy="68" r="24" fill="none" stroke="#e3b341" opacity="0.08">
+    <animate attributeName="r" values="24;32;24" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="195" cy="68" r="19" fill="#0f1318" stroke="#e3b341" stroke-width="1.5"/>
+  <circle cx="195" cy="68" r="15" fill="none" stroke="#e3b341" stroke-width="0.5" opacity="0.3"/>
+  <text x="195" y="66" font-family="'Courier New',monospace" font-size="7" fill="#e3b341" text-anchor="middle">TRAP</text>
+  <text x="195" y="74" font-family="'Courier New',monospace" font-size="5" fill="#e3b341" text-anchor="middle" opacity="0.6">DECOY</text>
+  <text x="195" y="98" font-family="'Courier New',monospace" font-size="8" fill="#e3b341" text-anchor="middle">HONEYPOT</text>
+  <text x="195" y="108" font-family="'Courier New',monospace" font-size="7" fill="#e3b341" text-anchor="middle" opacity="0.5">3 trapped</text>
+
+  <!-- FIREWALL -->
+  <circle cx="195" cy="150" r="28" fill="none" stroke="#f0883e" opacity="0.08">
+    <animate attributeName="r" values="28;36;28" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="195" cy="150" r="23" fill="#0f1318" stroke="#f0883e" stroke-width="2"/>
+  <circle cx="195" cy="150" r="19" fill="none" stroke="#f0883e" stroke-width="0.5" opacity="0.4"/>
+  <text x="195" y="148" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle">FW</text>
+  <text x="195" y="157" font-family="'Courier New',monospace" font-size="5" fill="#f0883e" text-anchor="middle" opacity="0.6">L3/L7</text>
+  <text x="195" y="186" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">FIREWALL</text>
+  <text x="195" y="196" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle" opacity="0.5">847 blocked</text>
+
+  <!-- IDS/IPS -->
+  <circle cx="195" cy="275" r="28" fill="none" stroke="#f0883e" opacity="0.08">
+    <animate attributeName="r" values="28;36;28" dur="3.4s" repeatCount="indefinite" begin="0.7s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3.4s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+  <circle cx="195" cy="275" r="23" fill="#0f1318" stroke="#f0883e" stroke-width="2"/>
+  <circle cx="195" cy="275" r="19" fill="none" stroke="#f0883e" stroke-width="0.5" opacity="0.4"/>
+  <text x="195" y="273" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle">IDS</text>
+  <text x="195" y="282" font-family="'Courier New',monospace" font-size="5" fill="#f0883e" text-anchor="middle" opacity="0.6">SNORT</text>
+  <text x="195" y="311" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">IDS/IPS</text>
+  <text x="195" y="321" font-family="'Courier New',monospace" font-size="7" fill="#f0883e" text-anchor="middle" opacity="0.5">2,104 rules</text>
+
+  <!-- DNS -->
+  <circle cx="390" cy="68" r="24" fill="none" stroke="#5cb6f8" opacity="0.08">
+    <animate attributeName="r" values="24;32;24" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle cx="390" cy="68" r="19" fill="#0f1318" stroke="#5cb6f8" stroke-width="1.5"/>
+  <circle cx="390" cy="68" r="15" fill="none" stroke="#5cb6f8" stroke-width="0.5" opacity="0.3"/>
+  <text x="390" y="66" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">DNS</text>
+  <text x="390" y="74" font-family="'Courier New',monospace" font-size="5" fill="#5cb6f8" text-anchor="middle" opacity="0.6">:53</text>
+  <text x="390" y="98" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">DNS</text>
+  <text x="390" y="108" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle" opacity="0.5">12K qps</text>
+
+  <!-- CORE SWITCH -->
+  <circle cx="390" cy="200" r="36" fill="none" stroke="#5cb6f8" opacity="0.08">
+    <animate attributeName="r" values="36;48;36" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="390" cy="200" r="28" fill="#0f1318" stroke="#5cb6f8" stroke-width="2.5"/>
+  <circle cx="390" cy="200" r="23" fill="none" stroke="#5cb6f8" stroke-width="0.5" opacity="0.4"/>
+  <text x="390" y="198" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">CORE</text>
+  <text x="390" y="207" font-family="'Courier New',monospace" font-size="5" fill="#5cb6f8" text-anchor="middle" opacity="0.6">10GbE</text>
+  <text x="390" y="240" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">SWITCH</text>
+  <text x="390" y="250" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle" opacity="0.5">1.2M pkt/s</text>
+
+  <!-- DATABASE -->
+  <circle cx="390" cy="335" r="24" fill="none" stroke="#5cb6f8" opacity="0.08">
+    <animate attributeName="r" values="24;32;24" dur="3.3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3.3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="390" cy="335" r="19" fill="#0f1318" stroke="#5cb6f8" stroke-width="1.5"/>
+  <circle cx="390" cy="335" r="15" fill="none" stroke="#5cb6f8" stroke-width="0.5" opacity="0.3"/>
+  <text x="390" y="333" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">SQL</text>
+  <text x="390" y="341" font-family="'Courier New',monospace" font-size="5" fill="#5cb6f8" text-anchor="middle" opacity="0.6">:3306</text>
+  <text x="390" y="365" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">DATABASE</text>
+  <text x="390" y="375" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle" opacity="0.5">99.9% up</text>
+
+  <!-- ENDPOINTS -->
+  <circle cx="570" cy="110" r="28" fill="none" stroke="#5cb6f8" opacity="0.08">
+    <animate attributeName="r" values="28;36;28" dur="3.5s" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3.5s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <circle cx="570" cy="110" r="23" fill="#0f1318" stroke="#5cb6f8" stroke-width="2"/>
+  <circle cx="570" cy="110" r="19" fill="none" stroke="#5cb6f8" stroke-width="0.5" opacity="0.4"/>
+  <text x="570" y="108" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">EDR</text>
+  <text x="570" y="116" font-family="'Courier New',monospace" font-size="5" fill="#5cb6f8" text-anchor="middle" opacity="0.6">x48</text>
+  <text x="570" y="146" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">ENDPOINTS</text>
+  <text x="570" y="156" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle" opacity="0.5">48 online</text>
+
+  <!-- SERVER -->
+  <circle cx="570" cy="290" r="28" fill="none" stroke="#5cb6f8" opacity="0.08">
+    <animate attributeName="r" values="28;36;28" dur="3.6s" repeatCount="indefinite" begin="0.4s"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3.6s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <circle cx="570" cy="290" r="23" fill="#0f1318" stroke="#5cb6f8" stroke-width="2"/>
+  <circle cx="570" cy="290" r="19" fill="none" stroke="#5cb6f8" stroke-width="0.5" opacity="0.4"/>
+  <text x="570" y="288" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle">SRV</text>
+  <text x="570" y="296" font-family="'Courier New',monospace" font-size="5" fill="#5cb6f8" text-anchor="middle" opacity="0.6">RACK</text>
+  <text x="570" y="326" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">SERVER</text>
+  <text x="570" y="336" font-family="'Courier New',monospace" font-size="7" fill="#5cb6f8" text-anchor="middle" opacity="0.5">6 active</text>
+
+  <!-- SOC/SIEM (main hub) -->
+  <circle cx="780" cy="200" r="38" fill="none" stroke="#22c55e" opacity="0.08">
+    <animate attributeName="r" values="38;50;38" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.02;0.08" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="200" r="28" fill="#0f1318" stroke="#22c55e" stroke-width="2.5"/>
+  <circle cx="780" cy="200" r="23" fill="none" stroke="#22c55e" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="780" cy="200" r="18" fill="none" stroke="#22c55e" stroke-width="0.3" opacity="0.25"/>
+  <text x="780" y="198" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="middle">SIEM</text>
+  <text x="780" y="207" font-family="'Courier New',monospace" font-size="5" fill="#22c55e" text-anchor="middle" opacity="0.6">SPLUNK</text>
+  <text x="780" y="240" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="middle">SOC/SIEM</text>
+  <text x="780" y="250" font-family="'Courier New',monospace" font-size="7" fill="#22c55e" text-anchor="middle" opacity="0.5">3,291 IOCs</text>
+  <!-- Live dot -->
+  <circle cx="812" cy="178" r="4" fill="#22c55e">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Reverse packets (responses) -->
-  <circle r="1.5" fill="#22c55e" opacity="0.4">
-    <animate attributeName="cx" from="770" to="560" dur="2s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="cy" from="190" to="100" dur="2s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="2s" repeatCount="indefinite" begin="2.5s"/>
-  </circle>
-  <circle r="1.5" fill="#f85149" opacity="0.3">
-    <animate attributeName="cx" from="190" to="60" dur="1.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="cy" from="140" to="190" dur="1.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="1.5s" repeatCount="indefinite" begin="2s"/>
-  </circle>
+  <!-- ===== ZONE SEPARATORS ===== -->
+  <line x1="135" y1="35" x2="135" y2="375" stroke="#f85149" stroke-width="0.5" stroke-dasharray="2,8" opacity="0.15"/>
+  <line x1="295" y1="35" x2="295" y2="375" stroke="#f0883e" stroke-width="0.5" stroke-dasharray="2,8" opacity="0.15"/>
+  <line x1="680" y1="35" x2="680" y2="375" stroke="#22c55e" stroke-width="0.5" stroke-dasharray="2,8" opacity="0.15"/>
 
-  <!-- ==================== NODES ==================== -->
+  <!-- ===== STATUS BAR ===== -->
+  <rect x="0" y="388" width="900" height="32" fill="#0f1318"/>
+  <rect x="0" y="388" width="900" height="1" fill="#30363d"/>
+  <line x1="0" y1="389" x2="900" y2="389" stroke="#22c55e" opacity="0.1"/>
 
-  <!-- INTERNET (red) -->
-  <circle cx="60" cy="190" r="28" fill="none" stroke="#f85149" opacity="0.12">
-    <animate attributeName="r" values="28;36;28" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="60" cy="190" r="24" fill="#161b22" stroke="#f85149" stroke-width="2"/>
-  <text x="60" y="187" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle">⚠</text>
-  <text x="60" y="197" font-family="'Courier New',monospace" font-size="6" fill="#f85149" text-anchor="middle">WAN</text>
-  <text x="60" y="226" font-family="'Courier New',monospace" font-size="8" fill="#f85149" text-anchor="middle">INTERNET</text>
-
-  <!-- HONEYPOT (yellow/trap) -->
-  <circle cx="190" cy="62" r="22" fill="none" stroke="#e3b341" opacity="0.12">
-    <animate attributeName="r" values="22;28;22" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-  </circle>
-  <circle cx="190" cy="62" r="18" fill="#161b22" stroke="#e3b341" stroke-width="1.5"/>
-  <text x="190" y="59" font-family="'Courier New',monospace" font-size="8" fill="#e3b341" text-anchor="middle">⬡</text>
-  <text x="190" y="69" font-family="'Courier New',monospace" font-size="6" fill="#e3b341" text-anchor="middle">TRAP</text>
-  <text x="190" y="90" font-family="'Courier New',monospace" font-size="8" fill="#e3b341" text-anchor="middle">HONEYPOT</text>
-
-  <!-- FIREWALL (orange) -->
-  <circle cx="190" cy="140" r="26" fill="none" stroke="#f0883e" opacity="0.12">
-    <animate attributeName="r" values="26;33;26" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
-  </circle>
-  <circle cx="190" cy="140" r="22" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
-  <text x="190" y="137" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">🛡</text>
-  <text x="190" y="147" font-family="'Courier New',monospace" font-size="6" fill="#f0883e" text-anchor="middle">FW</text>
-  <text x="190" y="174" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">FIREWALL</text>
-
-  <!-- IDS/IPS (orange) -->
-  <circle cx="190" cy="270" r="26" fill="none" stroke="#f0883e" opacity="0.12">
-    <animate attributeName="r" values="26;33;26" dur="3.4s" repeatCount="indefinite" begin="0.8s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.4s" repeatCount="indefinite" begin="0.8s"/>
-  </circle>
-  <circle cx="190" cy="270" r="22" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
-  <text x="190" y="267" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">◈</text>
-  <text x="190" y="277" font-family="'Courier New',monospace" font-size="6" fill="#f0883e" text-anchor="middle">IDS</text>
-  <text x="190" y="304" font-family="'Courier New',monospace" font-size="8" fill="#f0883e" text-anchor="middle">IDS/IPS</text>
-
-  <!-- DNS (blue) -->
-  <circle cx="380" cy="62" r="22" fill="none" stroke="#5cb6f8" opacity="0.12">
-    <animate attributeName="r" values="22;28;22" dur="3s" repeatCount="indefinite" begin="0.2s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3s" repeatCount="indefinite" begin="0.2s"/>
-  </circle>
-  <circle cx="380" cy="62" r="18" fill="#161b22" stroke="#5cb6f8" stroke-width="1.5"/>
-  <text x="380" y="59" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">◎</text>
-  <text x="380" y="69" font-family="'Courier New',monospace" font-size="6" fill="#5cb6f8" text-anchor="middle">53</text>
-  <text x="380" y="90" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">DNS</text>
-
-  <!-- CORE SWITCH (blue - center hub) -->
-  <circle cx="380" cy="190" r="32" fill="none" stroke="#5cb6f8" opacity="0.12">
-    <animate attributeName="r" values="32;42;32" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="380" cy="190" r="28" fill="#161b22" stroke="#5cb6f8" stroke-width="2.5"/>
-  <text x="380" y="187" font-family="'Courier New',monospace" font-size="9" fill="#5cb6f8" text-anchor="middle">◉</text>
-  <text x="380" y="197" font-family="'Courier New',monospace" font-size="6" fill="#5cb6f8" text-anchor="middle">CORE</text>
-  <text x="380" y="230" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">SWITCH</text>
-
-  <!-- DATABASE (blue) -->
-  <circle cx="380" cy="320" r="22" fill="none" stroke="#5cb6f8" opacity="0.12">
-    <animate attributeName="r" values="22;28;22" dur="3.3s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.3s" repeatCount="indefinite" begin="1s"/>
-  </circle>
-  <circle cx="380" cy="320" r="18" fill="#161b22" stroke="#5cb6f8" stroke-width="1.5"/>
-  <text x="380" y="317" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">⬢</text>
-  <text x="380" y="327" font-family="'Courier New',monospace" font-size="6" fill="#5cb6f8" text-anchor="middle">SQL</text>
-  <text x="380" y="348" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">DATABASE</text>
-
-  <!-- ENDPOINTS (blue) -->
-  <circle cx="560" cy="100" r="26" fill="none" stroke="#5cb6f8" opacity="0.12">
-    <animate attributeName="r" values="26;33;26" dur="3.5s" repeatCount="indefinite" begin="0.6s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.5s" repeatCount="indefinite" begin="0.6s"/>
-  </circle>
-  <circle cx="560" cy="100" r="22" fill="#161b22" stroke="#5cb6f8" stroke-width="2"/>
-  <text x="560" y="97" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">▣</text>
-  <text x="560" y="107" font-family="'Courier New',monospace" font-size="6" fill="#5cb6f8" text-anchor="middle">x48</text>
-  <text x="560" y="134" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">ENDPOINTS</text>
-
-  <!-- SERVER (blue) -->
-  <circle cx="560" cy="280" r="26" fill="none" stroke="#5cb6f8" opacity="0.12">
-    <animate attributeName="r" values="26;33;26" dur="3.6s" repeatCount="indefinite" begin="0.4s"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3.6s" repeatCount="indefinite" begin="0.4s"/>
-  </circle>
-  <circle cx="560" cy="280" r="22" fill="#161b22" stroke="#5cb6f8" stroke-width="2"/>
-  <text x="560" y="277" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">▦</text>
-  <text x="560" y="287" font-family="'Courier New',monospace" font-size="6" fill="#5cb6f8" text-anchor="middle">SRV</text>
-  <text x="560" y="314" font-family="'Courier New',monospace" font-size="8" fill="#5cb6f8" text-anchor="middle">SERVER</text>
-
-  <!-- SOC/SIEM (green - main hub) -->
-  <circle cx="770" cy="190" r="34" fill="none" stroke="#22c55e" opacity="0.12">
-    <animate attributeName="r" values="34;44;34" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.12;0.03;0.12" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="770" cy="190" r="28" fill="#161b22" stroke="#22c55e" stroke-width="2.5"/>
-  <text x="770" y="186" font-family="'Courier New',monospace" font-size="9" fill="#22c55e" text-anchor="middle">◉</text>
-  <text x="770" y="196" font-family="'Courier New',monospace" font-size="6" fill="#22c55e" text-anchor="middle">SIEM</text>
-  <text x="770" y="230" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" text-anchor="middle">SOC/SIEM</text>
-  <!-- Live indicator -->
-  <circle cx="800" cy="168" r="4" fill="#22c55e">
+  <circle cx="18" cy="405" r="3.5" fill="#22c55e">
     <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="812" y="172" font-family="'Courier New',monospace" font-size="7" fill="#22c55e">LIVE</text>
+  <text x="28" y="409" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">MONITORING</text>
 
-  <!-- ==================== ZONE LABELS ==================== -->
-  <line x1="130" y1="32" x2="130" y2="355" stroke="#f85149" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.2"/>
-  <line x1="290" y1="32" x2="290" y2="355" stroke="#f0883e" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.2"/>
-  <line x1="670" y1="32" x2="670" y2="355" stroke="#22c55e" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.2"/>
+  <text x="138" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="148" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">NODES</text>
+  <text x="200" y="409" font-family="'Courier New',monospace" font-size="10" fill="#ffffff">10</text>
 
-  <!-- ==================== STATUS BAR ==================== -->
-  <rect x="0" y="365" width="900" height="35" rx="0" fill="#161b22"/>
-  <rect x="0" y="365" width="900" height="1" fill="#30363d"/>
+  <text x="225" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="235" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">PACKETS</text>
+  <text x="300" y="409" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8">1.2M/s</text>
 
-  <!-- Status items -->
-  <circle cx="20" cy="382" r="3" fill="#22c55e">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="30" y="386" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">MONITORING</text>
+  <text x="360" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="370" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">BLOCKED</text>
+  <text x="435" y="409" font-family="'Courier New',monospace" font-size="10" fill="#f85149">847</text>
 
-  <text x="155" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">│</text>
-  <text x="170" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">NODES</text>
-  <text x="225" y="386" font-family="'Courier New',monospace" font-size="10" fill="#ffffff">10</text>
+  <text x="468" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="478" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">TRAPPED</text>
+  <text x="543" y="409" font-family="'Courier New',monospace" font-size="10" fill="#e3b341">3</text>
 
-  <text x="255" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">│</text>
-  <text x="270" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">PACKETS</text>
-  <text x="345" y="386" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8">1.2M/s</text>
+  <text x="565" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="575" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">RULES</text>
+  <text x="625" y="409" font-family="'Courier New',monospace" font-size="10" fill="#ffffff">2,104</text>
 
-  <text x="410" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">│</text>
-  <text x="425" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">THREATS</text>
-  <text x="500" y="386" font-family="'Courier New',monospace" font-size="10" fill="#f85149">3 BLOCKED</text>
+  <text x="665" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="675" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">IOCs</text>
+  <text x="710" y="409" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">3,291</text>
 
-  <text x="595" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">│</text>
-  <text x="610" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">RULES</text>
-  <text x="665" y="386" font-family="'Courier New',monospace" font-size="10" fill="#ffffff">2,104</text>
-
-  <text x="715" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">│</text>
-  <text x="730" y="386" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">UPTIME</text>
-  <text x="795" y="386" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">23d 7h 42m</text>
+  <text x="755" y="409" font-family="'Courier New',monospace" font-size="10" fill="#30363d">│</text>
+  <text x="765" y="409" font-family="'Courier New',monospace" font-size="9" fill="#8b949e">UPTIME</text>
+  <text x="825" y="409" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">23d 7h</text>
 </svg>
