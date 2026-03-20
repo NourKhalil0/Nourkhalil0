@@ -2,18 +2,6 @@
   <img src="./header.svg" alt="Nour Khalil Rash — SOC Analyst Terminal" width="900"/>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/nour-khalil-rash-7a0222317/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/NourKhalil0/soc-projects">
-    <img src="https://img.shields.io/badge/SOC%20Projects-Portfolio-22c55e?style=flat-square&logo=github&logoColor=white" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=NourKhalil0&style=flat-square&color=4493f8&label=profile+views" />
-</p>
-
 ---
 
 Jeg startet med en bachelor i sosiologi, der jeg lærte å analysere mønstre, strukturere informasjon og forstå menneskelig atferd. Så byttet jeg til cybersikkerhet, og det viste seg å være en veldig god kombinasjon. Mye av det vi gjør i sikkerhet handler om å forstå menneskene bak angrepene, ikke bare de tekniske mekanismene.
