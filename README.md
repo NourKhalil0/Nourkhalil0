@@ -70,7 +70,7 @@ Ett nytt prosjekt hver hverdag.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NourKhalil0&theme=github-dark-blue&hide_border=true&v=2" />
+  <img src="https://streak-stats.demolab.com/?user=NourKhalil0&theme=github-dark-blue&hide_border=true&v=3" />
 </p>
 
 ---
