@@ -66,14 +66,14 @@
       </rect>
     </g>
 
-    <!-- [*] Initializing (5.0s) — longer wait after command -->
-    <text x="25" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>[*] Initializing SIEM Threat Detection Engine v4.2</text>
-
-    <!-- Loading spinner at prompt area (next to $) — visible 5.0s to 6.5s (1.5s spin) -->
-    <circle cx="52" cy="96" r="6" fill="none" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="24 14" stroke-linecap="round" opacity="0">
+    <!-- Spinner replaces [*] — positioned at x=32, y=106 -->
+    <circle cx="32" cy="106" r="5" fill="none" stroke="#5cb6f8" stroke-width="2" stroke-dasharray="20 12" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="5.0s" fill="freeze"/>
-      <animate attributeName="stroke-dashoffset" from="0" to="38" dur="0.8s" repeatCount="indefinite" begin="5.0s"/>
+      <animate attributeName="stroke-dashoffset" from="0" to="32" dur="0.8s" repeatCount="indefinite" begin="5.0s"/>
     </circle>
+
+    <!-- Initializing text (no [*], starts after spinner) -->
+    <text x="45" y="110" fill="#8b949e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>Initializing SIEM Threat Detection Engine v4.2</text>
 
     <!-- [✓] Connected (6.8s) — longer wait after spinner -->
     <text x="25" y="132" fill="#4493f8" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6.8s" dur="0.3s" fill="freeze"/>[✓] Connected: Splunk | Wazuh | Suricata | Zeek</text>
