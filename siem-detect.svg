@@ -1,0 +1,425 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490">
+  <defs>
+    <pattern id="sg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#151b23" stroke-width="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="900" height="490" rx="10" fill="#0a0e14"/>
+  <rect width="900" height="490" rx="10" fill="url(#sg)" opacity="0.5"/>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="2" fill="#22c55e" opacity="0">
+    <animate attributeName="y" from="0" to="490" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.06;0.06;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ===== TITLE BAR ===== -->
+  <rect width="900" height="30" rx="10" fill="#0f1318"/>
+  <rect y="20" width="900" height="10" fill="#0f1318"/>
+  <rect y="29" width="900" height="1" fill="#22c55e" opacity="0.12"/>
+  <circle cx="16" cy="15" r="5" fill="#ff5f57" opacity="0.7"/>
+  <circle cx="32" cy="15" r="5" fill="#ffbd2e" opacity="0.7"/>
+  <circle cx="48" cy="15" r="5" fill="#28c840" opacity="0.7"/>
+  <text x="450" y="19" font-family="'Courier New',monospace" font-size="10" fill="#8b949e" text-anchor="middle" letter-spacing="3">SIEM DETECTION ENGINE — INCIDENT REPLAY</text>
+  <text x="878" y="19" font-family="'Courier New',monospace" font-size="9" fill="#22c55e" text-anchor="end">
+    REC
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="845" cy="15" r="3" fill="#f85149">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 1: LOG INGESTION (0.5s - 4s)                         -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+
+  <!-- Section header -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="52" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8" letter-spacing="1">[LOG SOURCES — INGESTION ACTIVE]</text>
+    <text x="885" y="52" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="end">1,936 ev/s</text>
+  </g>
+
+  <!-- Firewall -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="72" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">├─</text>
+    <text x="35" y="72" font-family="'Courier New',monospace" font-size="11" fill="#f0883e">Firewall</text>
+    <text x="130" y="72" font-family="'Courier New',monospace" font-size="10" fill="#484f58">172.16.0.1</text>
+    <!-- Bar bg -->
+    <rect x="280" y="63" width="100" height="9" rx="2" fill="#161b22"/>
+    <!-- Bar fill (animated) -->
+    <rect x="280" y="63" height="9" rx="2" fill="#f0883e" width="0">
+      <animate attributeName="width" from="0" to="84" dur="0.8s" begin="1.0s" fill="freeze"/>
+    </rect>
+    <text x="395" y="72" font-family="'Courier New',monospace" font-size="10" fill="#f0883e">847/s</text>
+  </g>
+
+  <!-- EDR -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="90" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">├─</text>
+    <text x="35" y="90" font-family="'Courier New',monospace" font-size="11" fill="#5cb6f8">EDR</text>
+    <text x="130" y="90" font-family="'Courier New',monospace" font-size="10" fill="#484f58">endpoint-48</text>
+    <rect x="280" y="81" width="100" height="9" rx="2" fill="#161b22"/>
+    <rect x="280" y="81" height="9" rx="2" fill="#5cb6f8" width="0">
+      <animate attributeName="width" from="0" to="62" dur="0.8s" begin="1.5s" fill="freeze"/>
+    </rect>
+    <text x="395" y="90" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8">412/s</text>
+  </g>
+
+  <!-- DNS -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="108" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">├─</text>
+    <text x="35" y="108" font-family="'Courier New',monospace" font-size="11" fill="#5cb6f8">DNS</text>
+    <text x="130" y="108" font-family="'Courier New',monospace" font-size="10" fill="#484f58">ns1.internal</text>
+    <rect x="280" y="99" width="100" height="9" rx="2" fill="#161b22"/>
+    <rect x="280" y="99" height="9" rx="2" fill="#5cb6f8" width="0">
+      <animate attributeName="width" from="0" to="42" dur="0.8s" begin="2.0s" fill="freeze"/>
+    </rect>
+    <text x="395" y="108" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8">203/s</text>
+  </g>
+
+  <!-- Email GW -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="126" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">├─</text>
+    <text x="35" y="126" font-family="'Courier New',monospace" font-size="11" fill="#e3b341">Email GW</text>
+    <text x="130" y="126" font-family="'Courier New',monospace" font-size="10" fill="#484f58">mx.corp.local</text>
+    <rect x="280" y="117" width="100" height="9" rx="2" fill="#161b22"/>
+    <rect x="280" y="117" height="9" rx="2" fill="#e3b341" width="0">
+      <animate attributeName="width" from="0" to="32" dur="0.8s" begin="2.5s" fill="freeze"/>
+    </rect>
+    <text x="395" y="126" font-family="'Courier New',monospace" font-size="10" fill="#e3b341">156/s</text>
+  </g>
+
+  <!-- Auth -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="144" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">└─</text>
+    <text x="35" y="144" font-family="'Courier New',monospace" font-size="11" fill="#22c55e">Auth</text>
+    <text x="130" y="144" font-family="'Courier New',monospace" font-size="10" fill="#484f58">dc01.corp</text>
+    <rect x="280" y="135" width="100" height="9" rx="2" fill="#161b22"/>
+    <rect x="280" y="135" height="9" rx="2" fill="#22c55e" width="0">
+      <animate attributeName="width" from="0" to="52" dur="0.8s" begin="3.0s" fill="freeze"/>
+    </rect>
+    <text x="395" y="144" font-family="'Courier New',monospace" font-size="10" fill="#22c55e">318/s</text>
+  </g>
+
+  <!-- Data flow particles (log sources → right side) -->
+  <circle r="2" fill="#f0883e"><animate attributeName="cx" from="430" to="870" dur="2s" repeatCount="indefinite" begin="1s"/><animate attributeName="cy" from="67" to="67" dur="2s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0;0.7;0.7;0" dur="2s" repeatCount="indefinite" begin="1s"/></circle>
+  <circle r="2" fill="#5cb6f8"><animate attributeName="cx" from="430" to="870" dur="2.2s" repeatCount="indefinite" begin="1.8s"/><animate attributeName="cy" from="85" to="85" dur="2.2s" repeatCount="indefinite" begin="1.8s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2.2s" repeatCount="indefinite" begin="1.8s"/></circle>
+  <circle r="2" fill="#5cb6f8"><animate attributeName="cx" from="430" to="870" dur="2.5s" repeatCount="indefinite" begin="2.3s"/><animate attributeName="cy" from="103" to="103" dur="2.5s" repeatCount="indefinite" begin="2.3s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2.5s" repeatCount="indefinite" begin="2.3s"/></circle>
+  <circle r="2" fill="#e3b341"><animate attributeName="cx" from="430" to="870" dur="2.8s" repeatCount="indefinite" begin="2.8s"/><animate attributeName="cy" from="121" to="121" dur="2.8s" repeatCount="indefinite" begin="2.8s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2.8s" repeatCount="indefinite" begin="2.8s"/></circle>
+  <circle r="2" fill="#22c55e"><animate attributeName="cx" from="430" to="870" dur="2.3s" repeatCount="indefinite" begin="3.3s"/><animate attributeName="cy" from="139" to="139" dur="2.3s" repeatCount="indefinite" begin="3.3s"/><animate attributeName="opacity" values="0;0.5;0.5;0" dur="2.3s" repeatCount="indefinite" begin="3.3s"/></circle>
+
+  <!-- Right side: incoming event stream visualization -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.5s" fill="freeze"/>
+    <text x="500" y="52" font-family="'Courier New',monospace" font-size="9" fill="#484f58">[EVENT STREAM]</text>
+    <!-- Streaming hex data (for visual effect) -->
+    <text x="500" y="72" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" opacity="0.3">
+      4f 70 65 6e 20 63 6f 6e 6e 65 63 74 69 6f 6e 20
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="84" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" opacity="0.3">
+      53 59 4e 20 70 61 63 6b 65 74 20 72 65 63 65 69
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </text>
+    <text x="500" y="96" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" opacity="0.3">
+      76 65 64 20 66 72 6f 6d 20 31 38 35 2e 32 33 33
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+    </text>
+    <text x="500" y="108" font-family="'Courier New',monospace" font-size="8" fill="#f85149" opacity="0.3">
+      2e 78 2e 34 32 20 50 4f 53 54 20 2f 63 32 2f 62
+      <animate attributeName="opacity" values="0.15;0.5;0.15" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </text>
+    <text x="500" y="120" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" opacity="0.3">
+      65 61 63 6f 6e 20 48 54 54 50 2f 31 2e 31 20 34
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </text>
+    <text x="500" y="132" font-family="'Courier New',monospace" font-size="8" fill="#22c55e" opacity="0.3">
+      4b 65 72 62 65 72 6f 73 20 54 47 54 20 72 65 71
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3.5s" repeatCount="indefinite" begin="0.8s"/>
+    </text>
+    <text x="500" y="144" font-family="'Courier New',monospace" font-size="8" fill="#e3b341" opacity="0.3">
+      75 65 73 74 20 61 6e 6f 6d 61 6c 79 20 64 65 74
+      <animate attributeName="opacity" values="0.15;0.45;0.15" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+    </text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="15" y1="155" x2="885" y2="155" stroke="#30363d" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4s" dur="0.3s" fill="freeze"/>
+  </line>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 2: CORRELATION ENGINE (4s - 7.5s)                    -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="174" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8" letter-spacing="1">[CORRELATION ENGINE]</text>
+    <!-- Pulsing processing indicator -->
+    <circle cx="220" cy="170" r="3" fill="#5cb6f8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.6s" repeatCount="8" begin="4.2s"/>
+    </circle>
+    <text x="230" y="174" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">processing 1,936 events/s</text>
+  </g>
+
+  <!-- Sigma rule match -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>
+    <text x="25" y="196" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#f0883e">▶</tspan>
+      <tspan fill="#8b949e"> Sigma rule triggered </tspan>
+      <tspan fill="#ffffff">T1566.001</tspan>
+      <tspan fill="#8b949e"> — </tspan>
+      <tspan fill="#f0883e">Spearphishing Attachment</tspan>
+    </text>
+  </g>
+
+  <!-- Threat intel match -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.3s" fill="freeze"/>
+    <text x="25" y="214" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#f85149">▶</tspan>
+      <tspan fill="#8b949e"> Threat intel match </tspan>
+      <tspan fill="#f85149">APT29</tspan>
+      <tspan fill="#8b949e"> indicators (MITRE ATT&amp;CK)</tspan>
+    </text>
+  </g>
+
+  <!-- Multi-source correlation -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="6.6s" dur="0.3s" fill="freeze"/>
+    <text x="25" y="232" font-family="'Courier New',monospace" font-size="11">
+      <tspan fill="#22c55e">▶</tspan>
+      <tspan fill="#8b949e"> Multi-source correlation </tspan>
+      <tspan fill="#22c55e">3 sources confirmed</tspan>
+      <tspan fill="#8b949e"> anomaly</tspan>
+    </text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="15" y1="247" x2="885" y2="247" stroke="#30363d" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.2s" dur="0.3s" fill="freeze"/>
+  </line>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 3: KILL CHAIN (7.5s - 10.5s)                         -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="266" font-family="'Courier New',monospace" font-size="10" fill="#5cb6f8" letter-spacing="1">[KILL CHAIN ANALYSIS — MITRE ATT&amp;CK]</text>
+  </g>
+
+  <!-- Kill chain boxes (start gray, light up red) -->
+  <!-- RECON -->
+  <rect x="25" y="276" width="120" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="25" y="276" width="120" height="28" rx="4" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.2" begin="8.0s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="85" y="294" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    RECON
+  </text>
+  <text x="85" y="294" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="8.0s" dur="0.3s" fill="freeze"/>
+    RECON
+  </text>
+
+  <!-- INITIAL ACCESS -->
+  <rect x="155" y="276" width="120" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="155" y="276" width="120" height="28" rx="4" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.2" begin="8.5s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="215" y="294" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    INIT ACCESS
+  </text>
+  <text x="215" y="294" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.3s" fill="freeze"/>
+    INIT ACCESS
+  </text>
+
+  <!-- EXECUTION -->
+  <rect x="285" y="276" width="120" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="285" y="276" width="120" height="28" rx="4" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.25" begin="9.0s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="345" y="294" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    EXECUTION
+  </text>
+  <text x="345" y="294" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.0s" dur="0.3s" fill="freeze"/>
+    EXECUTION
+  </text>
+
+  <!-- C2 -->
+  <rect x="415" y="276" width="120" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="415" y="276" width="120" height="28" rx="4" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.3" begin="9.5s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="475" y="294" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    C2 BEACON
+  </text>
+  <text x="475" y="294" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.5s" dur="0.3s" fill="freeze"/>
+    C2 BEACON
+  </text>
+
+  <!-- EXFILTRATION -->
+  <rect x="545" y="276" width="120" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="545" y="276" width="120" height="28" rx="4" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.35" begin="10.0s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="605" y="294" font-family="'Courier New',monospace" font-size="9" fill="#8b949e" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    EXFILTRATION
+  </text>
+  <text x="605" y="294" font-family="'Courier New',monospace" font-size="9" fill="#f85149" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="10.0s" dur="0.3s" fill="freeze"/>
+    EXFILTRATION
+  </text>
+
+  <!-- Kill chain progress arrows -->
+  <text x="148" y="294" font-family="'Courier New',monospace" font-size="10" fill="#f85149" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="0.6" begin="8.5s" dur="0.2s" fill="freeze"/>→</text>
+  <text x="278" y="294" font-family="'Courier New',monospace" font-size="10" fill="#f85149" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="0.6" begin="9.0s" dur="0.2s" fill="freeze"/>→</text>
+  <text x="408" y="294" font-family="'Courier New',monospace" font-size="10" fill="#f85149" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="0.6" begin="9.5s" dur="0.2s" fill="freeze"/>→</text>
+  <text x="538" y="294" font-family="'Courier New',monospace" font-size="10" fill="#f85149" text-anchor="middle" opacity="0"><animate attributeName="opacity" from="0" to="0.6" begin="10.0s" dur="0.2s" fill="freeze"/>→</text>
+
+  <!-- Kill chain confidence bar -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.2s" fill="freeze"/>
+    <text x="700" y="286" font-family="'Courier New',monospace" font-size="8" fill="#8b949e">CONFIDENCE</text>
+    <rect x="700" y="292" width="180" height="6" rx="2" fill="#161b22"/>
+    <rect x="700" y="292" height="6" rx="2" fill="#f85149" width="0">
+      <animate attributeName="width" from="0" to="175" dur="3s" begin="8.0s" fill="freeze"/>
+    </rect>
+    <text x="700" y="310" font-family="'Courier New',monospace" font-size="10" fill="#f85149" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="10.5s" dur="0.3s" fill="freeze"/>
+      97.3%
+    </text>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 4: CRITICAL ALERT (10.5s - 13s)                      -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+
+  <!-- Alert box border -->
+  <rect x="15" y="325" width="870" height="80" rx="5" fill="none" stroke="#f85149" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="11s" dur="0.3s" fill="freeze"/>
+  </rect>
+  <rect x="15" y="325" width="870" height="80" rx="5" fill="#f85149" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.06" begin="11s" dur="0.3s" fill="freeze"/>
+  </rect>
+
+  <!-- CRITICAL header (blinks) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="11s" dur="0.3s" fill="freeze"/>
+    <text x="30" y="347" font-family="'Courier New',monospace" font-size="12" fill="#f85149" font-weight="bold">
+      CRITICAL
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" begin="11s"/>
+    </text>
+    <text x="120" y="347" font-family="'Courier New',monospace" font-size="11" fill="#ffffff">APT29 DETECTED — COBALT STRIKE C2 BEACON</text>
+  </g>
+
+  <!-- Alert details -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="11.5s" dur="0.3s" fill="freeze"/>
+    <text x="30" y="367" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#8b949e">Source: </tspan>
+      <tspan fill="#f85149">185.233.x.42</tspan>
+      <tspan fill="#484f58"> (RU) </tspan>
+      <tspan fill="#8b949e"> Target: </tspan>
+      <tspan fill="#5cb6f8">WKSTN-047</tspan>
+      <tspan fill="#484f58"> (Finance Dept)</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="12s" dur="0.3s" fill="freeze"/>
+    <text x="30" y="395" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#8b949e">Confidence: </tspan>
+      <tspan fill="#f85149">97.3%</tspan>
+      <tspan fill="#484f58">  │  </tspan>
+      <tspan fill="#8b949e">CVSS: </tspan>
+      <tspan fill="#f85149">9.8</tspan>
+      <tspan fill="#484f58">  │  </tspan>
+      <tspan fill="#8b949e">TTP: </tspan>
+      <tspan fill="#f0883e">T1071.001</tspan>
+      <tspan fill="#484f58">  │  </tspan>
+      <tspan fill="#8b949e">Severity: </tspan>
+      <tspan fill="#f85149">CRITICAL</tspan>
+    </text>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 5: SOAR RESPONSE (13s - 16s)                         -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="13s" dur="0.3s" fill="freeze"/>
+    <text x="15" y="428" font-family="'Courier New',monospace" font-size="10" fill="#22c55e" letter-spacing="1">[SOAR — AUTOMATED RESPONSE INITIATED]</text>
+  </g>
+
+  <!-- Response actions -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="13.5s" dur="0.2s" fill="freeze"/>
+    <text x="25" y="448" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#22c55e">✓</tspan>
+      <tspan fill="#c9d1d9"> Perimeter block </tspan>
+      <tspan fill="#484f58">→ 185.233.x.42 blacklisted</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="14.0s" dur="0.2s" fill="freeze"/>
+    <text x="460" y="448" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#22c55e">✓</tspan>
+      <tspan fill="#c9d1d9"> Network isolation </tspan>
+      <tspan fill="#484f58">→ WKSTN-047 quarantined</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="14.5s" dur="0.2s" fill="freeze"/>
+    <text x="25" y="466" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#22c55e">✓</tspan>
+      <tspan fill="#c9d1d9"> Account disable </tspan>
+      <tspan fill="#484f58">→ fin_analyst locked in AD</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="15.0s" dur="0.2s" fill="freeze"/>
+    <text x="460" y="466" font-family="'Courier New',monospace" font-size="10">
+      <tspan fill="#22c55e">✓</tspan>
+      <tspan fill="#c9d1d9"> IOC distribution </tspan>
+      <tspan fill="#484f58">→ 48 endpoints updated</tspan>
+    </text>
+  </g>
+
+  <!-- ═══ THREAT NEUTRALIZED ═══ -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="16s" dur="0.5s" fill="freeze"/>
+    <rect x="250" y="478" width="400" height="3" rx="1" fill="#22c55e" opacity="0.4"/>
+    <text x="450" y="490" font-family="'Courier New',monospace" font-size="10" fill="#22c55e" text-anchor="middle" letter-spacing="4" opacity="0">
+      THREAT NEUTRALIZED — RESPONSE 4/4
+      <animate attributeName="opacity" values="0;1;1;0.5;1" dur="2s" begin="16s" fill="freeze"/>
+    </text>
+  </g>
+</svg>

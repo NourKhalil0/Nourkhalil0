@@ -106,6 +106,6 @@ Ett nytt prosjekt hver hverdag.
 </p>
 
 <p align="center">
-  <img src="./topology.svg" alt="Network Topology — Live Monitored" width="900"/>
+  <img src="./siem-detect.svg" alt="SIEM Detection Engine — Incident Replay" width="900"/>
 </p>
 
