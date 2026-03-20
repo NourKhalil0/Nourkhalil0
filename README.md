@@ -60,17 +60,6 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## ⚡ SOC Quiz
-
-<p align="center">
-  <a href="https://nourkhalil0.github.io/soc-quiz/">
-    <img src="https://img.shields.io/badge/Ta%20quizen%20%E2%80%94%2015%20sp%C3%B8rsm%C3%A5l%20om%20cybersikkerhet-22c55e?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-
----
-
 ## GitHub statistikk
 
 <p align="center">
@@ -114,10 +103,3 @@ Ett nytt prosjekt hver hverdag.
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NourKhalil0&theme=github-compact&hide_border=true&area=true&color=4493f8&line=22c55e&point=ffffff)](https://github.com/NourKhalil0)
 
----
-
-<p align="center">
-  Snakker norsk, engelsk og arabisk &nbsp;·&nbsp; Oslo, Norge
-</p>
-
-[![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,50:1f3a5f,100:0d1117&height=100&section=footer)](https://github.com/NourKhalil0)
