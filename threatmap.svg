@@ -1,0 +1,933 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460">
+  <defs>
+    <clipPath id="mapClip">
+      <rect x="20" y="60" width="860" height="370" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="460" rx="12" fill="#0a0e17"/>
+  <rect x="20" y="60" width="860" height="370" rx="8" fill="#0d1117" stroke="#1a2332" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="50" rx="12" fill="#0a0e17"/>
+  <rect x="0" y="40" width="900" height="10" fill="#0a0e17"/>
+  <circle cx="20" cy="22" r="5" fill="#ff5f57"/>
+  <circle cx="38" cy="22" r="5" fill="#febc2e"/>
+  <circle cx="56" cy="22" r="5" fill="#28c840"/>
+  <text x="80" y="28" fill="#58a6ff" font-family="monospace" font-size="14" font-weight="bold">⚡ LIVE THREAT INTELLIGENCE — Feodo Tracker C2 Botnet Feed</text>
+
+
+  <g clip-path="url(#mapClip)" opacity="0.3">
+    <!-- Grid lines -->
+    <line x1="20" y1="368.3" x2="880" y2="368.3" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="20" y1="306.7" x2="880" y2="306.7" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="20" y1="245.0" x2="880" y2="245.0" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="20" y1="183.3" x2="880" y2="183.3" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="20" y1="121.7" x2="880" y2="121.7" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="20.0" y1="60" x2="20.0" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="91.7" y1="60" x2="91.7" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="163.3" y1="60" x2="163.3" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="235.0" y1="60" x2="235.0" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="306.7" y1="60" x2="306.7" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="378.3" y1="60" x2="378.3" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="450.0" y1="60" x2="450.0" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="521.7" y1="60" x2="521.7" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="593.3" y1="60" x2="593.3" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="665.0" y1="60" x2="665.0" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="736.7" y1="60" x2="736.7" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+    <line x1="808.3" y1="60" x2="808.3" y2="430" stroke="#1a2332" stroke-width="0.5"/>
+  </g>
+
+  <g clip-path="url(#mapClip)">
+    <polygon points="43.9,97.0 48.7,111.4 103.6,117.6 139.4,131.9 151.4,144.3 163.3,175.1 199.2,183.3 218.3,191.6 235.0,203.9 242.2,214.2 251.7,224.4 258.9,228.6 263.7,208.0 270.8,193.6 282.8,183.3 294.7,152.5 306.7,148.4 318.6,138.1 306.7,131.9 294.7,121.7 282.8,111.4 258.9,101.1 223.1,97.0 163.3,97.0 115.6,101.1 67.8,97.0" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+    <polygon points="254.1,224.4 266.1,234.7 282.8,255.3 282.8,275.8 306.7,286.1 330.6,275.8 342.5,265.6 366.4,255.3 366.4,275.8 354.4,290.2 330.6,302.6 318.6,314.9 311.4,323.1 294.7,331.3 287.6,347.8 278.0,358.1 270.8,343.7 270.8,327.2 282.8,306.7 278.0,286.1 270.8,265.6 266.1,245.0 258.9,234.7" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+    <polygon points="426.1,171.0 450.0,166.9 461.9,154.6 450.0,146.3 438.1,146.3 454.8,140.2 461.9,136.1 469.1,131.9 478.7,129.9 485.8,125.8 497.8,121.7 509.7,117.6 521.7,111.4 526.4,101.1 516.9,97.0 497.8,101.1 473.9,113.4 461.9,121.7 450.0,138.1 438.1,142.2 426.1,154.6" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+    <polygon points="409.4,214.2 414.2,224.4 426.1,234.7 450.0,234.7 461.9,240.9 473.9,240.9 485.8,234.7 521.7,224.4 533.6,220.3 545.6,224.4 557.5,220.3 569.4,224.4 550.3,245.0 545.6,255.3 540.8,269.7 533.6,286.1 521.7,302.6 516.9,312.8 497.8,316.9 493.0,306.7 478.7,282.0 473.9,255.3 461.9,245.0 450.0,234.7 438.1,234.7 426.1,224.4 414.2,220.3" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+    <polygon points="521.7,101.1 545.6,111.4 569.4,131.9 581.4,142.2 593.3,158.7 605.3,166.9 617.2,173.1 629.2,183.3 636.3,199.8 641.1,214.2 653.1,224.4 665.0,199.8 676.9,212.1 688.9,216.2 700.8,199.8 708.0,212.1 712.8,242.9 724.7,234.7 736.7,197.7 741.4,183.3 748.6,173.1 760.6,173.1 772.5,173.1 784.4,158.7 789.2,150.4 796.4,142.2 784.4,131.9 760.6,131.9 736.7,136.1 712.8,142.2 688.9,146.3 665.0,142.2 641.1,131.9 617.2,121.7 593.3,117.6 569.4,111.4 545.6,105.2 533.6,97.0" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+    <polygon points="724.7,265.6 736.7,275.8 760.6,275.8 784.4,282.0 796.4,286.1 808.3,294.3 813.1,302.6 803.6,310.8 789.2,316.9 777.3,319.0 760.6,312.8 748.6,316.9 729.5,316.9 724.7,306.7 722.3,296.4 727.1,286.1 736.7,275.8" fill="#14283c" stroke="#1e3a5f" stroke-width="0.5"/>
+  </g>
+
+  <!-- Defender (SOC) - Oslo -->
+  <circle cx="475.7" cy="121.9" r="8" fill="#00ff88" opacity="0">
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="4;12;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="475.7" cy="121.9" r="3" fill="#00ff88"/>
+  <text x="481.7" y="115.9" fill="#00ff88" font-family="monospace" font-size="7" opacity="0.9">SOC</text>
+
+
+  <!-- Threat 1: 67.213.75.205 (Los Angeles, US) - Emotet -->
+  <circle cx="167.5" cy="175.0" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="167.5" cy="175.0" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="167.5" y1="175.0" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 2: 192.73.238.101 (Chicago, US) - Dridex -->
+  <circle cx="240.7" cy="158.9" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="240.7" cy="158.9" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="240.7" y1="158.9" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 3: 51.178.161.32 (Paris, FR) - TrickBot -->
+  <circle cx="455.6" cy="144.6" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="455.6" cy="144.6" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="455.6" y1="144.6" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 4: 194.58.98.196 (Moscow, RU) - QakBot -->
+  <circle cx="539.9" cy="130.4" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="539.9" cy="130.4" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="539.9" y1="130.4" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 5: 142.4.6.57 (Montreal, CA) - BazarLoader -->
+  <circle cx="274.2" cy="151.5" r="2" fill="#cc44ff" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="274.2" cy="151.5" r="2" fill="none" stroke="#cc44ff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="274.2" y1="151.5" x2="475.7" y2="121.9"
+    stroke="#cc44ff" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 6: 64.225.35.35 (New York, US) - IcedID -->
+  <circle cx="273.2" cy="161.3" r="2" fill="#ff5555" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="273.2" cy="161.3" r="2" fill="none" stroke="#ff5555" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="273.2" y1="161.3" x2="475.7" y2="121.9"
+    stroke="#ff5555" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 7: 195.159.28.230 (Oslo, NO) - Emotet -->
+  <circle cx="475.7" cy="121.9" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="475.7" cy="121.9" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="475.7" y1="121.9" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 8: 93.186.200.154 (Amsterdam, NL) - Dridex -->
+  <circle cx="461.7" cy="137.4" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="461.7" cy="137.4" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="461.7" y1="137.4" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 9: 103.61.101.11 (Bangkok, TH) - TrickBot -->
+  <circle cx="690.1" cy="216.7" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="690.1" cy="216.7" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="690.1" y1="216.7" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 10: 5.9.178.143 (Falkenstein, DE) - QakBot -->
+  <circle cx="479.6" cy="141.3" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="479.6" cy="141.3" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="479.6" y1="141.3" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 11: 37.139.2.140 (Amsterdam, NL) - BazarLoader -->
+  <circle cx="461.7" cy="137.4" r="2" fill="#cc44ff" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="461.7" cy="137.4" r="2" fill="none" stroke="#cc44ff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="461.7" y1="137.4" x2="475.7" y2="121.9"
+    stroke="#cc44ff" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 12: 49.212.179.180 (Tokyo, JP) - Emotet -->
+  <circle cx="783.7" cy="171.6" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="783.7" cy="171.6" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="783.7" y1="171.6" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 13: 23.160.192.125 (Los Angeles, US) - Dridex -->
+  <circle cx="167.5" cy="175.0" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="167.5" cy="175.0" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="167.5" y1="175.0" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 14: 195.231.69.151 (Bucharest, RO) - IcedID -->
+  <circle cx="512.4" cy="153.7" r="2" fill="#ff5555" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="512.4" cy="153.7" r="2" fill="none" stroke="#ff5555" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="512.4" y1="153.7" x2="475.7" y2="121.9"
+    stroke="#ff5555" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 15: 221.126.244.72 (Hong Kong, HK) - TrickBot -->
+  <circle cx="722.7" cy="199.2" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="722.7" cy="199.2" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="722.7" y1="199.2" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 16: 157.7.166.26 (Tokyo, JP) - QakBot -->
+  <circle cx="783.7" cy="171.6" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="783.7" cy="171.6" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="783.7" y1="171.6" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 17: 212.129.24.83 (Paris, FR) - BazarLoader -->
+  <circle cx="455.6" cy="144.6" r="2" fill="#cc44ff" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="455.6" cy="144.6" r="2" fill="none" stroke="#cc44ff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="455.6" y1="144.6" x2="475.7" y2="121.9"
+    stroke="#cc44ff" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 18: 208.71.173.207 (San Francisco, US) - Emotet -->
+  <circle cx="157.6" cy="167.4" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="157.6" cy="167.4" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="157.6" y1="167.4" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 19: 80.86.91.27 (London, GB) - Dridex -->
+  <circle cx="449.7" cy="139.1" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="449.7" cy="139.1" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="449.7" y1="139.1" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 20: 5.100.228.233 (Moscow, RU) - IcedID -->
+  <circle cx="539.9" cy="130.4" r="2" fill="#ff5555" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="539.9" cy="130.4" r="2" fill="none" stroke="#ff5555" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="539.9" y1="130.4" x2="475.7" y2="121.9"
+    stroke="#ff5555" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 21: 77.220.64.37 (Moscow, RU) - TrickBot -->
+  <circle cx="539.9" cy="130.4" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="539.9" cy="130.4" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="539.9" y1="130.4" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 22: 46.105.131.65 (Roubaix, FR) - QakBot -->
+  <circle cx="455.6" cy="144.6" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="455.6" cy="144.6" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="455.6" y1="144.6" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 23: 111.230.104.169 (Beijing, CN) - Emotet -->
+  <circle cx="728.1" cy="163.0" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="728.1" cy="163.0" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="728.1" y1="163.0" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 24: 217.79.184.243 (Frankfurt, DE) - Dridex -->
+  <circle cx="470.7" cy="142.0" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="470.7" cy="142.0" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="470.7" y1="142.0" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 25: 194.150.118.7 (Vienna, AT) - BazarLoader -->
+  <circle cx="489.1" cy="145.9" r="2" fill="#cc44ff" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="489.1" cy="145.9" r="2" fill="none" stroke="#cc44ff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="489.1" y1="145.9" x2="475.7" y2="121.9"
+    stroke="#cc44ff" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 26: 199.66.90.63 (New York, US) - IcedID -->
+  <circle cx="273.2" cy="161.3" r="2" fill="#ff5555" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="273.2" cy="161.3" r="2" fill="none" stroke="#ff5555" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="273.2" y1="161.3" x2="475.7" y2="121.9"
+    stroke="#ff5555" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 27: 81.169.224.222 (Berlin, DE) - TrickBot -->
+  <circle cx="482.0" cy="137.0" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="482.0" cy="137.0" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="482.0" y1="137.0" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 28: 185.148.168.220 (London, GB) - QakBot -->
+  <circle cx="449.7" cy="139.1" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="449.7" cy="139.1" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="449.7" y1="139.1" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 29: 45.77.51.101 (Dubai, AE) - Emotet -->
+  <circle cx="582.0" cy="193.2" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="582.0" cy="193.2" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="582.0" y1="193.2" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 30: 103.140.44.50 (Jakarta, ID) - Dridex -->
+  <circle cx="705.3" cy="257.8" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="705.3" cy="257.8" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="705.3" y1="257.8" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 31: 41.216.183.49 (Nairobi, KE) - TrickBot -->
+  <circle cx="538.0" cy="247.7" r="2" fill="#ffaa00" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="538.0" cy="247.7" r="2" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="538.0" y1="247.7" x2="475.7" y2="121.9"
+    stroke="#ffaa00" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 32: 196.216.136.92 (Cape Town, ZA) - QakBot -->
+  <circle cx="494.0" cy="314.7" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="494.0" cy="314.7" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="494.0" y1="314.7" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 33: 177.220.84.12 (São Paulo, BR) - BazarLoader -->
+  <circle cx="338.6" cy="293.4" r="2" fill="#cc44ff" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="338.6" cy="293.4" r="2" fill="none" stroke="#cc44ff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;2;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="338.6" y1="293.4" x2="475.7" y2="121.9"
+    stroke="#cc44ff" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 34: 45.249.245.103 (New Delhi, IN) - IcedID -->
+  <circle cx="634.5" cy="186.2" r="2" fill="#ff5555" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="634.5" cy="186.2" r="2" fill="none" stroke="#ff5555" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="634.5" y1="186.2" x2="475.7" y2="121.9"
+    stroke="#ff5555" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 35: 103.75.201.44 (Singapore, SG) - Emotet -->
+  <circle cx="698.0" cy="242.2" r="2" fill="#ff4444" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="698.0" cy="242.2" r="2" fill="none" stroke="#ff4444" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="698.0" y1="242.2" x2="475.7" y2="121.9"
+    stroke="#ff4444" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 36: 202.58.105.12 (Auckland, NZ) - Dridex -->
+  <circle cx="867.5" cy="320.7" r="2" fill="#ff6b35" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="867.5" cy="320.7" r="2" fill="none" stroke="#ff6b35" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="867.5" y1="320.7" x2="475.7" y2="121.9"
+    stroke="#ff6b35" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Threat 37: 185.220.101.35 (Stockholm, SE) - QakBot -->
+  <circle cx="493.2" cy="123.0" r="2" fill="#ff3377" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;"
+      calcMode="discrete"/>
+  </circle>
+  <circle cx="493.2" cy="123.0" r="2" fill="none" stroke="#ff3377" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;0.5;0.2;0;"
+      calcMode="discrete"/>
+    <animate attributeName="r" dur="30s" repeatCount="indefinite"
+      values="2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;6;9;12;"
+      calcMode="discrete"/>
+  </circle>
+  <line x1="493.2" y1="123.0" x2="475.7" y2="121.9"
+    stroke="#ff3377" stroke-width="1" opacity="0" stroke-dasharray="4,3">
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.7;0.5;0.2;0;"
+      calcMode="discrete"/>
+  </line>
+
+  <!-- Bottom status bar -->
+  <rect x="20" y="438" width="860" height="22" rx="4" fill="#0d1117" stroke="#1a2332" stroke-width="0.5"/>
+
+  <!-- Threat type legend -->
+  <circle cx="35" cy="449" r="3" fill="#ff4444"/>
+  <text x="42" y="452" fill="#8b949e" font-family="monospace" font-size="8">Emotet</text>
+
+  <circle cx="100" cy="449" r="3" fill="#ff6b35"/>
+  <text x="107" y="452" fill="#8b949e" font-family="monospace" font-size="8">Dridex</text>
+
+  <circle cx="160" cy="449" r="3" fill="#ffaa00"/>
+  <text x="167" y="452" fill="#8b949e" font-family="monospace" font-size="8">TrickBot</text>
+
+  <circle cx="230" cy="449" r="3" fill="#ff3377"/>
+  <text x="237" y="452" fill="#8b949e" font-family="monospace" font-size="8">QakBot</text>
+
+  <circle cx="300" cy="449" r="3" fill="#cc44ff"/>
+  <text x="307" y="452" fill="#8b949e" font-family="monospace" font-size="8">BazarLoader</text>
+
+  <circle cx="390" cy="449" r="3" fill="#ff5555"/>
+  <text x="397" y="452" fill="#8b949e" font-family="monospace" font-size="8">IcedID</text>
+
+  <!-- Status indicators -->
+  <circle cx="540" cy="449" r="3" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="547" y="452" fill="#00ff88" font-family="monospace" font-size="8">MONITORING</text>
+
+  <text x="640" y="452" fill="#8b949e" font-family="monospace" font-size="8">Source: abuse.ch Feodo Tracker</text>
+
+  <text x="800" y="452" fill="#58a6ff" font-family="monospace" font-size="8">37 active C2s</text>
+
+
+  <!-- Threat feed overlay -->
+  <rect x="615" y="62" width="265" height="90" rx="4" fill="#0a0e17" opacity="0.85" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="620" y="70" fill="#ff4444" font-family="monospace" font-size="7" font-weight="bold">
+    ● THREAT FEED
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="623" y="82" fill="#ff6b35" font-family="monospace" font-size="6.5" opacity="0">
+    [Emotet] 67.213.75.205 → Los Angeles,US
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="91" fill="#ff4444" font-family="monospace" font-size="6.5" opacity="0">
+    [Dridex] 192.73.238.101 → Chicago,US
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="100" fill="#ffaa00" font-family="monospace" font-size="6.5" opacity="0">
+    [TrickBot] 51.178.161.32 → Paris,FR
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="109" fill="#ff3377" font-family="monospace" font-size="6.5" opacity="0">
+    [QakBot] 194.58.98.196 → Moscow,RU
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="118" fill="#cc44ff" font-family="monospace" font-size="6.5" opacity="0">
+    [BazarLoader] 142.4.6.57 → Montreal,CA
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="127" fill="#ff5555" font-family="monospace" font-size="6.5" opacity="0">
+    [IcedID] 64.225.35.35 → New York,US
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="136" fill="#ff6b35" font-family="monospace" font-size="6.5" opacity="0">
+    [Emotet] 195.159.28.230 → Oslo,NO
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+  <text x="623" y="145" fill="#ff4444" font-family="monospace" font-size="6.5" opacity="0">
+    [Dridex] 93.186.200.154 → Amsterdam,NL
+    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
+      values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.8;1;1;1;1;1;1;1;1;0;0;0;0;0;0;" calcMode="discrete"/>
+  </text>
+
+  <!-- Stats overlay -->
+  <rect x="22" y="62" width="145" height="55" rx="4" fill="#0a0e17" opacity="0.85" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="30" y="76" fill="#58a6ff" font-family="monospace" font-size="7" font-weight="bold">THREAT STATISTICS</text>
+  <text x="30" y="88" fill="#8b949e" font-family="monospace" font-size="7">Active C2 Servers: <tspan fill="#ff4444">37</tspan></text>
+  <text x="30" y="98" fill="#8b949e" font-family="monospace" font-size="7">Countries:         <tspan fill="#ffaa00">23</tspan></text>
+  <text x="30" y="108" fill="#8b949e" font-family="monospace" font-size="7">Malware Families:  <tspan fill="#cc44ff">6</tspan></text>
+
+
+  <!-- Alert counter -->
+  <rect x="770" y="400" width="105" height="25" rx="4" fill="#1a0000" stroke="#ff4444" stroke-width="0.5" opacity="0.9"/>
+  <text x="780" y="417" fill="#ff4444" font-family="monospace" font-size="10" font-weight="bold">
+    ⚠ ALERTS: 37
+    <animate attributeName="opacity" values="1;0.3;1" dur="0.8s" repeatCount="indefinite"/>
+  </text>
+
+</svg>
