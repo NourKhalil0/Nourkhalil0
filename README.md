@@ -61,13 +61,33 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## GitHub statistikk
+## Bakgrunn
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NourKhalil0&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800&v=2" height="170" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourKhalil0&layout=compact&theme=github_dark&hide_border=true&langs_count=6&cache_seconds=1800&v=2" height="170" />
-</p>
+🎓 **Utdanning**
+
+| | |
+|---|---|
+| 🔐 BSc Cyber Security | Høyskolen Kristiania · 2024–2027 |
+| 📊 BSc Sosiologi og samfunnsanalyse | Nord universitet · 2020–2023 |
+
+🏢 **Erfaring**
+
+| | |
+|---|---|
+| 🛡️ Cybersikkerhetsanalytiker (deltid) | NSM · fra sept 2026 |
+| 🧑‍💼 Miljøterapeut | Barnevernet · 2024–nå |
+
+📜 **Sertifiseringer**
+
+| | |
+|---|---|
+| ✅ Cisco Networking | ✅ Cisco Ethical Hacker |
+| 📖 SC-200 (pågående) | 📖 ICA Financial Crime Prevention |
+| ✅ GDPR | 📖 Operational Analysis of STRs |
+
+🌍 **Språk:** Norsk · English · العربية
+
+---
 
 ## Live Threat Intelligence
 
