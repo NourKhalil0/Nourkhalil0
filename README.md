@@ -61,31 +61,19 @@ Ett nytt prosjekt hver hverdag.
 
 ---
 
-## Bakgrunn
+## Hack The Box
 
-🎓 **Utdanning**
+<p align="center">
+  <a href="https://app.hackthebox.com/users/2090122">
+    <img src="https://www.hackthebox.com/badge/image/2090122" alt="Hack The Box Profile" />
+  </a>
+</p>
 
-| | |
-|---|---|
-| 🔐 BSc Cyber Security | Høyskolen Kristiania · 2024–2027 |
-| 📊 BSc Sosiologi og samfunnsanalyse | Nord universitet · 2020–2023 |
-
-🏢 **Erfaring**
-
-| | |
-|---|---|
-| 🛡️ Cybersikkerhetsanalytiker (deltid) | NSM · fra sept 2026 |
-| 🧑‍💼 Miljøterapeut | Barnevernet · 2024–nå |
-
-📜 **Sertifiseringer**
-
-| | |
-|---|---|
-| ✅ Cisco Networking | ✅ Cisco Ethical Hacker |
-| 📖 SC-200 (pågående) | 📖 ICA Financial Crime Prevention |
-| ✅ GDPR | 📖 Operational Analysis of STRs |
-
-🌍 **Språk:** Norsk · English · العربية
+<p align="center">
+  <img src="https://img.shields.io/badge/Rank-Hacker-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Global_%23953-Top%201%25-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white" />
+  <img src="https://img.shields.io/badge/VIP+-active-a4b1cd?style=for-the-badge&logo=hackthebox&logoColor=white" />
+</p>
 
 ---
 
