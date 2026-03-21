@@ -65,14 +65,8 @@ Ett nytt prosjekt hver hverdag.
 
 <p align="center">
   <a href="https://app.hackthebox.com/users/2090122">
-    <img src="https://www.hackthebox.com/badge/image/2090122" alt="Hack The Box Profile" />
+    <img src="./htb-stats.svg" alt="Hack The Box — Nour00 Profile Stats" width="900"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Rank-Hacker-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Global_%23953-Top%201%25-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/VIP+-active-a4b1cd?style=for-the-badge&logo=hackthebox&logoColor=white" />
 </p>
 
 ---

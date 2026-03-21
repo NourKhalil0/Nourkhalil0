@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <defs>
+    <linearGradient id="htbGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9FEF00;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#9FEF00;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="rankBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9FEF00"/>
+      <stop offset="100%" style="stop-color:#4af626"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="progressClip">
+      <rect x="30" y="310" width="248" height="10" rx="5"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="380" rx="15" fill="#141d2b"/>
+  <rect width="900" height="380" rx="15" fill="url(#htbGlow)"/>
+
+  <!-- Border glow -->
+  <rect x="1" y="1" width="898" height="378" rx="15" fill="none" stroke="#9FEF00" stroke-width="1" opacity="0.3"/>
+
+  <!-- Scanline effect -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="900" y2="0" stroke="#9FEF00" stroke-width="1">
+      <animate attributeName="y1" values="0;380;0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;380;0" dur="4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="900" height="45" rx="15" fill="#111927"/>
+  <rect x="0" y="30" width="900" height="15" fill="#111927"/>
+
+  <!-- Window dots -->
+  <circle cx="25" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="47" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="69" cy="22" r="6" fill="#28c840"/>
+
+  <!-- Title bar -->
+  <text x="450" y="28" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="13" fill="#a4b1cd" text-anchor="middle">nour@kali:~$ hackthebox --profile Nour00</text>
+
+  <!-- HTB Logo area -->
+  <g transform="translate(40, 70)">
+    <!-- HTB hex logo -->
+    <g filter="url(#softGlow)">
+      <path d="M45 0 L85 23 L85 69 L45 92 L5 69 L5 23 Z" fill="none" stroke="#9FEF00" stroke-width="2.5"/>
+      <path d="M45 12 L75 29 L75 63 L45 80 L15 63 L15 29 Z" fill="#9FEF00" opacity="0.08"/>
+    </g>
+    <!-- HTB text in hex -->
+    <text x="45" y="52" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="bold" fill="#9FEF00" text-anchor="middle" filter="url(#glow)">HTB</text>
+
+    <!-- Username -->
+    <text x="110" y="30" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="bold" fill="#ffffff">Nour00</text>
+    <text x="110" y="55" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a4b1cd">#NO  //  Norway</text>
+
+    <!-- VIP+ and Hacker badges -->
+    <rect x="110" y="65" width="55" height="22" rx="4" fill="#9FEF00" opacity="0.15" stroke="#9FEF00" stroke-width="1"/>
+    <text x="137" y="80" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#9FEF00" text-anchor="middle">VIP+</text>
+
+    <rect x="175" y="65" width="75" height="22" rx="4" fill="#9FEF00" opacity="0.15" stroke="#9FEF00" stroke-width="1"/>
+    <text x="212" y="80" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" fill="#9FEF00" text-anchor="middle">HACKER</text>
+  </g>
+
+  <!-- Stats grid -->
+  <!-- Box 1: Rank -->
+  <g transform="translate(30, 195)">
+    <rect width="195" height="95" rx="10" fill="#1a2332" stroke="#2a3a4e" stroke-width="1"/>
+    <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a4b1cd" text-transform="uppercase" letter-spacing="2">RANK</text>
+    <text x="15" y="60" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="bold" fill="#9FEF00" filter="url(#glow)">Hacker</text>
+    <text x="15" y="80" font-family="'JetBrains Mono', monospace" font-size="11" fill="#4a5568">Season 10</text>
+  </g>
+
+  <!-- Box 2: Global Ranking -->
+  <g transform="translate(240, 195)">
+    <rect width="195" height="95" rx="10" fill="#1a2332" stroke="#2a3a4e" stroke-width="1"/>
+    <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a4b1cd" letter-spacing="2">GLOBAL RANK</text>
+    <text x="15" y="60" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="bold" fill="#ffffff">#953</text>
+    <rect x="15" y="70" width="60" height="16" rx="3" fill="#9FEF00" opacity="0.15"/>
+    <text x="45" y="82" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" fill="#9FEF00" text-anchor="middle">Top 1%</text>
+  </g>
+
+  <!-- Box 3: Ownership -->
+  <g transform="translate(450, 195)">
+    <rect width="195" height="95" rx="10" fill="#1a2332" stroke="#2a3a4e" stroke-width="1"/>
+    <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a4b1cd" letter-spacing="2">OWNERSHIP</text>
+    <text x="15" y="60" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="bold" fill="#ffffff">3.07<tspan font-size="16" fill="#a4b1cd">%</tspan></text>
+    <!-- Mini progress bar -->
+    <rect x="15" y="72" width="165" height="6" rx="3" fill="#2a3a4e"/>
+    <rect x="15" y="72" width="5" height="6" rx="3" fill="url(#rankBar)">
+      <animate attributeName="width" from="0" to="5" dur="1.5s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- Box 4: Machines -->
+  <g transform="translate(660, 195)">
+    <rect width="210" height="95" rx="10" fill="#1a2332" stroke="#2a3a4e" stroke-width="1"/>
+    <text x="15" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a4b1cd" letter-spacing="2">STATS</text>
+    <!-- User / Root / Challenges -->
+    <g transform="translate(15, 40)">
+      <text x="0" y="15" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a5568">User owns</text>
+      <text x="130" y="15" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold" fill="#9FEF00" text-anchor="end">1</text>
+    </g>
+    <g transform="translate(15, 58)">
+      <text x="0" y="15" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a5568">Root owns</text>
+      <text x="130" y="15" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold" fill="#9FEF00" text-anchor="end">27</text>
+    </g>
+  </g>
+
+  <!-- Bottom terminal line -->
+  <g transform="translate(30, 320)">
+    <text x="0" y="15" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a5568">$</text>
+    <text x="15" y="15" font-family="'JetBrains Mono', monospace" font-size="12" fill="#a4b1cd"> Joined Sep 2024  ·  Active Season 10  ·  Hacking from Norway</text>
+    <text x="0" y="38" font-family="'JetBrains Mono', monospace" font-size="12" fill="#4a5568">$</text>
+    <text x="15" y="38" font-family="'JetBrains Mono', monospace" font-size="12" fill="#9FEF00"> https://app.hackthebox.com/users/2090122</text>
+    <!-- Blinking cursor -->
+    <rect x="420" y="27" width="8" height="15" fill="#9FEF00">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
