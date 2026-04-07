@@ -4,7 +4,7 @@
   <rect x="300" y="0" width="300" height="3" fill="#ff6b35"/>
   <rect x="600" y="0" width="301" height="3" fill="#ffcc00"/>
   <text x="450" y="28" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="3">LIVE CYBER THREAT MAP</text>
-  <text x="450" y="45" fill="#ff2d55" font-family="Arial,Helvetica,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">28 ACTIVE C2 THREATS — UPDATED 2026-04-07 12:51 UTC — SOURCE: ABUSE.CH FEODO TRACKER</text>
+  <text x="450" y="45" fill="#ff2d55" font-family="Arial,Helvetica,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">28 ACTIVE C2 THREATS — UPDATED 2026-04-07 18:43 UTC — SOURCE: ABUSE.CH FEODO TRACKER</text>
 
   <line x1="20" y1="435.0" x2="880" y2="435.0" stroke="#2a2a4a" stroke-width="0.3"/>
   <line x1="20" y1="369.4" x2="880" y2="369.4" stroke="#2a2a4a" stroke-width="0.3"/>
@@ -2687,246 +2687,246 @@
   <text x="266.0" y="251.5" fill="#ff2d55" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Washington<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
   <text x="384.8" y="179.7" fill="#ff2d55" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">APT29 Cozy Bear — Espionage<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 64.23.199.206: Santa Clara → Moscow (Counter-Intel) -->
-  <path d="M158.6,262.3 Q354.5,291.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 433">
+  <!-- 104.129.55.105: Leipzig → Tokyo (Credential Theft) -->
+  <path d="M479.6,233.0 Q626.3,299.0 783.7,265.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 344">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="441" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="352" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M158.6,262.3 Q354.5,291.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
+  <path d="M479.6,233.0 Q626.3,299.0 783.7,265.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="158.6" cy="262.3" r="2" fill="#00ccff" opacity="0">
+  <circle cx="479.6" cy="233.0" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="158.6" cy="262.3" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
+  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="158.6" y="254.3" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Santa Clara<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="539.9" cy="221.9" r="2" fill="#00ccff" opacity="0">
+  <text x="479.6" y="225.0" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="783.7" cy="265.5" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="539.9" cy="221.9" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
+  <circle cx="783.7" cy="265.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="539.9" y="213.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Moscow<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="354.5" y="285.8" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Equation Group — Counter-Intel<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="783.7" y="257.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tokyo<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="626.3" y="293.0" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Credential Theft<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 137.184.9.29: Santa Clara → Moscow (Counter-Intel) -->
-  <path d="M158.6,262.3 Q354.5,291.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 433">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="441" to="0" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M158.6,262.3 Q354.5,291.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </path>
-  <circle cx="158.6" cy="262.3" r="2" fill="#00ccff" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="158.6" cy="262.3" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="158.6" y="254.3" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Santa Clara<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="539.9" cy="221.9" r="2" fill="#00ccff" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="539.9" cy="221.9" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="539.9" y="213.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Moscow<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="354.5" y="285.8" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Equation Group — Counter-Intel<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-
-  <!-- 94.72.104.77: Portsmouth → Sydney (Ransomware C2) -->
-  <path d="M447.6,234.2 Q611.2,351.8 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 441">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="449" to="0" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M447.6,234.2 Q611.2,351.8 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </path>
-  <circle cx="447.6" cy="234.2" r="2" fill="#ff453a" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="447.6" cy="234.2" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="447.6" y="226.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Portsmouth<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="811.2" cy="376.2" r="2" fill="#ff453a" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="811.2" cy="376.2" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="811.2" y="368.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="611.2" y="345.8" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-
-  <!-- 23.226.138.143: Leipzig → London (C2 Beacon) -->
-  <path d="M479.6,233.0 Q464.7,226.8 449.7,232.6" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 26">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="34" to="0" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M479.6,233.0 Q464.7,226.8 449.7,232.6" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </path>
-  <circle cx="479.6" cy="233.0" r="2" fill="#bf5af2" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="479.6" y="225.0" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="449.7" cy="232.6" r="2" fill="#bf5af2" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="449.7" cy="232.6" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="449.7" y="224.6" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">London<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="464.7" y="220.8" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — C2 Beacon<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-
-  <!-- 172.232.59.14: Paris → Amsterdam (DDoS Command) -->
-  <path d="M455.6,238.8 Q460.3,235.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 4">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M455.6,238.8 Q460.3,235.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </path>
-  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="461.7" cy="230.5" r="2" fill="#bf5af2" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="461.7" y="222.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="460.3" y="229.9" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — DDoS Command<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-
-  <!-- 193.238.227.136: Kharkiv → Seoul (Backdoor Active) -->
-  <path d="M536.6,236.2 Q639.8,292.4 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 243">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="251" to="0" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M536.6,236.2 Q639.8,292.4 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </path>
-  <circle cx="536.6" cy="236.2" r="2" fill="#ff453a" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="536.6" cy="236.2" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="536.6" y="228.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Kharkiv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="753.3" cy="262.0" r="2" fill="#ff453a" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-  </circle>
-  <circle cx="753.3" cy="262.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
-  </circle>
-  <text x="753.3" y="254.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Seoul<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="639.8" y="286.4" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Backdoor Active<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-
-  <!-- 141.95.106.106: Leipzig → Oslo (C2 Beacon) -->
+  <!-- 23.226.138.143: Leipzig → Oslo (C2 Beacon) -->
   <path d="M479.6,233.0 Q482.2,220.9 475.7,210.3" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 19">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="stroke-dashoffset" from="27" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
   <path d="M479.6,233.0 Q482.2,220.9 475.7,210.3" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
   <circle cx="479.6" cy="233.0" r="2" fill="#ff453a" opacity="0">
-    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
   <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="479.6" y="225.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="475.7" cy="210.3" r="2" fill="#ff453a" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="475.7" cy="210.3" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="475.7" y="202.3" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Oslo<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="482.2" y="214.9" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — C2 Beacon<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+
+  <!-- 109.199.99.131: Lauterbourg → Amsterdam (DDoS Command) -->
+  <path d="M469.6,238.5 Q467.2,232.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 5">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="stroke-dashoffset" from="13" to="0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M469.6,238.5 Q467.2,232.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </path>
+  <circle cx="469.6" cy="238.5" r="2" fill="#bf5af2" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="469.6" cy="238.5" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="469.6" y="230.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Lauterbourg<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="461.7" cy="230.5" r="2" fill="#bf5af2" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="461.7" y="222.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="467.2" y="226.9" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — DDoS Command<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+
+  <!-- 65.20.73.169: Mumbai → Paris (Data Exfil) -->
+  <path d="M624.1,293.5 Q550.8,232.4 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 196">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="stroke-dashoffset" from="204" to="0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M624.1,293.5 Q550.8,232.4 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </path>
+  <circle cx="624.1" cy="293.5" r="2" fill="#bf5af2" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="624.1" cy="293.5" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="624.1" y="285.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Mumbai<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="550.8" y="226.4" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+
+  <!-- 3.228.226.42: Ashburn → Moscow (Counter-Intel) -->
+  <path d="M264.9,259.2 Q409.1,290.1 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 311">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="stroke-dashoffset" from="319" to="0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M264.9,259.2 Q409.1,290.1 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </path>
+  <circle cx="264.9" cy="259.2" r="2" fill="#00ccff" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="264.9" cy="259.2" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="264.9" y="251.2" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Ashburn<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="539.9" cy="221.9" r="2" fill="#00ccff" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="539.9" cy="221.9" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="539.9" y="213.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Moscow<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="409.1" y="284.1" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Equation Group — Counter-Intel<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+
+  <!-- 91.230.49.1: Amsterdam → Singapore (Lateral Move) -->
+  <path d="M461.7,230.5 Q562.1,322.2 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 283">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="stroke-dashoffset" from="291" to="0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M461.7,230.5 Q562.1,322.2 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </path>
+  <circle cx="461.7" cy="230.5" r="2" fill="#ff453a" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="461.7" y="222.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="698.0" cy="320.5" r="2" fill="#ff453a" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="698.0" cy="320.5" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="698.0" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="562.1" y="316.2" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+
+  <!-- 79.137.13.24: Paris → Amsterdam (DDoS Command) -->
+  <path d="M455.6,238.8 Q460.3,235.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 4">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+    <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M455.6,238.8 Q460.3,235.9 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </path>
+  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
+    <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
+  </circle>
+  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="479.6" y="225.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="475.7" cy="210.3" r="2" fill="#ff453a" opacity="0">
+  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="461.7" cy="230.5" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="475.7" cy="210.3" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="475.7" y="202.3" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Oslo<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="482.2" y="214.9" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — C2 Beacon<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="461.7" y="222.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="460.3" y="229.9" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — DDoS Command<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 172.232.189.219: Tukwila → Moscow (Counter-Intel) -->
-  <path d="M157.9,241.9 Q351.5,281.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 432">
+  <!-- 198.44.187.12: Hong Kong → Sydney (Ransomware C2) -->
+  <path d="M722.7,288.3 Q749.4,350.0 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 135">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="440" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="143" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M157.9,241.9 Q351.5,281.8 539.9,221.9" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
+  <path d="M722.7,288.3 Q749.4,350.0 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="157.9" cy="241.9" r="2" fill="#00ccff" opacity="0">
+  <circle cx="722.7" cy="288.3" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="157.9" cy="241.9" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
+  <circle cx="722.7" cy="288.3" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="157.9" y="233.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tukwila<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="539.9" cy="221.9" r="2" fill="#00ccff" opacity="0">
+  <text x="722.7" y="280.3" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Hong Kong<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="811.2" cy="376.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="539.9" cy="221.9" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
+  <circle cx="811.2" cy="376.2" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="539.9" y="213.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Moscow<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="351.5" y="275.8" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Equation Group — Counter-Intel<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="811.2" y="368.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="749.4" y="344.0" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 154.12.236.248: Leipzig → Paris (Data Exfil) -->
-  <path d="M479.6,233.0 Q466.4,231.1 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 20">
+  <!-- 50.16.16.211: Ashburn → Tehran (Sabotage) -->
+  <path d="M264.9,259.2 Q417.8,312.3 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 346">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="354" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M479.6,233.0 Q466.4,231.1 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M264.9,259.2 Q417.8,312.3 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="479.6" cy="233.0" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="264.9" cy="259.2" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="264.9" cy="259.2" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="479.6" y="225.0" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
+  <text x="264.9" y="251.2" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Ashburn<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="572.8" cy="265.5" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="572.8" cy="265.5" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="466.4" y="225.1" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="572.8" y="257.5" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tehran<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="417.8" y="306.3" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Stuxnet Legacy — Sabotage<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 84.247.157.112: Leipzig → Amsterdam (DDoS Command) -->
-  <path d="M479.6,233.0 Q471.1,228.2 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 13">
+  <!-- 57.128.165.176: Leipzig → London (C2 Beacon) -->
+  <path d="M479.6,233.0 Q464.7,226.8 449.7,232.6" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 26">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="21" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="34" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M479.6,233.0 Q471.1,228.2 461.7,230.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M479.6,233.0 Q464.7,226.8 449.7,232.6" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
   <circle cx="479.6" cy="233.0" r="2" fill="#bf5af2" opacity="0">
@@ -2937,266 +2937,266 @@
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
   <text x="479.6" y="225.0" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="461.7" cy="230.5" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="449.7" cy="232.6" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="449.7" cy="232.6" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="461.7" y="222.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="471.1" y="222.2" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — DDoS Command<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="449.7" y="224.6" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">London<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="464.7" y="220.8" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — C2 Beacon<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 196.218.123.202: Ash-Shaykh Zāyid → Berlin (Ransomware C2) -->
-  <path d="M524.1,275.5 Q512.1,244.4 482.0,230.2" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 63">
+  <!-- 213.199.41.33: Lauterbourg → Singapore (Lateral Move) -->
+  <path d="M469.6,238.5 Q567.4,325.2 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 271">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="71" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="279" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M524.1,275.5 Q512.1,244.4 482.0,230.2" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M469.6,238.5 Q567.4,325.2 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="524.1" cy="275.5" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="469.6" cy="238.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="524.1" cy="275.5" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="469.6" cy="238.5" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="524.1" y="267.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Ash-Shaykh Zāyid<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="482.0" cy="230.2" r="2" fill="#bf5af2" opacity="0">
+  <text x="469.6" y="230.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Lauterbourg<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="698.0" cy="320.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="482.0" cy="230.2" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="698.0" cy="320.5" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="482.0" y="222.2" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Berlin<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="512.1" y="238.4" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="698.0" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="567.4" y="319.2" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 162.243.103.246: Secaucus → Tehran (Sabotage) -->
-  <path d="M273.1,255.8 Q421.3,310.6 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 337">
+  <!-- 37.60.242.86: Lauterbourg → Sydney (Ransomware C2) -->
+  <path d="M469.6,238.5 Q621.7,353.7 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 416">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="345" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="424" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M273.1,255.8 Q421.3,310.6 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
+  <path d="M469.6,238.5 Q621.7,353.7 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="273.1" cy="255.8" r="2" fill="#00ccff" opacity="0">
+  <circle cx="469.6" cy="238.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="273.1" cy="255.8" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
+  <circle cx="469.6" cy="238.5" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="273.1" y="247.8" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Secaucus<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="572.8" cy="265.5" r="2" fill="#00ccff" opacity="0">
+  <text x="469.6" y="230.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Lauterbourg<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="811.2" cy="376.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="572.8" cy="265.5" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
+  <circle cx="811.2" cy="376.2" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="572.8" y="257.5" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tehran<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="421.3" y="304.6" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Stuxnet Legacy — Sabotage<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="811.2" y="368.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="621.7" y="347.7" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 104.129.55.105: Leipzig → Tel Aviv (Data Exfil) -->
-  <path d="M479.6,233.0 Q498.5,263.2 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 68">
+  <!-- 172.234.250.178: Tukwila → Tehran (Sabotage) -->
+  <path d="M157.9,241.9 Q362.5,303.6 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 470">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="76" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="478" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M479.6,233.0 Q498.5,263.2 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+  <path d="M157.9,241.9 Q362.5,303.6 572.8,265.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="479.6" cy="233.0" r="2" fill="#ff453a" opacity="0">
+  <circle cx="157.9" cy="241.9" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+  <circle cx="157.9" cy="241.9" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="479.6" y="225.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="533.1" cy="272.0" r="2" fill="#ff453a" opacity="0">
+  <text x="157.9" y="233.9" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tukwila<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="572.8" cy="265.5" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="533.1" cy="272.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+  <circle cx="572.8" cy="265.5" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="533.1" y="264.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tel Aviv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="498.5" y="257.2" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="572.8" y="257.5" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tehran<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="362.5" y="297.6" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Stuxnet Legacy — Sabotage<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 57.128.165.176: Leipzig → Montreal (Phishing C2) -->
-  <path d="M479.6,233.0 Q374.3,198.5 274.2,246.1" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 229">
+  <!-- 45.85.117.76: Meppel → Sydney (Ransomware C2) -->
+  <path d="M464.8,229.7 Q618.5,349.0 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 425">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="237" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="433" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M479.6,233.0 Q374.3,198.5 274.2,246.1" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M464.8,229.7 Q618.5,349.0 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="479.6" cy="233.0" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="464.8" cy="229.7" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="464.8" cy="229.7" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="479.6" y="225.0" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="274.2" cy="246.1" r="2" fill="#bf5af2" opacity="0">
+  <text x="464.8" y="221.7" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Meppel<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="811.2" cy="376.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="274.2" cy="246.1" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="811.2" cy="376.2" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="274.2" y="238.1" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Montreal<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="374.3" y="192.5" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Phishing C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="811.2" y="368.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="618.5" y="343.0" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 172.232.58.169: Paris → Washington (C2 Beacon) -->
-  <path d="M455.6,238.8 Q356.6,211.2 266.0,259.5" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 211">
+  <!-- 178.18.246.136: Leipzig → Seoul (Backdoor Active) -->
+  <path d="M479.6,233.0 Q611.2,297.2 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 309">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="219" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="317" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M455.6,238.8 Q356.6,211.2 266.0,259.5" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M479.6,233.0 Q611.2,297.2 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="479.6" cy="233.0" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0" calcMode="discrete"/></text>
-  <circle cx="266.0" cy="259.5" r="2" fill="#bf5af2" opacity="0">
+  <text x="479.6" y="225.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0;0" calcMode="discrete"/></text>
+  <circle cx="753.3" cy="262.0" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="266.0" cy="259.5" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="753.3" cy="262.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="266.0" y="251.5" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Washington<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/></text>
-  <text x="356.6" y="205.2" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — C2 Beacon<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="753.3" y="254.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Seoul<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/></text>
+  <text x="611.2" y="291.2" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Backdoor Active<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 89.117.23.186: Seattle → Beijing (SIGINT Op) -->
-  <path d="M157.9,242.2 Q441.7,299.9 728.1,257.5" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 648">
+  <!-- 79.194.143.100: Ludwigsburg → Sydney (Ransomware C2) -->
+  <path d="M471.9,238.7 Q622.8,353.8 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 413">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="656" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="421" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M157.9,242.2 Q441.7,299.9 728.1,257.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
+  <path d="M471.9,238.7 Q622.8,353.8 811.2,376.2" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0" calcMode="discrete"/>
   </path>
-  <circle cx="157.9" cy="242.2" r="2" fill="#00ccff" opacity="0">
+  <circle cx="471.9" cy="238.7" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="157.9" cy="242.2" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
+  <circle cx="471.9" cy="238.7" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="157.9" y="234.2" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Seattle<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0" calcMode="discrete"/></text>
-  <circle cx="728.1" cy="257.5" r="2" fill="#00ccff" opacity="0">
+  <text x="471.9" y="230.7" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Ludwigsburg<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0;0;0" calcMode="discrete"/></text>
+  <circle cx="811.2" cy="376.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="728.1" cy="257.5" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
+  <circle cx="811.2" cy="376.2" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="728.1" y="249.5" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Beijing<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0" calcMode="discrete"/></text>
-  <text x="441.7" y="293.9" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">NSA TAO — SIGINT Op<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/></text>
+  <text x="811.2" y="368.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0" calcMode="discrete"/></text>
+  <text x="622.8" y="347.8" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;0" calcMode="discrete"/></text>
 
-  <!-- 27.133.154.218: Osaka → Singapore (Lateral Move) -->
-  <path d="M773.7,267.3 Q725.2,278.7 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 98">
+  <!-- 149.28.156.183: Singapore → Tel Aviv (Data Exfil) -->
+  <path d="M697.7,320.5 Q625.1,263.3 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 189">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="106" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="197" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M773.7,267.3 Q725.2,278.7 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+  <path d="M697.7,320.5 Q625.1,263.3 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0" calcMode="discrete"/>
   </path>
-  <circle cx="773.7" cy="267.3" r="2" fill="#ff453a" opacity="0">
+  <circle cx="697.7" cy="320.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0" calcMode="discrete"/>
   </circle>
-  <circle cx="773.7" cy="267.3" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+  <circle cx="697.7" cy="320.5" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="773.7" y="259.3" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Osaka<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0" calcMode="discrete"/></text>
-  <circle cx="698.0" cy="320.5" r="2" fill="#ff453a" opacity="0">
+  <text x="697.7" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1;0" calcMode="discrete"/></text>
+  <circle cx="533.1" cy="272.0" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0" calcMode="discrete"/>
   </circle>
-  <circle cx="698.0" cy="320.5" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+  <circle cx="533.1" cy="272.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="698.0" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0" calcMode="discrete"/></text>
-  <text x="725.2" y="272.7" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0" calcMode="discrete"/></text>
+  <text x="533.1" y="264.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tel Aviv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0" calcMode="discrete"/></text>
+  <text x="625.1" y="257.3" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;0;0" calcMode="discrete"/></text>
 
-  <!-- 107.191.57.63: Sydney → Paris (Data Exfil) -->
-  <path d="M811.2,376.3 Q651.4,260.9 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 430">
+  <!-- 193.238.227.136: Kharkiv → Singapore (Lateral Move) -->
+  <path d="M536.6,236.2 Q600.4,310.6 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 201">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="438" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="209" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M811.2,376.3 Q651.4,260.9 455.6,238.8" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M536.6,236.2 Q600.4,310.6 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1" calcMode="discrete"/>
   </path>
-  <circle cx="811.2" cy="376.3" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="536.6" cy="236.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="811.2" cy="376.3" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="536.6" cy="236.2" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="811.2" y="368.3" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Sydney<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1" calcMode="discrete"/></text>
-  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
+  <text x="536.6" y="228.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Kharkiv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1;1" calcMode="discrete"/></text>
+  <circle cx="698.0" cy="320.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="698.0" cy="320.5" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
-  <text x="651.4" y="254.9" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0" calcMode="discrete"/></text>
+  <text x="698.0" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
+  <text x="600.4" y="304.6" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0" calcMode="discrete"/></text>
 
-  <!-- 192.248.159.76: Poplar → Berlin (Ransomware C2) -->
-  <path d="M450.0,232.6 Q466.5,237.8 482.0,230.2" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 29">
+  <!-- 172.232.58.59: Paris → Tel Aviv (Data Exfil) -->
+  <path d="M455.6,238.8 Q487.7,270.9 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 89">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="37" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="97" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M450.0,232.6 Q466.5,237.8 482.0,230.2" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
+  <path d="M455.6,238.8 Q487.7,270.9 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1" calcMode="discrete"/>
   </path>
-  <circle cx="450.0" cy="232.6" r="2" fill="#bf5af2" opacity="0">
+  <circle cx="455.6" cy="238.8" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="450.0" cy="232.6" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
+  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="450.0" y="224.6" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Poplar<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1" calcMode="discrete"/></text>
-  <circle cx="482.0" cy="230.2" r="2" fill="#bf5af2" opacity="0">
+  <text x="455.6" y="230.8" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;1" calcMode="discrete"/></text>
+  <circle cx="533.1" cy="272.0" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="482.0" cy="230.2" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
+  <circle cx="533.1" cy="272.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="482.0" y="222.2" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Berlin<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
-  <text x="466.5" y="231.8" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Ransomware C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
+  <text x="533.1" y="264.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tel Aviv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
+  <text x="487.7" y="264.9" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
 
-  <!-- 198.38.94.213: Dubai → Singapore (Lateral Move) -->
-  <path d="M582.0,283.6 Q632.7,325.3 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 132">
+  <!-- 94.72.104.77: Portsmouth → Singapore (Lateral Move) -->
+  <path d="M447.6,234.2 Q556.5,324.6 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 297">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="140" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="305" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M582.0,283.6 Q632.7,325.3 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+  <path d="M447.6,234.2 Q556.5,324.6 698.0,320.5" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/>
   </path>
-  <circle cx="582.0" cy="283.6" r="2" fill="#ff453a" opacity="0">
+  <circle cx="447.6" cy="234.2" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="582.0" cy="283.6" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+  <circle cx="447.6" cy="234.2" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="582.0" y="275.6" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Dubai<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
+  <text x="447.6" y="226.2" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Portsmouth<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1" calcMode="discrete"/></text>
   <circle cx="698.0" cy="320.5" r="2" fill="#ff453a" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/>
   </circle>
@@ -3205,65 +3205,65 @@
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
   <text x="698.0" y="312.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Singapore<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/></text>
-  <text x="632.7" y="319.3" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
+  <text x="556.5" y="318.6" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Lateral Move<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
 
-  <!-- 91.230.49.1: Amsterdam → Tel Aviv (Data Exfil) -->
-  <path d="M461.7,230.5 Q489.1,265.5 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 87">
+  <!-- 172.232.59.14: Paris → Montreal (Phishing C2) -->
+  <path d="M455.6,238.8 Q363.5,206.2 274.2,246.1" fill="none" stroke="#bf5af2" stroke-width="1.5" opacity="0" stroke-dasharray="8 201">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="95" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="209" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M461.7,230.5 Q489.1,265.5 533.1,272.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+  <path d="M455.6,238.8 Q363.5,206.2 274.2,246.1" fill="none" stroke="#bf5af2" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/>
   </path>
-  <circle cx="461.7" cy="230.5" r="2" fill="#ff453a" opacity="0">
+  <circle cx="455.6" cy="238.8" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/>
   </circle>
-  <circle cx="461.7" cy="230.5" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+  <circle cx="455.6" cy="238.8" r="3" fill="none" stroke="#bf5af2" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="461.7" y="222.5" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Amsterdam<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
-  <circle cx="533.1" cy="272.0" r="2" fill="#ff453a" opacity="0">
+  <text x="455.6" y="230.8" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Paris<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1" calcMode="discrete"/></text>
+  <circle cx="274.2" cy="246.1" r="2" fill="#bf5af2" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="533.1" cy="272.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+  <circle cx="274.2" cy="246.1" r="3" fill="none" stroke="#bf5af2" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="533.1" y="264.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Tel Aviv<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="489.1" y="259.5" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Data Exfil<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/></text>
+  <text x="274.2" y="238.1" fill="#bf5af2" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Montreal<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="363.5" y="200.2" fill="#bf5af2" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Phishing C2<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/></text>
 
-  <!-- 23.226.138.161: Leipzig → Seoul (Backdoor Active) -->
-  <path d="M479.6,233.0 Q611.2,297.2 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="1.5" opacity="0" stroke-dasharray="8 309">
+  <!-- 137.184.9.29: Santa Clara → Beijing (SIGINT Op) -->
+  <path d="M158.6,262.3 Q443.8,309.9 728.1,257.5" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0" stroke-dasharray="8 647">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/>
-    <animate attributeName="stroke-dashoffset" from="317" to="0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" from="655" to="0" dur="2s" repeatCount="indefinite"/>
   </path>
-  <path d="M479.6,233.0 Q611.2,297.2 753.3,262.0" fill="none" stroke="#ff453a" stroke-width="0.4" opacity="0">
+  <path d="M158.6,262.3 Q443.8,309.9 728.1,257.5" fill="none" stroke="#00ccff" stroke-width="0.4" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/>
   </path>
-  <circle cx="479.6" cy="233.0" r="2" fill="#ff453a" opacity="0">
+  <circle cx="158.6" cy="262.3" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/>
   </circle>
-  <circle cx="479.6" cy="233.0" r="3" fill="none" stroke="#ff453a" stroke-width="0.5" opacity="0">
+  <circle cx="158.6" cy="262.3" r="3" fill="none" stroke="#00ccff" stroke-width="0.5" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/>
     <animate attributeName="r" values="3;10;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="479.6" y="225.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Leipzig<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/></text>
-  <circle cx="753.3" cy="262.0" r="2" fill="#ff453a" opacity="0">
+  <text x="158.6" y="254.3" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Santa Clara<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" calcMode="discrete"/></text>
+  <circle cx="728.1" cy="257.5" r="2" fill="#00ccff" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
   </circle>
-  <circle cx="753.3" cy="262.0" r="3" fill="none" stroke="#ff453a" stroke-width="1" opacity="0">
+  <circle cx="728.1" cy="257.5" r="3" fill="none" stroke="#00ccff" stroke-width="1" opacity="0">
     <animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/>
     <animate attributeName="r" values="3;14;3" dur="1s" repeatCount="indefinite"/>
   </circle>
-  <text x="753.3" y="254.0" fill="#ff453a" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Seoul<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
-  <text x="611.2" y="291.2" fill="#ff453a" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">Botnet — Backdoor Active<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="728.1" y="249.5" fill="#00ccff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold" text-anchor="middle" opacity="0">Beijing<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
+  <text x="443.8" y="303.9" fill="#00ccff" font-family="monospace" font-size="5.5" text-anchor="middle" opacity="0">NSA TAO — SIGINT Op<animate attributeName="opacity" dur="36s" repeatCount="indefinite" values="1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" calcMode="discrete"/></text>
 
   <rect x="0" y="445" width="900" height="36" fill="#12122a"/>
   <rect x="0" y="445" width="900" height="1" fill="#2a2a4a"/>
   <circle cx="25" cy="463" r="3" fill="#00ff88"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
   <text x="33" y="466" fill="#00ff88" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="bold">LIVE — 80 C2 servers in 16 countries</text>
-  <text x="450" y="466" fill="#555577" font-family="Arial,Helvetica,sans-serif" font-size="7" text-anchor="middle">Data: abuse.ch Feodo Tracker | Updated: 2026-04-07 12:51 UTC</text>
+  <text x="450" y="466" fill="#555577" font-family="Arial,Helvetica,sans-serif" font-size="7" text-anchor="middle">Data: abuse.ch Feodo Tracker | Updated: 2026-04-07 18:43 UTC</text>
   <text x="875" y="466" fill="#ff2d55" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="bold" text-anchor="end">28<animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/></text>
   <text x="875" y="458" fill="#555577" font-family="Arial,Helvetica,sans-serif" font-size="6" text-anchor="end">threats</text>
 
