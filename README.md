@@ -1,93 +1,107 @@
-<!-- profile-version:308 -->
-<p align="center">
-  <img src="./header.svg" alt="Nour Khalil Rash — SOC Analyst Terminal" width="900"/>
-</p>
+<table width="100%" style="border-collapse: collapse;">
+<tr>
+<td width="30%" valign="top" style="padding-right: 24px; border-right: 2px solid #ccc;">
+
+**PERSONAL INFO**
+
+| | |
+|---|---|
+| **Name** | Nour Khalil Rash |
+| **Email** | nkrush85@gmail.com |
+| **Languages** | Norwegian, Arabic, English |
 
 ---
 
-Jeg startet med en bachelor i sosiologi, der jeg lærte å analysere mønstre, strukturere informasjon og forstå menneskelig atferd. Så byttet jeg til cybersikkerhet, og det viste seg å være en veldig god kombinasjon. Mye av det vi gjør i sikkerhet handler om å forstå menneskene bak angrepene, ikke bare de tekniske mekanismene.
+**TECHNOLOGIES**
 
-I tillegg til studiene jobber jeg som miljøterapeut i barnevernet. Det trener presisjon under press, klar kommunikasjon og evnen til å dokumentere hendelser nøyaktig. Nøyaktig det samme man trenger i en SOC.
+**Languages:**
+Python, Bash, PowerShell, KQL, SPL, Sigma
 
-Fra høst 2026 begynner jeg i en deltidsstilling som sikkerhetsanalytiker ved NSM (Nasjonal sikkerhetsmyndighet). Sikkerhetsklarering er under behandling.
+**SIEM / Platforms:**
+Wazuh, Microsoft Sentinel, Splunk
 
----
+**Tools:**
+Wireshark, Nmap, VirusTotal, URLscan.io, Shodan, AbuseIPDB, MISP, Any.run, MalwareBazaar
 
-## Hva jeg jobber med nå
+**OS:**
+Kali Linux, Ubuntu, Windows Server
 
-Jeg prøver å bygge ett nytt SOC-verktøy i Python hver hverdag. Log analysis, port scanning, file integrity monitoring, hash identification og mer. Alt ligger i portfolioen under.
-
-Holder på med SC-200 (Microsoft Security Operations Analyst Associate) og planlegger CompTIA Security+ etter det.
-
----
-
-## Verktøy jeg bruker
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,bash,postgres,linux,git,docker,vscode&theme=dark&perline=9" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SC--200-in%20progress-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco%20Networking-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco%20Ethical%20Hacker-certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-</p>
+**Other:**
+Git, Docker, VirtualBox
 
 ---
 
-## SOC Projects Portfolio
+**CERTIFICATIONS**
 
-Ett nytt prosjekt hver hverdag.
-
-| # | Prosjekt | Kategori |
-|---|----------|----------|
-| 01 | [Brute Force Detector](https://github.com/NourKhalil0/soc-projects/tree/main/01-brute-force-detector) | Log Analysis |
-| 02 | [SIEM Log Normalizer](https://github.com/NourKhalil0/soc-projects/tree/main/02-siem-log-normalizer) | SIEM |
-| 03 | [Incident Response Playbook](https://github.com/NourKhalil0/soc-projects/tree/main/03-incident-response-playbook) | Incident Response |
-| 04 | [URL Phishing Analyser](https://github.com/NourKhalil0/soc-projects/tree/main/04-url-analyser) | Phishing Detection |
-| 05 | [Port Scanner](https://github.com/NourKhalil0/soc-projects/tree/main/05-port-scanner) | Network Monitoring |
-| 06 | [Hash Identifier](https://github.com/NourKhalil0/soc-projects/tree/main/06-hash-identifier) | Password Security |
-| 07 | [DNS Lookup Tool](https://github.com/NourKhalil0/soc-projects/tree/main/07-dns-lookup) | Threat Intel |
-| 08 | [Auth Log Analyzer](https://github.com/NourKhalil0/soc-projects/tree/main/08-auth-log-analyzer) | Log Analysis |
-| 09 | [File Integrity Monitor](https://github.com/NourKhalil0/soc-projects/tree/main/09-file-integrity-monitor) | Endpoint Security |
-
-👉 [Se hele portfolioen](https://github.com/NourKhalil0/soc-projects)
+Cisco Networking -- Certified
+Cisco Ethical Hacker -- Certified
+SC-200 -- In progress
+CompTIA Security+ -- Planned
 
 ---
 
-## Hack The Box
+**OTHER**
 
-<p align="center">
-  <a href="https://app.hackthebox.com/users/2090122">
-    <img src="./htb-stats.svg" alt="Hack The Box — Nour00 Profile Stats" width="900"/>
-  </a>
-</p>
+**Hack The Box**
+Active user - SOC and blue team labs
 
----
+</td>
+<td width="70%" valign="top" style="padding-left: 24px;">
 
-## Live Threat Intelligence
+## Nour Khalil Rash
 
-<p align="center">
-  <img src="./threatmap-v2.svg" alt="Live Threat Map — Feodo Tracker C2 Botnet Feed" width="900"/>
-</p>
+**Key Qualifications**
 
----
+2nd-year cybersecurity student with a background in sociology and hands-on experience in child welfare services. The combination gives strong insight into human behaviour, precise incident documentation, and the ability to work under pressure -- all directly applicable to SOC work.
 
-## Bidragsormen
+Focused on detection engineering, log analysis and threat intelligence. Built a home SIEM lab with Wazuh, simulated ATT&CK techniques using Atomic Red Team, and written detection rules in Sigma and KQL.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/NourKhalil0/NourKhalil0/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
+Received a job offer as a cybersecurity analyst at NSM -- Norwegian National Security Authority, NCSC -- Norwegian National Cybersecurity Centre. Pending security clearance.
 
 ---
 
+**Education**
+
+**Bachelor in Cybersecurity (2024-ongoing)**
+Studying cybersecurity with focus on network security, forensics, cryptography and secure software development.
+Subjects: Network Security, Forensics, Cryptography, Operating Systems, Vulnerability Assessment
+
+**Bachelor in Sociology (previous)**
+Learned to analyse patterns, structure information and understand human behaviour. Relevant background for threat analysis and social engineering.
+
+---
+
+**Work Experience**
+
+**Child Welfare Therapist (ongoing)**
+Works with children and young people in demanding situations. Requires precise incident documentation, clear communication and fast decision-making under pressure -- directly transferable to SOC work.
+
+**Cybersecurity Analyst, NSM / NCSC (offer received)**
+Received a job offer as cybersecurity analyst at NSM -- Norwegian National Security Authority. The position is affiliated with NCSC -- Norwegian National Cybersecurity Centre. Pending security clearance.
+
+---
+
+**Projects**
+
+**[Homelab Detection Engineering](https://github.com/NourKhalil0/homelab-detection)** -- Wazuh SIEM home lab with Windows and Linux VMs. Simulated ATT&CK techniques using Atomic Red Team and built detection rules for T1059, T1003, T1110 and more.
+
+**[Detection Rules](https://github.com/NourKhalil0/detection-rules)** -- 16 custom detection rules in Sigma, KQL and SPL. Each rule includes ATT&CK mapping, false positive notes and triage guidance.
+
+**[Phishing Analysis](https://github.com/NourKhalil0/phishing-analysis)** -- Full threat intelligence report (TLP:WHITE) on a real phishing campaign. Infrastructure mapping, IOC extraction, MITRE ATT&CK mapping and SOC recommendations.
+
+**[Malware Triage](https://github.com/NourKhalil0/malware-triage)** -- Sandbox analysis of an AsyncRAT ISO dropper in Any.run. Process tree, network activity, persistence mechanisms and triage verdict.
+
+**[SOC Projects Portfolio](https://github.com/NourKhalil0/soc-projects)** -- 19 SOC tools in Python: log analysis, port scanning, file integrity monitoring, hash identification, alert correlation and more.
+
+</td>
+</tr>
+</table>
+
+---
+
+<details>
+<summary>Norsk versjon</summary>
+
+2. ars student i cybersikkerhet med bakgrunn fra sosiologi og praktisk erfaring fra barnevernet. Fokuserer pa detection engineering, log analysis og threat intelligence. Har mottatt jobbtilbud som cybersikkerhetsanalytikar ved NSM / NCSC. Venter pa sikkerhetsklarering.
+
+</details>
