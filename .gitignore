@@ -1,0 +1,75 @@
+*.pyc
+__pycache__/
+.env
+node_modules/
+*.log
+.DS_Store
+*.swp
+*.swo
+.vscode/
+dist/
+*.tmp
+.cache/
+build/
+*.bak
+.idea/
+# updated 47
+# updated 48
+# updated 50
+# updated 59
+# updated 63
+# updated 66
+# updated 69
+# updated 84
+# updated 84
+# updated 89
+# updated 105
+# updated 112
+# updated 116
+# updated 117
+# updated 117
+# updated 125
+# updated 128
+# updated 128
+# updated 128
+# updated 143
+# updated 147
+# updated 147
+# updated 152
+# updated 154
+# updated 157
+# updated 157
+# updated 157
+# updated 157
+# updated 160
+# updated 190
+# updated 197
+# updated 203
+# updated 204
+# updated 206
+# updated 215
+# updated 225
+# updated 227
+# updated 230
+# updated 236
+# updated 236
+# updated 239
+# updated 239
+# updated 239
+# updated 240
+# updated 241
+# updated 247
+# updated 249
+# updated 250
+# updated 252
+# updated 253
+# updated 254
+# updated 258
+# updated 270
+# updated 288
+# updated 290
+# updated 296
+# updated 296
+# updated 296
+# updated 299
+# updated 304
