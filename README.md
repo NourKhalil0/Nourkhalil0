@@ -2,7 +2,7 @@
 
 Cybersikkerhetsstudent på siste året ved Høyskolen Kristiania, med en fullført bachelor i sosiologi og samfunnsanalyse fra før. Jeg arbeider mest med identitet og endepunktsikkerhet i Microsoft 365, og med triage av malware.
 
-Sosiologibakgrunnen forklarer hvorfor repoene mine ser ut som de gjør. Metodefagene handlet om å dokumentere hvordan man kom frem til en konklusjon, ikke bare hva konklusjonen ble. Prosjektene under er skrevet slik at en leser kan følge hvert steg, også de stedene der noe gikk galt eller ikke lot seg bevise. Dokumentasjonen er på engelsk.
+Metodefagene fra sosiologien gikk mye ut på å skrive ned fremgangsmåten og ikke bare resultatet, og det er slik jeg har dokumentert prosjektene under. Dokumentasjonen er på engelsk.
 
 ## Prosjekter
 
