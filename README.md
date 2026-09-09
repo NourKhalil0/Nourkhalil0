@@ -40,9 +40,3 @@ Skiftdrift på to stasjoner, med ansvar for stenging, rutiner og opplæring av n
 **Nettverk og drift:** pfSense, VLAN, WireGuard, Linux, VMware, Git
 **Programmering:** Python
 **Språk:** Norsk, engelsk, arabisk
-
-## Sertifiseringer
-
-- Cisco Networking
-- Cisco Ethical Hacker
-- CompTIA Security+ (under arbeid)
