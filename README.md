@@ -1,71 +1,48 @@
 # Nour Khalil Rash
 
-**Nøkkelkvalifikasjoner**
+Cybersikkerhetsstudent på siste året ved Høyskolen Kristiania, med en fullført bachelor i sosiologi og samfunnsanalyse fra før. Jeg arbeider mest med identitet og endepunktsikkerhet i Microsoft 365, og med triage av malware.
 
-Andreårsstudent i cybersikkerhet ved Høyskolen Kristiania, med tidligere bachelor i sosiologi og samfunnsanalyse. Den tverrfaglige bakgrunnen gir meg både teknisk sikkerhetsforståelse og en analytisk tilnærming til komplekse utfordringer. Vant til å systematisere store mengder informasjon, analysere argumentasjon og dokumentere funn etterrettelig.
+Sosiologibakgrunnen forklarer hvorfor repoene mine ser ut som de gjør. Metodefagene handlet om å dokumentere hvordan man kom frem til en konklusjon, ikke bare hva konklusjonen ble. Prosjektene under er skrevet slik at en leser kan følge hvert steg, også de stedene der noe gikk galt eller ikke lot seg bevise. Dokumentasjonen er på engelsk.
 
-Fokuserer på detection engineering, logganalyse og trusselintelligens. Har bygget et hjemme-SIEM-lab med Wazuh, simulert ATT&CK-teknikker og skrevet deteksjonsregler i Sigma.
+## Prosjekter
 
----
+**[nordvik-lab](https://github.com/NourKhalil0/nordvik-lab)** — En Microsoft 365-tenant bygget og drevet for et oppdiktet norsk verkstedfirma med 56 ansatte. 57 kontoer, dynamiske grupper, lisensiering gjennom gruppemedlemskap, syv Conditional Access-policyer i report-only, en Windows-klient meldt inn i Intune og målt mot ni compliance-krav, og PIM på administratorrollen. Konfigurasjonen er eksportert til JSON, og hvert steg er dokumentert med skjermbilder mens det ble gjort. Underveis fant jeg at tenanten kom med fire påslåtte Microsoft-policyer som ikke kjente til nødkontoene mine, at Intune markerer enheter uten compliance-policy som grønne, og at en av nødkontoene lå i riktig gruppe uten å ha fått rollen. Alle tre står beskrevet i README.
+
+**[r77-triage](https://github.com/NourKhalil0/r77-triage)** — Full triage av et r77-rootkit-sample, fra herding av analyselaben til statisk og dynamisk analyse. Prosesskjede, injeksjonsmetode, den innebygde krypterte nyttelasten, og full IOC-liste. Loaderen krasjet i laben min før den rakk å pakke ut noe, så familiebekreftelsen bygger på kodelesing og oppstartsanalyse i stedet for en fullført infeksjon. Det forbeholdet står tydelig gjennom hele rapporten.
+
+**[xworm-triage](https://github.com/NourKhalil0/xworm-triage)** — Triage av en XWorm-loader: stadier, prosessinjeksjon, persistens gjennom planlagt oppgave, og C2-trafikk. Sekvensene er tegnet opp som diagrammer, og indikatorene ligger som CSV og blokkeringsliste klare til bruk.
+
+Profilen inneholder også eldre studiearbeid: deteksjonsregler i Sigma, KQL og SPL mappet til MITRE ATT&CK, en Wazuh-basert hjemmelab, og en hjemmenett-lab med pfSense, VLAN-segmentering og WireGuard.
 
 ## Utdanning
 
 **Bachelor i cybersikkerhet, Høyskolen Kristiania (2024–2027)**
-Andreårsstudent. Fokus på sikkerhetsanalyse, etisk hacking, nettverkssikkerhet og hendelseshåndtering.
-*Fag: Sikkerhetsanalyse, Etisk hacking, Nettverk, Kryptografi, Sårbarhetsvurdering*
-*Teknologier: Splunk, PowerShell, Python, Wireshark, Linux*
+Siste studieår. Sikkerhetsanalyse, etisk hacking, nettverk, kryptografi og sårbarhetsvurdering.
 
 **Bachelor i sosiologi og samfunnsanalyse, Nord universitet (2020–2023)**
-Bredt grunnlag i samfunnsanalyse, kvalitativ og kvantitativ metode, og strukturering av komplekse problemstillinger.
-*Fag: Samfunnsanalyse, Kvalitativ metode, Kvantitativ metode, Sosial ulikhet, Organisasjonsteori*
-
----
+Kvalitativ og kvantitativ metode, samfunnsanalyse og organisasjonsteori.
 
 ## Arbeidserfaring
 
-**Miljøterapeut, Barnevern (2024–pågående)**
-Direkte koordinering med politi i alvorlige hendelser, med ansvar for sensitiv dokumentasjon og sporbarhet i saksbehandling. Erfaring med klar og rolig kommunikasjon med stressede aktører, også ikke-faglige samarbeidspartnere.
-*Kompetanse: Saksbehandling, dokumentasjon, kommunikasjon under press*
+**Miljøterapeut, barnevernet (2024–2026)**
+Arbeid med ungdom i institusjon, med ansvar for sensitiv dokumentasjon og sporbarhet i saksbehandlingen. Rolig kommunikasjon med stressede parter, også de uten fagbakgrunn.
 
 **Salgsmedarbeider, SATS (2023–2026)**
-Salg av medlemskap på senter og stand, med flere lokale salgskonkurranser vunnet. Relasjonsbygging og oppfølging av medlemmer.
+Salg av medlemskap på senter og stand, med flere lokale salgskonkurranser vunnet.
 
 **Stasjonsbetjent, Circle K (2020–2023)**
-Drift i skift på to stasjoner (Hunstad og Olav V's gate): salg, stenging og opplæring av nye ansatte. Direkte erfaring med rutiner, opplæring og praktisk kunnskapsoverføring.
+Skiftdrift på to stasjoner, med ansvar for stenging, rutiner og opplæring av nyansatte.
 
----
+## Teknologi
 
-## Teknologier
-
-**Programmeringsspråk:** Java, Python, JavaScript, SQL
-**Sikkerhetsverktøy:** Splunk, PowerShell, Wireshark
-**Verktøy:** Git, Linux, Windows
-**Metodikk:** Triage, sporbar dokumentasjon
+**Microsoft 365 og identitet:** Entra ID, Conditional Access, Intune, PIM, Microsoft Graph, PowerShell
+**Deteksjon og analyse:** Sigma, KQL, Wazuh, MITRE ATT&CK, Procmon, dnSpy, FLOSS, Wireshark
+**Nettverk og drift:** pfSense, VLAN, WireGuard, Linux, VMware, Git
+**Programmering:** Python
 **Språk:** Norsk, engelsk, arabisk
-
----
 
 ## Sertifiseringer
 
-- CompTIA Security+ *(pågående)*
-- Cisco Networking *(sertifisert)*
-- Cisco Ethical Hacker *(sertifisert)*
-- GDPR *(SATS)*
-- Førstehjelp
-- Antidoping *(AFPT)*
-
----
-
-## Prosjekter
-
-**[Homelab Detection Engineering](https://github.com/NourKhalil0/homelab-detection)** — Wazuh SIEM-lab med Windows og Linux VM-er. Simulerte ATT&CK-teknikker med Atomic Red Team og bygget deteksjonsregler for T1059, T1003, T1110 og mer.
-
-**[Detection Rules](https://github.com/NourKhalil0/detection-rules)** — Egendefinerte deteksjonsregler i Sigma for Windows-trusler. Hver regel inkluderer ATT&CK-mapping, notater om falske positive og triageguidance.
-
-**[Phishing Analysis](https://github.com/NourKhalil0/phishing-analysis)** — Fullstendig trusselintelligensrapport (TLP:WHITE) om en reell phishing-kampanje. Infrastrukturkartlegging, IOC-ekstraksjon, MITRE ATT&CK-mapping og SOC-anbefalinger.
-
-**[Malware Triage](https://github.com/NourKhalil0/malware-triage)** — Sandkasseanalyse av en AsyncRAT ISO-dropper i Any.run. Prosesskjede, nettverksaktivitet, utholdenhetsmekanismer og triagekonclusjon.
-
-**[SOC Projects Portfolio](https://github.com/NourKhalil0/soc-projects)** — 19 SOC-verktøy i Python: logganalyse, port scanning, filintegritetsovervåking, hash-identifikasjon, varselkorrelasjon og mer.
-
-**[Coding Snippets](https://github.com/NourKhalil0/coding-snippets)** — Samling av algoritmer, skript og sikkerhetsverktøy i Python og Java. Aktiv øvingspraksis parallelt med HTB.
+- Cisco Networking
+- Cisco Ethical Hacker
+- CompTIA Security+ (under arbeid)
