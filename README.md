@@ -4,6 +4,12 @@ Cybersikkerhetsstudent på siste året ved Høyskolen Kristiania, med en fullfø
 
 Metodefagene fra sosiologien gikk mye ut på å skrive ned fremgangsmåten og ikke bare resultatet, og det er slik jeg har dokumentert prosjektene under. Dokumentasjonen er på engelsk.
 
+## Sertifiseringer
+
+<a href="https://www.credly.com/badges/eb42508d-12f5-462f-9731-c69423676f31/public_url"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" width="110" alt="CompTIA Security+"></a> <a href="https://www.credly.com/badges/4956e62b-3c30-4fac-a988-42f292c06a1a/public_url"><img src="https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png" width="110" alt="Cisco Ethical Hacker"></a> <a href="https://www.credly.com/badges/cc59b6e4-f25e-47f9-85a6-4ca5625aa939/public_url"><img src="https://images.credly.com/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" width="110" alt="Cisco Networking Basics"></a>
+
+CompTIA Security+ (SY0-701), bestått september 2026. Cisco Ethical Hacker og Cisco Networking Basics, 2024.
+
 ## Prosjekter
 
 **[nordvik-lab](https://github.com/NourKhalil0/nordvik-lab)** — En Microsoft 365-tenant bygget og drevet for et oppdiktet norsk verkstedfirma med 56 ansatte. 57 kontoer, dynamiske grupper, lisensiering gjennom gruppemedlemskap, syv Conditional Access-policyer i report-only, en Windows-klient meldt inn i Intune og målt mot ni compliance-krav, og PIM på administratorrollen. Konfigurasjonen er eksportert til JSON, og hvert steg er dokumentert med skjermbilder mens det ble gjort. Underveis fant jeg at tenanten kom med fire påslåtte Microsoft-policyer som ikke kjente til nødkontoene mine, at Intune markerer enheter uten compliance-policy som grønne, og at en av nødkontoene lå i riktig gruppe uten å ha fått rollen. Alle tre står beskrevet i README.
