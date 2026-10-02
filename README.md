@@ -18,7 +18,9 @@ CompTIA Security+ (SY0-701), bestått september 2026. Cisco Ethical Hacker og Ci
 
 **[xworm-triage](https://github.com/NourKhalil0/xworm-triage)** — Triage av en XWorm-loader: stadier, prosessinjeksjon, persistens gjennom planlagt oppgave, og C2-trafikk. Sekvensene er tegnet opp som diagrammer, og indikatorene ligger som CSV og blokkeringsliste klare til bruk.
 
-Profilen inneholder også eldre studiearbeid: deteksjonsregler i Sigma, KQL og SPL mappet til MITRE ATT&CK, en Wazuh-basert hjemmelab, og en hjemmenett-lab med pfSense, VLAN-segmentering og WireGuard.
+**[pfsense-vlan-lab](https://github.com/NourKhalil0/pfsense-vlan-lab)** — Hjemmenett-lab med pfSense og VLAN-segmentering bygget i et virtualisert labmiljø. Tre adskilte soner (TRUSTED, IOT og GUEST) med brannmurregler for inter-VLAN-ruting, DHCP-oppsett og isolering av upålitelige enheter. Oppsettet er testet og verifisert fra en Kali-klient ved hjelp av nmap, curl og Wireshark-pakkefangst, og inkluderer detaljert dokumentasjon av praktisk feilsøking (som regler som ikke trådte i kraft før aktivering, og DHCP-oppførsel på virtuelle subgrensesnitt).
+
+Profilen inneholder også studiearbeid innen deteksjonsregler i Sigma, KQL og SPL mappet til MITRE ATT&CK, samt en Wazuh-basert deteksjonslab.
 
 ## Utdanning
 
